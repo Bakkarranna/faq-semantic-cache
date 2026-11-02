@@ -16,9 +16,10 @@ Phase 2, the cache at one threshold: the cache is warmed with the 30 FAQs and
 each question is asked. A hit is timed directly. A miss is charged the time of
 that question's own baseline LLM call, so a miss is never optimistic.
 
-The sweep repeats phase 2 from 0.75 to 0.95 in steps of 0.05 and records, per
-threshold, the hit rate, the false hits, the number of LLM calls and the
-average latency.
+The sweep repeats phase 2 across ``settings.sweep_thresholds``, a grid set to
+bracket the boundary the calibration measured between paraphrase and
+negative similarity, and records, per threshold, the hit rate, the false
+hits, the number of LLM calls and the average latency.
 
 The phases are separate commands because a machine with 8 GB of RAM cannot
 hold the embedding model and the 1.5B LLM at the same time. Phase 1 loads no

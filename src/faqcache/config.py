@@ -49,8 +49,13 @@ class Settings:
         # or "customer account number 48201933".
         r"\bcustomer\s+(?:id|account)(?:\s+(?:no|number))?\s*[:#]?\s*\d{4,}\b",
     )
+    # Thresholds measured for the trade-off table. The calibration run
+    # (results/calibration.txt) placed the hardest negative at 0.681 and the
+    # paraphrase median at 0.574, so the decision boundary between a safe
+    # hit and a false hit lies between 0.65 and 0.70. The grid brackets that
+    # boundary instead of starting above it.
     sweep_thresholds: tuple[float, ...] = field(
-        default_factory=lambda: (0.75, 0.80, 0.85, 0.90, 0.95)
+        default_factory=lambda: (0.60, 0.65, 0.70, 0.75, 0.80)
     )
 
     def __post_init__(self) -> None:
