@@ -19,7 +19,7 @@ from dataclasses import dataclass, field
 
 from faqcache.data import Faq
 from faqcache.embeddings import get_embedder
-from faqcache.llm import Completion, default_client
+from faqcache.llm import Completion
 from faqcache.negation import find_negations, looks_like_user_data
 from faqcache.store import CacheEntry, Match, VectorStore
 
@@ -50,10 +50,19 @@ class SemanticCache:
     """A semantic cache in front of an LLM, backed by a FAISS index."""
 
     def __init__(self, settings, embedder=None, client=None, clock=time.monotonic) -> None:
+        """Wire the cache to an embedder and to an LLM, when there is one.
+
+        ``client=None`` means no LLM is attached: a miss then falls back to
+        the notice in ``_answer_via_llm`` instead of spending tokens. The
+        threshold sweep and the smoke test run that way because they
+        measure decisions, not answers, so a machine with no Ollama server
+        gives the same numbers as one that has it.
+        """
+
         self.settings = settings
         self._clock = clock
         self._embedder = embedder or get_embedder(settings.model_name)
-        self._client = client or default_client(settings)
+        self._client = client
         self._store = VectorStore(dim=self._embedder.dim)
 
     def __len__(self) -> int:
