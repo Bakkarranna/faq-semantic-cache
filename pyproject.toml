@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "faq-semantic-cache"
+version = "1.0.0"
+description = "Semantic cache for an FAQ support bot: measured hit rate, false hits and latency"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "faiss-cpu>=1.8",
+    "sentence-transformers>=3.0",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+report = ["matplotlib>=3.7"]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
