@@ -1,0 +1,5 @@
+model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+llm:   qwen2.5:1.5b
+faqs 30, test questions 100
+baseline: 5127 ms average, 0 LLM calls, 9919 tokens
+llm unloaded; results/baseline.json holds the per-question timings
