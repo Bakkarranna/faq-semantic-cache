@@ -12,7 +12,7 @@ from dataclasses import dataclass
 
 import numpy as np
 
-try:  # pragma: no cover - exercised through the guard tests
+try:  # pragma: no cover - the failure path is covered by the guard tests
     import faiss
 except ImportError:  # pragma: no cover
     faiss = None  # type: ignore[assignment]
@@ -41,9 +41,9 @@ class Match:
 class VectorStore:
     """A brute-force cosine search over unit vectors.
 
-    The index is exact rather than approximate: with 30 cached questions the
-    recall of an approximate index is irrelevant, and exactness removes one
-    variable from the threshold sweep.
+    The index is exact rather than approximate: with tens of cached questions
+    the recall of an approximate index changes nothing, and exactness removes
+    one variable from the threshold sweep.
     """
 
     def __init__(self, dim: int) -> None:
@@ -68,10 +68,26 @@ class VectorStore:
         self._index.add(np.asarray(vector, dtype="float32").reshape(1, self.dim))
         self._entries.append(entry)
 
+    def remove_at(self, position: int) -> None:
+        """Remove the entry at one position and rebuild the index.
+
+        ``IndexFlatIP`` has no remove method, so the remaining vectors are
+        re-added. The store holds tens of entries, which keeps this cheap.
+        """
+
+        if not 0 <= position < len(self._entries):
+            raise IndexError(f"no entry at position {position}")
+        vectors = self._index.reconstruct_n(0, len(self._entries))
+        kept = np.delete(vectors, position, axis=0)
+        self._index.reset()
+        if kept.size:
+            self._index.add(kept)
+        self._entries = [entry for index, entry in enumerate(self._entries) if index != position]
+
     def search(self, vector: np.ndarray, k: int = 1) -> list[Match]:
         """Return the k nearest entries, best first.
 
-        An empty index returns an empty list so a cold cache reads as a miss
+        An empty index returns an empty list, so a cold cache reads as a miss
         instead of an error.
         """
 
@@ -81,7 +97,11 @@ class VectorStore:
         query = np.asarray(vector, dtype="float32").reshape(1, self.dim)
         scores, positions = self._index.search(query, k)
         return [
-            Match(entry=self._entries[int(position)], similarity=float(score), position=int(position))
+            Match(
+                entry=self._entries[int(position)],
+                similarity=float(score),
+                position=int(position),
+            )
             for score, position in zip(scores[0], positions[0])
             if position >= 0
         ]
@@ -89,7 +109,5 @@ class VectorStore:
     def reset(self) -> None:
         """Drop every entry, leaving the index usable."""
 
-        if faiss is None:  # pragma: no cover - guarded in __init__
-            raise RuntimeError("faiss is not installed")
-        self._index = faiss.IndexFlatIP(self.dim)
+        self._index.reset()
         self._entries = []

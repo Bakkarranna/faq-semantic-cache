@@ -1,0 +1,502 @@
+[
+  {
+    "question": "How many days will my parcel take to arrive?",
+    "expected": "FAQ-01",
+    "language": "english"
+  },
+  {
+    "question": "what is the usual delivery time for an order",
+    "expected": "FAQ-01",
+    "language": "english"
+  },
+  {
+    "question": "Is there a faster shipping option?",
+    "expected": "FAQ-02",
+    "language": "english"
+  },
+  {
+    "question": "can I get next day delivery on this",
+    "expected": "FAQ-02",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to other countries",
+    "expected": "FAQ-03",
+    "language": "english"
+  },
+  {
+    "question": "can I place an order from abroad",
+    "expected": "FAQ-03",
+    "language": "english"
+  },
+  {
+    "question": "within how many days can I return a product",
+    "expected": "FAQ-04",
+    "language": "english"
+  },
+  {
+    "question": "how long do I have to send an item back",
+    "expected": "FAQ-04",
+    "language": "english"
+  },
+  {
+    "question": "how do I return something I bought",
+    "expected": "FAQ-05",
+    "language": "english"
+  },
+  {
+    "question": "what are the steps to start a return",
+    "expected": "FAQ-05",
+    "language": "english"
+  },
+  {
+    "question": "who bears the return courier charge",
+    "expected": "FAQ-06",
+    "language": "english"
+  },
+  {
+    "question": "when will the money come back to me",
+    "expected": "FAQ-07",
+    "language": "english"
+  },
+  {
+    "question": "how long does a refund take to reach my account",
+    "expected": "FAQ-07",
+    "language": "english"
+  },
+  {
+    "question": "where can I check my refund progress",
+    "expected": "FAQ-08",
+    "language": "english"
+  },
+  {
+    "question": "can the refund go to a different bank account",
+    "expected": "FAQ-09",
+    "language": "english"
+  },
+  {
+    "question": "I want to know where my package is",
+    "expected": "FAQ-10",
+    "language": "english"
+  },
+  {
+    "question": "how do I see the live location of my parcel",
+    "expected": "FAQ-10",
+    "language": "english"
+  },
+  {
+    "question": "why is the courier status stuck at the hub",
+    "expected": "FAQ-11",
+    "language": "english"
+  },
+  {
+    "question": "can I still cancel the order I placed",
+    "expected": "FAQ-12",
+    "language": "english"
+  },
+  {
+    "question": "cancel only one product from my order",
+    "expected": "FAQ-13",
+    "language": "english"
+  },
+  {
+    "question": "the payment did not go through",
+    "expected": "FAQ-14",
+    "language": "english"
+  },
+  {
+    "question": "what payment options are available on the site",
+    "expected": "FAQ-15",
+    "language": "english"
+  },
+  {
+    "question": "can I pay when the item reaches my door",
+    "expected": "FAQ-16",
+    "language": "english"
+  },
+  {
+    "question": "can I split the payment into monthly parts",
+    "expected": "FAQ-17",
+    "language": "english"
+  },
+  {
+    "question": "I forgot my password, how do I change it",
+    "expected": "FAQ-18",
+    "language": "english"
+  },
+  {
+    "question": "the one-time password is missing from my messages",
+    "expected": "FAQ-19",
+    "language": "english"
+  },
+  {
+    "question": "how do I close my account permanently",
+    "expected": "FAQ-20",
+    "language": "english"
+  },
+  {
+    "question": "I need to change the address after ordering",
+    "expected": "FAQ-21",
+    "language": "english"
+  },
+  {
+    "question": "do you drop parcels at a pickup point",
+    "expected": "FAQ-22",
+    "language": "english"
+  },
+  {
+    "question": "I want a different size instead of this one",
+    "expected": "FAQ-23",
+    "language": "english"
+  },
+  {
+    "question": "what if the replacement size is out of stock",
+    "expected": "FAQ-24",
+    "language": "english"
+  },
+  {
+    "question": "how do I apply a discount code at checkout",
+    "expected": "FAQ-25",
+    "language": "english"
+  },
+  {
+    "question": "why is my discount code showing as invalid",
+    "expected": "FAQ-26",
+    "language": "english"
+  },
+  {
+    "question": "my item arrived broken, what is the process",
+    "expected": "FAQ-27",
+    "language": "english"
+  },
+  {
+    "question": "how do I get a tax invoice with GSTIN",
+    "expected": "FAQ-28",
+    "language": "english"
+  },
+  {
+    "question": "what information do you keep about me",
+    "expected": "FAQ-29",
+    "language": "english"
+  },
+  {
+    "question": "which details does the seller get, my number?",
+    "expected": "FAQ-30",
+    "language": "english"
+  },
+  {
+    "question": "mera order kitne din mein aayega",
+    "expected": "FAQ-01",
+    "language": "hinglish"
+  },
+  {
+    "question": "main kitne din tak return kar sakta hoon",
+    "expected": "FAQ-04",
+    "language": "hinglish"
+  },
+  {
+    "question": "refund kab milega",
+    "expected": "FAQ-07",
+    "language": "hinglish"
+  },
+  {
+    "question": "mera parcel kahan hai",
+    "expected": "FAQ-10",
+    "language": "hinglish"
+  },
+  {
+    "question": "payment fail ho gayi, kya karu",
+    "expected": "FAQ-14",
+    "language": "hinglish"
+  },
+  {
+    "question": "return kaise karun",
+    "expected": "FAQ-05",
+    "language": "hinglish"
+  },
+  {
+    "question": "order cancel karna hai",
+    "expected": "FAQ-12",
+    "language": "hinglish"
+  },
+  {
+    "question": "cash on delivery available hai kya",
+    "expected": "FAQ-16",
+    "language": "hinglish"
+  },
+  {
+    "question": "password bhool gaya, reset kaise karun",
+    "expected": "FAQ-18",
+    "language": "hinglish"
+  },
+  {
+    "question": "size change karwana hai, exchange possible hai kya",
+    "expected": "FAQ-23",
+    "language": "hinglish"
+  },
+  {
+    "question": "kya aap india ke bahar bhejte hain",
+    "expected": "FAQ-03",
+    "language": "hinglish"
+  },
+  {
+    "question": "refund ka status kahan dekhu",
+    "expected": "FAQ-08",
+    "language": "hinglish"
+  },
+  {
+    "question": "pickup point pe le sakta hoon kya",
+    "expected": "FAQ-22",
+    "language": "hinglish"
+  },
+  {
+    "question": "coupon code kaise apply karte hain",
+    "expected": "FAQ-25",
+    "language": "hinglish"
+  },
+  {
+    "question": "aap mere data ka kya karte hain",
+    "expected": "FAQ-29",
+    "language": "hinglish"
+  },
+  {
+    "question": "address badalna hai order ke baad",
+    "expected": "FAQ-21",
+    "language": "hinglish"
+  },
+  {
+    "question": "seller ko mera phone number dikhega kya",
+    "expected": "FAQ-30",
+    "language": "hinglish"
+  },
+  {
+    "question": "item toot ke aa gaya, kya karun",
+    "expected": "FAQ-27",
+    "language": "hinglish"
+  },
+  {
+    "question": "emi mein payment kar sakte hain kya",
+    "expected": "FAQ-17",
+    "language": "hinglish"
+  },
+  {
+    "question": "express delivery kitne din mein hoti hai",
+    "expected": "FAQ-02",
+    "language": "hinglish"
+  },
+  {
+    "question": "is a refund to some other card possible",
+    "expected": "FAQ-09",
+    "language": "english"
+  },
+  {
+    "question": "my tracking page has been stuck for days",
+    "expected": "FAQ-11",
+    "language": "english"
+  },
+  {
+    "question": "remove my profile from your website",
+    "expected": "FAQ-20",
+    "language": "english"
+  },
+  {
+    "question": "do you sell second hand refurbished phones",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "what are your store opening hours on Sunday",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get a delivery slot in the evening between 6 and 8",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer gift wrapping",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "is there a loyalty rewards program",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell digital gift cards for streaming services",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I speak to a human agent instead of this bot",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "what is the name of your chief executive",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sponsor local events",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "where is your head office",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I place an order over a phone call",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a mobile application",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "is the website currently down",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how do I apply for a job at your company",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell in bulk to resellers",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how do I unsubscribe from marketing emails",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I add a gift message to my order",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a post office box",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a customer care number that works at night",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how do I become a seller on your platform",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get an extended warranty for my laptop",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a physical trial room for clothes",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "what time does your support desk close",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I deliver to a hotel reception in Dubai",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I return an item after 60 days",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you accept returns on innerwear",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "what happens if I miss the courier pickup",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I change the size before it ships",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver on Sundays",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay partly with a wallet and partly with a card",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer same day delivery in my city",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "is there a minimum order for free delivery",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get a refund for a digital purchase",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you ship liquids by courier",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I open the parcel before paying the courier",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how many times can I use the same coupon",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "refund nahi milega kya",
+    "expected": "none",
+    "language": "hinglish"
+  },
+  {
+    "question": "mujhe refund nahi chahiye",
+    "expected": "none",
+    "language": "hinglish"
+  },
+  {
+    "question": "mera parcel kabhi nahi aaya",
+    "expected": "none",
+    "language": "hinglish"
+  },
+  {
+    "question": "I do not want to return this, can I exchange instead",
+    "expected": "none",
+    "language": "english"
+  }
+]
