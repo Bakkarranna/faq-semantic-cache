@@ -1,9 +1,8 @@
 """The LLM client.
 
 Calls a local Ollama server so the measurements in the README were produced
-without an API key or a paid account. The client records how many token
-estimate it returns so the report can compare LLM calls before and after
-caching.
+without an API key or a paid account. The client records how many tokens an
+answer costs so the report can compare LLM calls before and after caching.
 """
 
 from __future__ import annotations
@@ -84,6 +83,23 @@ class OllamaClient:
         except requests.RequestException:
             return False
         return True
+
+    def unload(self) -> None:
+        """Release the model from Ollama's memory.
+
+        The threshold sweep needs the embedding model inside the same RAM
+        budget, so the LLM is dropped as soon as the baseline phase is done.
+        A failure only leaves the model warm, so it is not worth raising.
+        """
+
+        try:
+            requests.post(
+                f"{self.url}/api/generate",
+                json={"model": self.model, "prompt": "", "keep_alive": 0},
+                timeout=30.0,
+            )
+        except requests.RequestException:
+            pass
 
 
 def default_client(settings) -> OllamaClient | None:
