@@ -1,0 +1,212 @@
+[
+  {
+    "id": "FAQ-01",
+    "topic": "shipping",
+    "volatile": true,
+    "question": "How long does standard delivery take?",
+    "answer": "Standard delivery within the country takes 3 to 5 working days. Delivery to remote pin codes can add one extra day."
+  },
+  {
+    "id": "FAQ-02",
+    "topic": "shipping",
+    "volatile": true,
+    "question": "Do you offer express delivery?",
+    "answer": "Yes. Express delivery is available in 350 cities and delivers within 1 to 2 working days. The option appears at checkout if your pin code is covered."
+  },
+  {
+    "id": "FAQ-03",
+    "topic": "shipping",
+    "volatile": false,
+    "question": "Do you ship outside India?",
+    "answer": "We ship to 42 countries. International orders take 7 to 14 working days and customs duty is charged to the customer."
+  },
+  {
+    "id": "FAQ-04",
+    "topic": "returns",
+    "volatile": true,
+    "question": "What is the return window for most products?",
+    "answer": "Most products can be returned within 10 days of delivery. The item must be unused, with tags attached and the original invoice."
+  },
+  {
+    "id": "FAQ-05",
+    "topic": "returns",
+    "volatile": false,
+    "question": "How do I start a return?",
+    "answer": "Open Orders, select the item, and choose Return. Pick a reason, book a pickup slot, and print the return label if your order qualifies for self-ship."
+  },
+  {
+    "id": "FAQ-06",
+    "topic": "returns",
+    "volatile": false,
+    "question": "Who pays the return shipping fee?",
+    "answer": "We pay the return shipping when the item is damaged, defective, or wrong. For a change-of-mind return, a fee of 79 rupees is deducted from the refund."
+  },
+  {
+    "id": "FAQ-07",
+    "topic": "refunds",
+    "volatile": true,
+    "question": "When will I get my refund?",
+    "answer": "Refunds are issued within 5 working days after the returned item reaches our warehouse. The bank then takes 3 to 7 working days to credit the amount."
+  },
+  {
+    "id": "FAQ-08",
+    "topic": "refunds",
+    "volatile": false,
+    "question": "How do I track the status of my refund?",
+    "answer": "Open Orders and select View refund status. It shows the stage: pickup done, received at warehouse, refund processed, and credited."
+  },
+  {
+    "id": "FAQ-09",
+    "topic": "refunds",
+    "volatile": false,
+    "question": "Can I get a refund to a different bank account?",
+    "answer": "No. Refunds return to the original payment method. If your card was replaced, ask your bank to map the refund to the new card."
+  },
+  {
+    "id": "FAQ-10",
+    "topic": "tracking",
+    "volatile": false,
+    "question": "Where is my order right now?",
+    "answer": "Open Orders, select the order, and choose Track shipment. The map shows the last scan, the hub, and the expected delivery date."
+  },
+  {
+    "id": "FAQ-11",
+    "topic": "tracking",
+    "volatile": false,
+    "question": "Why is my order status not updating?",
+    "answer": "Scan delays usually come from network gaps at transit hubs. The tracking page refreshes within 24 hours, and you can contact support after that."
+  },
+  {
+    "id": "FAQ-12",
+    "topic": "cancellation",
+    "volatile": false,
+    "question": "Can I cancel an order after placing it?",
+    "answer": "You can cancel any time before the order is shipped. Open the order and choose Cancel order. Once shipped, raise a return instead."
+  },
+  {
+    "id": "FAQ-13",
+    "topic": "cancellation",
+    "volatile": false,
+    "question": "How do I cancel a single item from a multi-item order?",
+    "answer": "Open the order, select the item, and choose Cancel item. The rest of the order ships as normal and the refund is issued to the payment method."
+  },
+  {
+    "id": "FAQ-14",
+    "topic": "payment",
+    "volatile": false,
+    "question": "Why did my payment fail?",
+    "answer": "Payments fail when the bank declines the transaction, the 3-D Secure step times out, or the daily card limit is reached. Nothing is debited; retry after 10 minutes."
+  },
+  {
+    "id": "FAQ-15",
+    "topic": "payment",
+    "volatile": false,
+    "question": "Which payment methods do you accept?",
+    "answer": "We accept UPI, credit and debit cards, net banking, wallets, and cash on delivery. Cash on delivery is not available on orders above 20,000 rupees."
+  },
+  {
+    "id": "FAQ-16",
+    "topic": "payment",
+    "volatile": true,
+    "question": "Do you offer cash on delivery?",
+    "answer": "Yes, on orders up to 20,000 rupees. A handling fee of 25 rupees applies, and cash on delivery is not available for some pin codes."
+  },
+  {
+    "id": "FAQ-17",
+    "topic": "payment",
+    "volatile": true,
+    "question": "Can I pay in instalments?",
+    "answer": "No-cost instalments are available on cards from 7 banks for orders above 3,000 rupees. Choose the EMI option at checkout and pick a 3, 6, or 9 month plan."
+  },
+  {
+    "id": "FAQ-18",
+    "topic": "account",
+    "volatile": false,
+    "question": "How do I reset my password?",
+    "answer": "Choose Forgot password on the sign-in screen, enter your email, and follow the reset link. The link is valid for 30 minutes."
+  },
+  {
+    "id": "FAQ-19",
+    "topic": "account",
+    "volatile": false,
+    "question": "I am not receiving the one-time password. What should I do?",
+    "answer": "Check that your number has signal and that DND has not blocked the sender. If it still fails after 5 minutes, ask your carrier for the DND settings, or use email sign-in."
+  },
+  {
+    "id": "FAQ-20",
+    "topic": "account",
+    "volatile": false,
+    "question": "How do I delete my account?",
+    "answer": "Open Settings, then Privacy, then Delete account. The account is closed after 30 days, and order records are kept for tax purposes for 8 years."
+  },
+  {
+    "id": "FAQ-21",
+    "topic": "orders",
+    "volatile": false,
+    "question": "Can I change the delivery address after ordering?",
+    "answer": "You can change the address before the order is dispatched. Open the order and choose Edit address. After dispatch, redirect the parcel with the courier or refuse it at the door."
+  },
+  {
+    "id": "FAQ-22",
+    "topic": "orders",
+    "volatile": false,
+    "question": "Do you deliver to a pickup point?",
+    "answer": "Yes. Choose a pickup point at checkout from 12,000 partner stores, and the parcel is held there for 3 days for collection."
+  },
+  {
+    "id": "FAQ-23",
+    "topic": "exchange",
+    "volatile": true,
+    "question": "Can I exchange an item for a different size?",
+    "answer": "Yes, within 10 days of delivery, if the size is in stock. Choose Exchange at the return step, and the replacement ships after the pickup scan."
+  },
+  {
+    "id": "FAQ-24",
+    "topic": "exchange",
+    "volatile": false,
+    "question": "What if the replacement item is out of stock?",
+    "answer": "You can wait until it is restocked or take the refund instead. The refund for an out-of-stock exchange is issued to the original payment method."
+  },
+  {
+    "id": "FAQ-25",
+    "topic": "offers",
+    "volatile": true,
+    "question": "How do I apply a coupon code?",
+    "answer": "Enter the code in the Coupons field on the payment page and choose Apply. One coupon applies per order, and it cannot be used after the order is placed."
+  },
+  {
+    "id": "FAQ-26",
+    "topic": "offers",
+    "volatile": true,
+    "question": "Why was my coupon rejected?",
+    "answer": "A coupon fails when the cart total is below the minimum, the code has expired, or the excluded items are in the cart. Check the terms shown under the code."
+  },
+  {
+    "id": "FAQ-27",
+    "topic": "damaged",
+    "volatile": false,
+    "question": "My item arrived damaged. What do I do?",
+    "answer": "Raise a Damage claim within 48 hours of delivery with photos of the item and the package. We pick it up free of cost and refund or replace it."
+  },
+  {
+    "id": "FAQ-28",
+    "topic": "invoice",
+    "volatile": false,
+    "question": "How do I get a GST invoice?",
+    "answer": "Add the GSTIN in Settings, then Billing details, before you place the order. The invoice is emailed after dispatch, and a copy is on the order page."
+  },
+  {
+    "id": "FAQ-29",
+    "topic": "privacy",
+    "volatile": false,
+    "question": "What personal data do you store?",
+    "answer": "We store your name, contact details, addresses, and order history to deliver orders. You can request a copy of your data from Settings, then Privacy, then Download your data."
+  },
+  {
+    "id": "FAQ-30",
+    "topic": "privacy",
+    "volatile": false,
+    "question": "Do you share my data with sellers?",
+    "answer": "Sellers see only what is needed to ship the item: the delivery address, the item, and a masked phone number. Your payment details are never shared."
+  }
+]
