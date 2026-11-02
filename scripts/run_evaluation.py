@@ -136,6 +136,7 @@ def measure_baseline(test_set, client: OllamaClient | None, skip_llm: bool) -> d
     logger = RequestLogger(path=RESULTS / "baseline_requests.jsonl")
     _reset(logger.path)
     per_question: dict[str, float] = {}
+    calls = 0
     for question in test_set:
         if client is None:
             text, llm_ms, tokens = f"[no llm] {question.expected}. ", 0.0, 0
@@ -145,6 +146,8 @@ def measure_baseline(test_set, client: OllamaClient | None, skip_llm: bool) -> d
             llm_ms = (time.perf_counter() - started) * 1000.0
             text = completion.text
             tokens = completion.prompt_tokens + completion.completion_tokens
+        if client is not None:
+            calls += 1
         per_question[question.question] = llm_ms
         logger.log(
             question=question.question,
@@ -156,6 +159,9 @@ def measure_baseline(test_set, client: OllamaClient | None, skip_llm: bool) -> d
             prompt_tokens=tokens,
         )
     summary = summarise(logger.records)
+    # summarise counts LLM calls as the misses of a cache run. This phase has
+    # no cache, so the count is the questions it answered on its own.
+    summary["llm_calls"] = calls
     summary["negatives"] = sum(1 for q in test_set if q.expected == "none")
     summary["per_question_llm_ms"] = per_question
     summary["skip_llm"] = skip_llm
