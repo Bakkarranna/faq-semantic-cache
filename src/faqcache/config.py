@@ -45,7 +45,9 @@ class Settings:
         r"\b\d{6}\b",                        # one-time passwords
         r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b",  # email addresses
         r"\b(?:\+91|0)?[6-9]\d{9}\b",        # Indian mobile numbers
-        r"\bcustomer\s+(?:id|account)\s*[:#]?\s*\d{4,}\b",
+        # Customer or account numbers, written either as "customer id 48201933"
+        # or "customer account number 48201933".
+        r"\bcustomer\s+(?:id|account)(?:\s+(?:no|number))?\s*[:#]?\s*\d{4,}\b",
     )
     sweep_thresholds: tuple[float, ...] = field(
         default_factory=lambda: (0.75, 0.80, 0.85, 0.90, 0.95)

@@ -102,7 +102,7 @@ class VectorStore:
                 similarity=float(score),
                 position=int(position),
             )
-            for score, position in zip(scores[0], positions[0])
+            for score, position in zip(scores[0], positions[0], strict=True)
             if position >= 0
         ]
 

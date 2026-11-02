@@ -119,5 +119,7 @@ def summarise(records: list[LogRecord]) -> dict[str, float]:
         "llm_calls": llm_calls,
         "tokens": tokens,
         "avg_latency_ms": (sum(latencies) / total) if total else 0.0,
-        "p95_latency_ms": latencies[min(len(latencies) - 1, int(0.95 * len(latencies)))] if latencies else 0.0,
+        "p95_latency_ms": (
+            latencies[min(len(latencies) - 1, int(0.95 * len(latencies)))] if latencies else 0.0
+        ),
     }

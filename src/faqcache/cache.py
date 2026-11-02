@@ -64,7 +64,7 @@ class SemanticCache:
 
         vectors = self._embedder.encode([faq.question for faq in faqs])
         now = self._clock()
-        for faq, vector in zip(faqs, vectors):
+        for faq, vector in zip(faqs, vectors, strict=True):
             self._store.add(
                 vector,
                 CacheEntry(
@@ -153,7 +153,10 @@ class SemanticCache:
 
         if looks_like_user_data(answer, self.settings.user_data_patterns):
             return False
-        source_faq = match.entry if match is not None and match.similarity >= self.settings.threshold else None
+        matched_above_threshold = (
+            match is not None and match.similarity >= self.settings.threshold
+        )
+        source_faq = match.entry if matched_above_threshold else None
         entry = CacheEntry(
             faq_id=source_faq.faq_id if source_faq else f"LLM-{len(self._store) + 1:03d}",
             question=question,
