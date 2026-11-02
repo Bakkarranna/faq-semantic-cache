@@ -48,7 +48,13 @@ class SentenceTransformerEmbedder:
         from sentence_transformers import SentenceTransformer  # noqa: PLC0415
 
         self.model_name = model_name
-        self._model = SentenceTransformer(model_name)
+        self._model = SentenceTransformer(
+            model_name,
+            # Load the weights shard by shard. The plain path materialises a
+            # second full copy of every tensor, and on a machine whose page
+            # file is small that copy is what fails the load outright.
+            model_kwargs={"low_cpu_mem_usage": True},
+        )
         size = getattr(self._model, "get_embedding_dimension", None)
         if size is None:
             size = self._model.get_sentence_embedding_dimension
