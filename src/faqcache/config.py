@@ -15,7 +15,11 @@ from dataclasses import dataclass, field
 class Settings:
     """One immutable snapshot of the configuration."""
 
-    threshold: float = 0.86
+    # The operating point measured in results/summary.json: 0.70 is the
+    # strictest threshold that answered every paraphrase it could while
+    # serving none of the 40 negative questions. 0.75 answers fewer
+    # questions; 0.65 answers one negative question wrongly.
+    threshold: float = 0.70
     ttl_days: int = 30
     model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     ollama_model: str = "qwen2.5:1.5b"

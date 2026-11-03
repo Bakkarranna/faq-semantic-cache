@@ -78,7 +78,7 @@ def main() -> int:
         print(f"  {score:.3f}  {question[:50]!r} -> FAQ-{best + 1:02d}")
     print()
 
-    for threshold in (0.70, 0.75, 0.80, 0.86, 0.90):
+    for threshold in (0.60, 0.65, 0.70, 0.75, 0.80):
         hits = sum(1 for value in paraphrases if value[0] >= threshold)
         false = sum(1 for value in negatives if value[0] >= threshold)
         total = len(paraphrases)
