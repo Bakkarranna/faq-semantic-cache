@@ -17,7 +17,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - name: Install light dependencies
-        run: pip install numpy pytest
+        run: pip install numpy pytest requests faiss-cpu
       - name: Run unit tests
         env:
           FAQCACHE_EMBEDDER: deterministic
