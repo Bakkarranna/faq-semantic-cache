@@ -35,7 +35,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements.txt pytest
       - name: Cache sentence-transformers weights
         uses: actions/cache@v4
         with:
