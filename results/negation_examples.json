@@ -1,0 +1,66 @@
+{
+  "negation_questions_measured": 5,
+  "negated_hits": 0,
+  "examples": [
+    {
+      "question": "the payment did not go through",
+      "negations": [
+        "not"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.29
+    },
+    {
+      "question": "refund nahi milega kya",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.23
+    },
+    {
+      "question": "mujhe refund nahi chahiye",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.22
+    },
+    {
+      "question": "mera parcel kabhi nahi aaya",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.25
+    },
+    {
+      "question": "I do not want to return this, can I exchange instead",
+      "negations": [
+        "not"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.33
+    }
+  ]
+}
