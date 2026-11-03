@@ -10,6 +10,10 @@ The decision order is deliberate:
 
 Steps 1 and 3 are what keep the hit rate honest, and they are the two places a
 production cache needs a policy of its own rather than the default behaviour.
+
+A question declined by the negation guard still reaches the LLM: the guard
+withholds a cached answer, not an answer. What it withholds is the cache, so a
+question that negates an FAQ never reads a sentence written for its opposite.
 """
 
 from __future__ import annotations
@@ -96,13 +100,15 @@ class SemanticCache:
         started = time.monotonic()
         negations = find_negations(question, self.settings.negation_words)
         if negations:
+            answer, completion = self._answer_via_llm(question)
             return CacheDecision(
                 outcome=REFUSED,
-                answer=self._answer_via_llm(question),
+                answer=answer,
                 similarity=None,
                 matched_faq_id=None,
                 latency_ms=_elapsed_ms(started),
                 negations=negations,
+                completion=completion,
             )
 
         vector = self._embedder.encode([question])[0]
@@ -119,7 +125,7 @@ class SemanticCache:
                     expired=False,
                 )
 
-        answer = self._answer_via_llm(question)
+        answer, completion = self._answer_via_llm(question)
         stored = self._store_answer(question, answer, match)
         return CacheDecision(
             outcome=MISS,
@@ -127,20 +133,30 @@ class SemanticCache:
             similarity=match.similarity if match else None,
             matched_faq_id=None,
             latency_ms=_elapsed_ms(started),
+            completion=completion,
             stored=stored,
         )
 
     # Internals ---------------------------------------------------------------
 
-    def _answer_via_llm(self, question: str) -> str:
-        """Answer a question with the LLM, or with a notice when it is absent."""
+    def _answer_via_llm(self, question: str) -> tuple[str, Completion | None]:
+        """Answer a question with the LLM, or with a notice when it is absent.
+
+        Returning the completion alongside the text keeps the token count
+        available to the caller that paid for it. With no client attached the
+        text is a notice and there is no completion to report.
+        """
 
         if self._client is None:
             return (
-                "Support is unavailable right now. Please open the Orders page or "
-                "contact support@example.com."
+                (
+                    "Support is unavailable right now. Please open the Orders "
+                    "page or contact support@example.com."
+                ),
+                None,
             )
-        return self._client.generate(question).text
+        completion = self._client.generate(question)
+        return completion.text, completion
 
     def _best_match(self, vector) -> Match | None:
         matches = self._store.search(vector, k=1)

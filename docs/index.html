@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FAQ semantic cache — measured results</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --ink: #1f2933;
+        --muted: #6b7684;
+        --rule: #d7dde5;
+        --accent: #1f6f8b;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --ink: #e6e9ee;
+          --muted: #9aa4b2;
+          --rule: #333b45;
+          --accent: #6bb3c9;
+        }
+      }
+      body {
+        margin: 0 auto;
+        padding: 3rem 1.25rem 4rem;
+        max-width: 46rem;
+        font: 16px/1.65 ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+        color: var(--ink);
+        background: Canvas;
+      }
+      h1 {
+        font-size: 1.6rem;
+        line-height: 1.25;
+        margin: 0 0 0.5rem;
+      }
+      h2 {
+        font-size: 1.1rem;
+        margin: 2.25rem 0 0.75rem;
+      }
+      p,
+      li {
+        max-width: 44rem;
+      }
+      .lede {
+        color: var(--muted);
+        margin: 0 0 1.5rem;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 0.75rem 0 0.25rem;
+        font-variant-numeric: tabular-nums;
+      }
+      th,
+      td {
+        text-align: right;
+        padding: 0.4rem 0.6rem;
+        border-bottom: 1px solid var(--rule);
+      }
+      th:first-child,
+      td:first-child {
+        text-align: left;
+      }
+      thead th {
+        font-size: 0.85rem;
+        color: var(--muted);
+        font-weight: 600;
+      }
+      tr.chosen td {
+        font-weight: 600;
+      }
+      figure {
+        margin: 1.5rem 0;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      figcaption {
+        color: var(--muted);
+        font-size: 0.85rem;
+        margin-top: 0.5rem;
+      }
+      code {
+        font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+        font-size: 0.9em;
+      }
+      footer {
+        margin-top: 3rem;
+        border-top: 1px solid var(--rule);
+        padding-top: 1rem;
+        color: var(--muted);
+        font-size: 0.85rem;
+      }
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>A semantic cache for a customer-support FAQ bot</h1>
+    <p class="lede">
+      Threshold sweep and latency measurements from a 2M-word FAQ set, on one
+      machine with a local model. No numbers on this page were estimated.
+    </p>
+
+    <h2>What was measured</h2>
+    <p>
+      100 questions asked of a bot backed by 30 FAQ entries: 60 paraphrases that
+      an FAQ should answer and 40 questions no FAQ covers. Every number is a
+      timed call to a local model through Ollama, recorded by the run scripts in
+      <code>scripts/</code>. The full report lives in the repository README.
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Threshold</th>
+          <th>Hit rate</th>
+          <th>False hits</th>
+          <th>Average latency</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>0.60</td>
+          <td>36.0%</td>
+          <td>8 of 40</td>
+          <td>2192 ms</td>
+        </tr>
+        <tr>
+          <td>0.65</td>
+          <td>26.0%</td>
+          <td>1 of 40</td>
+          <td>2537 ms</td>
+        </tr>
+        <tr class="chosen">
+          <td>0.70</td>
+          <td>21.0%</td>
+          <td>0 of 40</td>
+          <td>2682 ms</td>
+        </tr>
+        <tr>
+          <td>0.75</td>
+          <td>18.0%</td>
+          <td>0 of 40</td>
+          <td>2892 ms</td>
+        </tr>
+        <tr>
+          <td>0.80</td>
+          <td>12.0%</td>
+          <td>0 of 40</td>
+          <td>3060 ms</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Similarity distributions</h2>
+    <figure>
+      <img src="figures/threshold_tradeoff.png" alt="Hit rate and average latency for each similarity threshold" />
+      <figcaption>
+        Circles mark the thresholds that served no question from a wrong FAQ.
+        The baseline without a cache answers all 100 questions at 3532 ms.
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="figures/similarity_separation.png" alt="Percentiles of cosine similarity for paraphrases and negative questions" />
+      <figcaption>
+        The paraphrases' median sits below the threshold, which is why the hit
+        rate is a quarter of the questions rather than all of them.
+      </figcaption>
+    </figure>
+
+    <p>
+      At the operating point of 0.70 the cache answers 21 of 100 questions from
+      the FAQ set or a stored answer, in 31 to 56 milliseconds. The 79 questions
+      it declines to answer still go to the model, which is the safe direction to
+      fail in.
+    </p>
+
+    <footer>
+      Repository: <a href="https://github.com/Bakkarranna/faq-semantic-cache">Bakkarranna/faq-semantic-cache</a>.
+      Figures regenerate from <code>results/</code> with <code>scripts/make_figures.py</code>.
+    </footer>
+  </body>
+</html>
