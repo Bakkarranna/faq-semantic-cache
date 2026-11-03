@@ -2,7 +2,8 @@
 """Sanity check for the real embedding model.
 
 Runs in CI after ``pip install -r requirements.txt``, so it is the gate that
-the model still downloads and still ranks paraphrases above other FAQs. It
+the model still downloads and still ranks paraphrases above other FAQs, and that a hit
+serves the FAQ the question was paraphrased from. It
 needs no LLM: it only reports what the vectors say.
 
     python scripts/smoke_embeddings.py
@@ -53,7 +54,7 @@ def main() -> int:
     print(f"warm-up          {warm_ms:.0f} ms for {len(faqs)} questions")
     print(f"closest pair     {off_diagonal.max():.4f} apart in cosine similarity")
 
-    hits = language_hits = 0
+    hits = language_hits = wrong_hits = 0
     false_hits = 0
     hit_ms: list[float] = []
     for item in test_set:
@@ -62,6 +63,8 @@ def main() -> int:
             false_hits += 1
         if item.expected != "none" and decision.outcome == HIT:
             hits += 1
+            if decision.matched_faq_id != item.expected:
+                wrong_hits += 1
             if item.language == "hinglish":
                 language_hits += 1
             hit_ms.append(decision.latency_ms)
@@ -76,8 +79,8 @@ def main() -> int:
           if hit_ms else "average hit      no hits")
 
     failures = 0
-    if off_diagonal.max() >= settings.threshold:
-        print("FAIL two distinct FAQs are closer than the threshold")
+    if wrong_hits:
+        print(f"FAIL {wrong_hits} hits served the wrong FAQ")
         failures += 1
     if hits < paraphrases * RECALL_FLOOR:
         print("FAIL the model is not ranking paraphrases highly enough")
