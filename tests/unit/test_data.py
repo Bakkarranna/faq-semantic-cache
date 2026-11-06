@@ -9,8 +9,8 @@ import pytest
 from faqcache.data import FAQ_PATH, TEST_SET_PATH, label_counts, load_faqs, load_test_set
 
 
-def test_faq_file_holds_thirty_entries() -> None:
-    assert len(load_faqs()) == 30
+def test_faq_file_holds_three_hundred_entries() -> None:
+    assert len(load_faqs()) == 300
 
 
 def test_faq_ids_are_unique_and_answers_are_not_empty() -> None:
@@ -19,13 +19,23 @@ def test_faq_ids_are_unique_and_answers_are_not_empty() -> None:
     assert all(faq.answer.strip() for faq in faqs)
 
 
-def test_test_set_holds_one_hundred_questions() -> None:
-    assert len(load_test_set()) == 100
+def test_every_faq_is_covered_by_at_least_one_test_question() -> None:
+    coverage: dict[str, int] = {}
+    for item in load_test_set():
+        if item.expected == "none":
+            continue
+        coverage[item.expected] = coverage.get(item.expected, 0) + 1
+    assert len(coverage) == 300
+    assert min(coverage.values()) >= 1
 
 
-def test_test_set_splits_into_sixty_paraphrases_and_forty_negatives() -> None:
+def test_test_set_holds_one_thousand_questions() -> None:
+    assert len(load_test_set()) == 1000
+
+
+def test_test_set_splits_into_six_hundred_paraphrases_and_four_hundred_negatives() -> None:
     counts = label_counts()
-    assert counts == {"total": 100, "paraphrase": 60, "negative": 40}
+    assert counts == {"total": 1000, "paraphrase": 600, "negative": 400}
 
 
 def test_every_label_names_a_known_faq_or_none() -> None:
@@ -67,7 +77,7 @@ def test_a_missing_answer_is_rejected(tmp_path) -> None:
 
 def test_an_unknown_label_is_rejected(tmp_path) -> None:
     broken = tmp_path / "test_set.json"
-    broken.write_text(json.dumps([{"question": "q?", "expected": "FAQ-99"}]), encoding="utf-8")
+    broken.write_text(json.dumps([{"question": "q?", "expected": "FAQ-999"}]), encoding="utf-8")
     with pytest.raises(ValueError, match="not a FAQ id"):
         load_test_set(broken)
 

@@ -208,5 +208,1895 @@
     "volatile": false,
     "question": "Do you share my data with sellers?",
     "answer": "Sellers see only what is needed to ship the item: the delivery address, the item, and a masked phone number. Your payment details are never shared."
+  },
+  {
+    "id": "FAQ-31",
+    "topic": "warranty",
+    "volatile": false,
+    "question": "Do all products come with a warranty?",
+    "answer": "Most electronics carry a 1-year brand warranty and consumables carry none. The warranty period is listed on the product page under Specifications."
+  },
+  {
+    "id": "FAQ-32",
+    "topic": "warranty",
+    "volatile": false,
+    "question": "How do I claim a warranty?",
+    "answer": "Raise a Warranty claim from the order page within the warranty period. Our service centre arranges a pickup and the brand decides repair or replacement."
+  },
+  {
+    "id": "FAQ-33",
+    "topic": "warranty",
+    "volatile": false,
+    "question": "Who pays shipping for a warranty pickup?",
+    "answer": "We pay the shipping to the service centre and the return leg after repair. If a claim is rejected for misuse the shipping is charged back."
+  },
+  {
+    "id": "FAQ-34",
+    "topic": "warranty",
+    "volatile": false,
+    "question": "The brand declined my warranty claim. What now?",
+    "answer": "Ask the brand for the inspection report and send it with your order number. We escalate to the seller for a repair or replacement decision within 7 working days."
+  },
+  {
+    "id": "FAQ-35",
+    "topic": "warranty",
+    "volatile": false,
+    "question": "Does the warranty cover accidental damage?",
+    "answer": "No. Accidental and liquid damage are outside warranty. Accidental-protection plans can be bought at checkout for select products."
+  },
+  {
+    "id": "FAQ-36",
+    "topic": "warranty",
+    "volatile": false,
+    "question": "How do I register my product warranty?",
+    "answer": "Registration is automatic when the invoice is in your account name. Where a brand asks for it, upload the invoice on the brand portal within 30 days."
+  },
+  {
+    "id": "FAQ-37",
+    "topic": "warranty",
+    "volatile": false,
+    "question": "Where are the service centres for my city?",
+    "answer": "Open the product page and choose Service centres. The list shows brand-authorised centres with addresses and phone numbers."
+  },
+  {
+    "id": "FAQ-38",
+    "topic": "warranty",
+    "volatile": false,
+    "question": "What does the standard warranty cover?",
+    "answer": "Manufacturing defects for the period shown on the product page. Wear from use, accidental damage, and liquid damage are not covered."
+  },
+  {
+    "id": "FAQ-39",
+    "topic": "warranty",
+    "volatile": false,
+    "question": "Is the warranty valid in another country?",
+    "answer": "A local warranty does not travel. Buy the international-warranty version where the seller offers it; the product page says which ones carry it."
+  },
+  {
+    "id": "FAQ-40",
+    "topic": "warranty",
+    "volatile": false,
+    "question": "My warranty repair took too long. What can I do?",
+    "answer": "If the repair is not closed in 21 days, ask the service centre for a job number and raise a Delay claim. We then push for a replacement or a refund."
+  },
+  {
+    "id": "FAQ-41",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "What is the subscription plan for repeat orders?",
+    "answer": "The subscription plan buys a product every 1, 2 or 3 months at 8 percent off. Choose the plan on the product page before checkout."
+  },
+  {
+    "id": "FAQ-42",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "How do I skip a subscription delivery?",
+    "answer": "Open Subscriptions, choose the upcoming delivery and pick Skip. Up to 3 deliveries a year can be skipped at no charge."
+  },
+  {
+    "id": "FAQ-43",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "How do I cancel a subscription?",
+    "answer": "Choose Cancel in Subscriptions at least 2 days before the next billing date. Cancelling does not refund the current delivery."
+  },
+  {
+    "id": "FAQ-44",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "When is my subscription charged?",
+    "answer": "Your card is charged 2 days before the delivery date. A failed charge retries twice before the subscription is paused."
+  },
+  {
+    "id": "FAQ-45",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "Can I change the item in a subscription?",
+    "answer": "Open Subscriptions, choose Change item and pick any item from the same plan list. The change applies from the next delivery."
+  },
+  {
+    "id": "FAQ-46",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "Can I change the delivery date of a subscription?",
+    "answer": "Yes, within the same month. A date in a later month counts as a skip and the delivery is placed as a fresh order."
+  },
+  {
+    "id": "FAQ-47",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "Do subscription orders earn loyalty points?",
+    "answer": "Yes, on the item value after the plan discount. Points from subscriptions are credited a week after delivery."
+  },
+  {
+    "id": "FAQ-48",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "Is there a minimum number of subscription deliveries?",
+    "answer": "No. There is no lock-in and the 8 percent discount applies to every delivery until you cancel."
+  },
+  {
+    "id": "FAQ-49",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "How do I pause a subscription for a few months?",
+    "answer": "Choose Pause and set the months. A pause of up to 3 months keeps the plan price; a longer pause cancels the plan."
+  },
+  {
+    "id": "FAQ-50",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "Can I subscribe to more than one product?",
+    "answer": "Yes. Each subscription has its own billing date and up to 10 active subscriptions are allowed on one account."
+  },
+  {
+    "id": "FAQ-51",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "How do loyalty points work?",
+    "answer": "You earn 1 point per 10 rupees on prepaid orders. 100 points convert to 10 rupees of store credit at checkout."
+  },
+  {
+    "id": "FAQ-52",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "When do my loyalty points expire?",
+    "answer": "Points expire 12 months after they are earned. The order page shows the expiry month for each block of points."
+  },
+  {
+    "id": "FAQ-53",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "Why did my points not arrive?",
+    "answer": "Points credit after the return window closes, so cancelled or returned items earn none. The balance updates within 24 hours of the window closing."
+  },
+  {
+    "id": "FAQ-54",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "Which orders do not earn loyalty points?",
+    "answer": "Cash-on-delivery orders, gift-card purchases and orders paid with store credit earn no points. Wallet top-ups earn none either."
+  },
+  {
+    "id": "FAQ-55",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "How do I redeem loyalty points?",
+    "answer": "Choose Use points at checkout and pick the amount. Points can cover up to 20 percent of the order value."
+  },
+  {
+    "id": "FAQ-56",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "Can loyalty points be transferred?",
+    "answer": "No. Points stay on the account that earned them and cannot be moved, sold or merged with another account."
+  },
+  {
+    "id": "FAQ-57",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "How do loyalty tiers change my benefits?",
+    "answer": "Silver earns points only, Gold adds free delivery and early access to sales, and Platinum adds a dedicated support line. The tier is set by points earned in a 12-month window."
+  },
+  {
+    "id": "FAQ-58",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "Do loyalty points work on sale items?",
+    "answer": "Yes, on the item value after the discount. Points are not earned on delivery charges or the handling fee."
+  },
+  {
+    "id": "FAQ-59",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "How do I check my points history?",
+    "answer": "Open Account, then Loyalty, then Points history. Each line shows the order, the points earned or spent and the expiry month."
+  },
+  {
+    "id": "FAQ-60",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "I lost points to an expired balance. Can I get them back?",
+    "answer": "No. Expired points are not restored. The Points history page shows the month each block expired."
+  },
+  {
+    "id": "FAQ-61",
+    "topic": "gift cards",
+    "volatile": false,
+    "question": "How do I buy a gift card?",
+    "answer": "Open Gift cards, pick a value from 100 to 10,000 rupees, add a message and pay. The card is emailed within 5 minutes and stored in your account."
+  },
+  {
+    "id": "FAQ-62",
+    "topic": "gift cards",
+    "volatile": false,
+    "question": "How do I redeem a gift card?",
+    "answer": "Enter the code in the Gift card field at checkout. The value is applied before any coupon and any balance stays on the card."
+  },
+  {
+    "id": "FAQ-63",
+    "topic": "gift cards",
+    "volatile": false,
+    "question": "Does the gift card expire?",
+    "answer": "A gift card is valid for 1 year from purchase. The expiry date is printed on the card and shown in your account."
+  },
+  {
+    "id": "FAQ-64",
+    "topic": "gift cards",
+    "volatile": false,
+    "question": "Can I get a refund for a gift card?",
+    "answer": "No. Gift cards are not refundable, not replaceable if lost and cannot be exchanged for cash."
+  },
+  {
+    "id": "FAQ-65",
+    "topic": "gift cards",
+    "volatile": false,
+    "question": "Can I use more than one gift card?",
+    "answer": "Yes, up to 3 gift cards on one order, and any unused balance stays on each card for later orders."
+  },
+  {
+    "id": "FAQ-66",
+    "topic": "gift cards",
+    "volatile": false,
+    "question": "Do gift cards work on every product?",
+    "answer": "They work on products we ship directly. Some seller-listed items and cash-on-delivery orders are excluded."
+  },
+  {
+    "id": "FAQ-67",
+    "topic": "gift cards",
+    "volatile": false,
+    "question": "Can I reload a gift card?",
+    "answer": "A gift card cannot be reloaded. Buy a new card with the value you want."
+  },
+  {
+    "id": "FAQ-68",
+    "topic": "gift cards",
+    "volatile": false,
+    "question": "How do I send a gift card later?",
+    "answer": "Choose Schedule at checkout and pick the date. A scheduled card is emailed on that date, up to 6 months ahead."
+  },
+  {
+    "id": "FAQ-69",
+    "topic": "installation",
+    "volatile": false,
+    "question": "Can I book installation for a second product?",
+    "answer": "Yes. Choose Installation on the second order and pick a slot. Two orders can share one visit if the address and the date are the same."
+  },
+  {
+    "id": "FAQ-70",
+    "topic": "tracking",
+    "volatile": false,
+    "question": "Can I track an order without signing in?",
+    "answer": "Yes. Use the order code and the phone number given at checkout on the Track order page. Guest tracking stays open for 90 days after delivery."
+  },
+  {
+    "id": "FAQ-71",
+    "topic": "pickup",
+    "volatile": false,
+    "question": "Can someone else collect my pickup-point parcel?",
+    "answer": "Yes. The order code and the phone number are enough, and the partner store keeps the parcel for 3 days before returning it."
+  },
+  {
+    "id": "FAQ-72",
+    "topic": "support",
+    "volatile": false,
+    "question": "Can I get support in a regional language?",
+    "answer": "Yes. Chat offers English, Hindi, Tamil, Telugu, Bengali, and Marathi. The language is picked at the start of the chat."
+  },
+  {
+    "id": "FAQ-73",
+    "topic": "invoice",
+    "volatile": false,
+    "question": "Does the invoice show the serial number?",
+    "answer": "Yes. Serial numbers of electronics are listed on the invoice, and a service centre asks for the invoice on a warranty claim."
+  },
+  {
+    "id": "FAQ-74",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "Do you have bulk pricing?",
+    "answer": "Bulk pricing starts at 10 units of the same item. Raise a Bulk quote from the product page and the seller replies within 2 working days."
+  },
+  {
+    "id": "FAQ-75",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "How do I register as a business buyer?",
+    "answer": "Choose Business account at signup and add the GSTIN and PAN. Approval takes 1 working day and prices then show without GST."
+  },
+  {
+    "id": "FAQ-76",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "Do business orders get a GST invoice?",
+    "answer": "Yes, once the GSTIN is on the account. The invoice shows the CGST and SGST split and is emailed after dispatch."
+  },
+  {
+    "id": "FAQ-77",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "What is the credit limit for business accounts?",
+    "answer": "Business accounts on 30-day credit start at 50,000 rupees. The limit rises after three settlements and is reviewed every quarter."
+  },
+  {
+    "id": "FAQ-78",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "Can I order on 30-day credit?",
+    "answer": "Yes, for approved business accounts. Open Credit terms in Settings, then Billing, and choose the sellers you want credit from."
+  },
+  {
+    "id": "FAQ-79",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "Are bulk orders delivered in one shipment?",
+    "answer": "Yes when the seller has the stock. A split shipment is shown on the order page before you pay and no extra charge applies."
+  },
+  {
+    "id": "FAQ-80",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "How do I raise a bulk return?",
+    "answer": "Raise a bulk return within 10 days with the job number. Pickup is booked for a fixed slot and can take 5 working days."
+  },
+  {
+    "id": "FAQ-81",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "Do business orders earn loyalty points?",
+    "answer": "No. Business-account orders earn no points and points cannot be bought or moved from a personal account."
+  },
+  {
+    "id": "FAQ-82",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "Can I add team members to a business account?",
+    "answer": "Yes, up to 25 users. Each has a separate login and can place orders on the account credit."
+  },
+  {
+    "id": "FAQ-83",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "Where do I see all business invoices?",
+    "answer": "Open Settings, then Billing, then Invoices. The export downloads a CSV with every invoice from the last 3 years."
+  },
+  {
+    "id": "FAQ-84",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "How do I dispute a business invoice line?",
+    "answer": "Choose Dispute on the invoice line and add the reason. The seller answers within 3 working days and the credit note is issued on the account."
+  },
+  {
+    "id": "FAQ-85",
+    "topic": "wallet",
+    "volatile": false,
+    "question": "What is store credit?",
+    "answer": "Store credit is money on your account used at checkout before a card or UPI. It comes from refunds and loyalty conversion."
+  },
+  {
+    "id": "FAQ-86",
+    "topic": "wallet",
+    "volatile": false,
+    "question": "When does a refund become store credit?",
+    "answer": "A refund becomes instant store credit when you pick it at the return step, or when the bank rejects the original transfer twice."
+  },
+  {
+    "id": "FAQ-87",
+    "topic": "wallet",
+    "volatile": false,
+    "question": "How do I check my store credit balance?",
+    "answer": "Open Account, then Wallet. The balance, every credit and debit, and the expiry month are listed there."
+  },
+  {
+    "id": "FAQ-88",
+    "topic": "wallet",
+    "volatile": false,
+    "question": "Does store credit expire?",
+    "answer": "Yes, 12 months after it is issued. The expiry date is shown on the Wallet page before you pay with it."
+  },
+  {
+    "id": "FAQ-89",
+    "topic": "wallet",
+    "volatile": false,
+    "question": "Can I withdraw store credit to my bank?",
+    "answer": "No. Store credit can only be spent on orders and cannot be withdrawn or transferred."
+  },
+  {
+    "id": "FAQ-90",
+    "topic": "wallet",
+    "volatile": false,
+    "question": "Does store credit work with cash on delivery?",
+    "answer": "Yes, but the order total after credit must be zero. A partial-credit order still needs a prepaid payment."
+  },
+  {
+    "id": "FAQ-91",
+    "topic": "pickup",
+    "volatile": false,
+    "question": "Can I collect my order from a store?",
+    "answer": "Yes, choose Store pickup at checkout where the seller offers it. The parcel is kept for 3 days and the store is shown on the order page."
+  },
+  {
+    "id": "FAQ-92",
+    "topic": "pickup",
+    "volatile": false,
+    "question": "How will I know my pickup order is ready?",
+    "answer": "You get an SMS and an app notification with the store code. The order page shows Ready to collect after the shelf scan."
+  },
+  {
+    "id": "FAQ-93",
+    "topic": "pickup",
+    "volatile": false,
+    "question": "What do I bring for a store pickup?",
+    "answer": "Bring the pickup code from your account. Some categories ask for an ID that matches the name on the order."
+  },
+  {
+    "id": "FAQ-94",
+    "topic": "pickup",
+    "volatile": false,
+    "question": "Can someone else collect my order?",
+    "answer": "Yes. Share the pickup code with them; for age-restricted items the collector must show their own ID."
+  },
+  {
+    "id": "FAQ-95",
+    "topic": "pickup",
+    "volatile": false,
+    "question": "How long can a store hold my parcel?",
+    "answer": "3 days from the Ready scan. After that the parcel returns to the seller and the order is refunded minus the shipping charge."
+  },
+  {
+    "id": "FAQ-96",
+    "topic": "sellers",
+    "volatile": false,
+    "question": "Who ships my order?",
+    "answer": "Some items are shipped by us and some by the seller. The order page shows Ships from and Delivered by for every item."
+  },
+  {
+    "id": "FAQ-97",
+    "topic": "sellers",
+    "volatile": false,
+    "question": "How do I contact the seller?",
+    "answer": "Open the order, choose Ask seller and send a message. Sellers answer within 24 hours and the thread stays on the order."
+  },
+  {
+    "id": "FAQ-98",
+    "topic": "sellers",
+    "volatile": false,
+    "question": "What if the seller does not respond?",
+    "answer": "If there is no reply in 48 hours, choose Escalate on the order and support takes over the thread."
+  },
+  {
+    "id": "FAQ-99",
+    "topic": "sellers",
+    "volatile": false,
+    "question": "Can I follow a seller for new listings?",
+    "answer": "Yes. Choose Follow on the seller page and their new listings appear under Following in Shop."
+  },
+  {
+    "id": "FAQ-100",
+    "topic": "sellers",
+    "volatile": false,
+    "question": "How do I report a listing that looks wrong?",
+    "answer": "Choose Report listing on the product page and pick a reason. A review takes 2 working days and can end in a listing change or a seller warning."
+  },
+  {
+    "id": "FAQ-101",
+    "topic": "sellers",
+    "volatile": false,
+    "question": "Do seller prices include delivery?",
+    "answer": "The product page shows the item price and the delivery charge separately. A free-delivery badge means no charge on that item."
+  },
+  {
+    "id": "FAQ-102",
+    "topic": "sellers",
+    "volatile": false,
+    "question": "Are sellers verified?",
+    "answer": "Sellers are verified with a GSTIN and an address check. The product page shows the seller rating and the number of orders shipped."
+  },
+  {
+    "id": "FAQ-103",
+    "topic": "sellers",
+    "volatile": false,
+    "question": "Can a seller cancel my order?",
+    "answer": "Yes, if the item is out of stock, and the reason is shown on the order. The payment is released to your bank in 1 working day."
+  },
+  {
+    "id": "FAQ-104",
+    "topic": "delivery",
+    "volatile": true,
+    "question": "Can I change my delivery slot after ordering?",
+    "answer": "Before dispatch, yes. Open the order, choose Delivery slot, and pick another window. A 30-minute window still costs 49 rupees."
+  },
+  {
+    "id": "FAQ-105",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "What happens if I am not home at delivery?",
+    "answer": "The courier attempts a second delivery the next working day. After two failed attempts the parcel returns to the seller and the order is refunded."
+  },
+  {
+    "id": "FAQ-106",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "Can I ask the courier to deliver to a neighbour?",
+    "answer": "Yes, for orders below 5,000 rupees, by adding a note on the order page. The delivery is then recorded against your address."
+  },
+  {
+    "id": "FAQ-107",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "Why is there a remote-area charge on my order?",
+    "answer": "A charge of 60 rupees applies to pin codes the courier classifies as remote. It is shown before payment and is not refundable after dispatch."
+  },
+  {
+    "id": "FAQ-108",
+    "topic": "delivery",
+    "volatile": true,
+    "question": "What happens to delivery on a national holiday?",
+    "answer": "No dispatch happens on national holidays. An order placed that day moves to the next working day and the expected date updates on its own."
+  },
+  {
+    "id": "FAQ-109",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "Can I reschedule a delivery?",
+    "answer": "Yes, until the parcel leaves the last hub. Choose Reschedule on the order page and pick a date within the next 7 days."
+  },
+  {
+    "id": "FAQ-110",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "What does signature-on-delivery mean?",
+    "answer": "The courier takes your signature at handover. It is applied automatically to orders above 15,000 rupees and cannot be switched off for them."
+  },
+  {
+    "id": "FAQ-111",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "Is an ID needed at delivery?",
+    "answer": "For age-restricted items such as alcohol-based products and laser pointers, the collector shows a government photo ID matching the order name."
+  },
+  {
+    "id": "FAQ-112",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "How is a large parcel delivered?",
+    "answer": "Parcels above 25 kg are delivered to the building door. For lifts, the courier waits 10 minutes; beyond that a second visit is booked."
+  },
+  {
+    "id": "FAQ-113",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "Can I change the delivery address to another city?",
+    "answer": "Not after the order is placed. Cancel the order before dispatch and place a new one; the refund reaches the original payment method."
+  },
+  {
+    "id": "FAQ-114",
+    "topic": "packaging",
+    "volatile": false,
+    "question": "How is my order packaged?",
+    "answer": "Items are boxed with corrugated sheets and taped. Fragile items get an extra layer and a This side up label."
+  },
+  {
+    "id": "FAQ-115",
+    "topic": "packaging",
+    "volatile": false,
+    "question": "Can I ask for no plastic in the packaging?",
+    "answer": "Yes. Choose Plastic-free packaging at checkout where the seller supports it, and the parcel uses paper tape and shredded filler."
+  },
+  {
+    "id": "FAQ-116",
+    "topic": "packaging",
+    "volatile": false,
+    "question": "Why is my parcel heavier than the item?",
+    "answer": "The courier weight includes the box and filler. The invoice shows the item weight and the chargeable weight separately."
+  },
+  {
+    "id": "FAQ-117",
+    "topic": "lost parcel",
+    "volatile": false,
+    "question": "My parcel is lost in transit. What do I do?",
+    "answer": "Raise a Lost parcel claim after 7 days of no scan. We refund the item value and the shipping charge to the original payment method."
+  },
+  {
+    "id": "FAQ-118",
+    "topic": "lost parcel",
+    "volatile": false,
+    "question": "The courier says delivered but I have nothing. What now?",
+    "answer": "Ask the courier for the delivery photo through the Track page, then raise a Not-received claim. We check the proof of delivery and refund if it is wrong."
+  },
+  {
+    "id": "FAQ-119",
+    "topic": "lost parcel",
+    "volatile": true,
+    "question": "How long does a lost-parcel refund take?",
+    "answer": "The refund is initiated within 2 working days of an approved claim and the bank takes 3 to 7 working days to credit it."
+  },
+  {
+    "id": "FAQ-120",
+    "topic": "wrong item",
+    "volatile": false,
+    "question": "I received the wrong item. What do I do?",
+    "answer": "Raise a Wrong item claim within 48 hours with a photo. We pick it up free of cost and ship the correct item or refund it."
+  },
+  {
+    "id": "FAQ-121",
+    "topic": "wrong item",
+    "volatile": false,
+    "question": "A part is missing from my order. What do I do?",
+    "answer": "Raise a Missing part claim with a photo of the parcel and the packing list. We ship the missing part or refund its value."
+  },
+  {
+    "id": "FAQ-122",
+    "topic": "wrong item",
+    "volatile": false,
+    "question": "The colour looks different from the website. Why?",
+    "answer": "Product photos are shot under studio light, so screen colours differ. A Wrong-item claim needs the item, not a colour difference, which is not covered."
+  },
+  {
+    "id": "FAQ-123",
+    "topic": "authenticity",
+    "volatile": false,
+    "question": "How do I know a product is genuine?",
+    "answer": "Products in the Assured program ship from verified sellers with brand invoices. Any product with a brand hologram is checked before dispatch."
+  },
+  {
+    "id": "FAQ-124",
+    "topic": "authenticity",
+    "volatile": false,
+    "question": "I think my item is counterfeit. What do I do?",
+    "answer": "Stop using it and raise a Counterfeit claim within 72 hours with photos. We collect the item, send it to the brand, and refund on confirmation."
+  },
+  {
+    "id": "FAQ-125",
+    "topic": "stock",
+    "volatile": true,
+    "question": "Can I get an alert when an item is back in stock?",
+    "answer": "Yes. Choose Notify me on the product page and we push a notification and an email when the seller restocks."
+  },
+  {
+    "id": "FAQ-126",
+    "topic": "stock",
+    "volatile": false,
+    "question": "What does backorder mean?",
+    "answer": "A backorder ships when the seller restocks, usually within 14 days. The product page shows the restock estimate before you pay."
+  },
+  {
+    "id": "FAQ-127",
+    "topic": "stock",
+    "volatile": false,
+    "question": "Can I preorder an unreleased product?",
+    "answer": "Yes, where the seller takes preorders. The charge is at order time and the release date is shown on the product page."
+  },
+  {
+    "id": "FAQ-128",
+    "topic": "stock",
+    "volatile": true,
+    "question": "Is a limited drop first-come first-served?",
+    "answer": "Yes. Drop stock is not reserved, and orders are filled in the sequence they are paid."
+  },
+  {
+    "id": "FAQ-129",
+    "topic": "price",
+    "volatile": true,
+    "question": "Will the price drop after I order?",
+    "answer": "If the price drops within 7 days of your order, claim the difference under Price protection on the order page once per order."
+  },
+  {
+    "id": "FAQ-130",
+    "topic": "price",
+    "volatile": false,
+    "question": "Do you match prices with other websites?",
+    "answer": "We match the listed price of an identical item on 4 partner sites within 7 days of purchase, up to 2,000 rupees per order."
+  },
+  {
+    "id": "FAQ-131",
+    "topic": "price",
+    "volatile": false,
+    "question": "A listing price looks like an error. What then?",
+    "answer": "Obvious pricing errors are not honoured. The order is cancelled, the payment is released, and a 10 percent coupon is issued for the trouble."
+  },
+  {
+    "id": "FAQ-132",
+    "topic": "price",
+    "volatile": false,
+    "question": "Is GST included in the listed price?",
+    "answer": "Yes, listed prices include GST for items below 2,000 rupees, and the invoice shows the tax split."
+  },
+  {
+    "id": "FAQ-133",
+    "topic": "price",
+    "volatile": true,
+    "question": "Do prices change after I add an item to the cart?",
+    "answer": "A price can change while an item sits in the cart. The charge is the price shown on the payment page when you pay."
+  },
+  {
+    "id": "FAQ-134",
+    "topic": "refurbished",
+    "volatile": false,
+    "question": "What grade are refurbished items?",
+    "answer": "Refurbished items are graded A, B or C by visible wear. The grade, the tests run, and the 6-month warranty are on the product page."
+  },
+  {
+    "id": "FAQ-135",
+    "topic": "refurbished",
+    "volatile": false,
+    "question": "Do open-box items come with a full warranty?",
+    "answer": "Open-box items carry a 6-month seller warranty and a 7-day return window. Full warranty items are marked as new only."
+  },
+  {
+    "id": "FAQ-136",
+    "topic": "refurbished",
+    "volatile": false,
+    "question": "Can I return a refurbished item?",
+    "answer": "Yes, within 7 days of delivery, if it is unused with its accessories. The return fee is waived for defects."
+  },
+  {
+    "id": "FAQ-137",
+    "topic": "installation",
+    "volatile": false,
+    "question": "Do you install what you sell?",
+    "answer": "Installation is offered by the seller for appliances in 60 cities. Choose Add installation at checkout and a technician visits within 3 days."
+  },
+  {
+    "id": "FAQ-138",
+    "topic": "installation",
+    "volatile": false,
+    "question": "What does a paid installation cover?",
+    "answer": "It covers unpacking, fitting, a demo of the basic functions, and taking away the packaging. It does not cover carpentry or electrical work."
+  },
+  {
+    "id": "FAQ-139",
+    "topic": "installation",
+    "volatile": false,
+    "question": "Can I schedule installation for a later date?",
+    "answer": "Yes, up to 30 days after delivery. Choose Reschedule visit on the order page and pick a slot the installer offers."
+  },
+  {
+    "id": "FAQ-140",
+    "topic": "installation",
+    "volatile": false,
+    "question": "The technician did not come. What do I do?",
+    "answer": "Raise a Visit-not-done claim on the installation order. A new slot is booked within 48 hours or the installation fee is refunded."
+  },
+  {
+    "id": "FAQ-141",
+    "topic": "security",
+    "volatile": false,
+    "question": "How do I turn on two-factor sign-in?",
+    "answer": "Open Settings, then Security, then Two-step verification, and pick SMS or an authenticator app. Backup codes are shown once for account recovery."
+  },
+  {
+    "id": "FAQ-142",
+    "topic": "security",
+    "volatile": true,
+    "question": "Why was my account locked?",
+    "answer": "An account locks after 5 failed sign-in attempts or a sign-in from a new device in a new city. Unlock it with the email link, valid for 15 minutes."
+  },
+  {
+    "id": "FAQ-143",
+    "topic": "security",
+    "volatile": false,
+    "question": "How do I sign out of all devices?",
+    "answer": "Open Settings, then Security, then Sign out everywhere. Every session ends, and the current device asks for the password again."
+  },
+  {
+    "id": "FAQ-144",
+    "topic": "security",
+    "volatile": false,
+    "question": "Someone used my account. What should I do?",
+    "answer": "Change the password, turn on two-step verification, and check Orders for anything you did not place. Raise a Fraud claim and we refund an unauthorised order."
+  },
+  {
+    "id": "FAQ-145",
+    "topic": "security",
+    "volatile": false,
+    "question": "Do you ever ask for my password or OTP?",
+    "answer": "No. We never ask for a password, an OTP, or a card number on a call, a chat, or an email. Anyone asking is not us."
+  },
+  {
+    "id": "FAQ-146",
+    "topic": "notifications",
+    "volatile": false,
+    "question": "How do I stop marketing messages?",
+    "answer": "Open Settings, then Notifications, and switch off Marketing. Service messages about your orders still arrive, as they are required."
+  },
+  {
+    "id": "FAQ-147",
+    "topic": "notifications",
+    "volatile": false,
+    "question": "Can I turn off push notifications?",
+    "answer": "Yes, per category in Settings, then Notifications. Delivery reminders stay on until the order is delivered, then stop."
+  },
+  {
+    "id": "FAQ-148",
+    "topic": "notifications",
+    "volatile": false,
+    "question": "I get too many WhatsApp messages. What can I do?",
+    "answer": "Switch off WhatsApp updates in Settings, then Notifications. Order updates then arrive by email and in the app only."
+  },
+  {
+    "id": "FAQ-149",
+    "topic": "support",
+    "volatile": false,
+    "question": "How do I chat with support?",
+    "answer": "Open Help, then Chat with us. The queue shows a median wait of 4 minutes, and the chat stays on your order for 24 hours."
+  },
+  {
+    "id": "FAQ-150",
+    "topic": "support",
+    "volatile": true,
+    "question": "What are support hours?",
+    "answer": "Chat runs 8 am to midnight every day. Email support answers within 24 hours, and calls on orders above 20,000 rupees run till 10 pm."
+  },
+  {
+    "id": "FAQ-151",
+    "topic": "support",
+    "volatile": false,
+    "question": "How do I complain about a support answer?",
+    "answer": "Rate the chat as unhelpful, then choose Escalate with a note. The complaint reaches a team lead and gets a written reply in 3 working days."
+  },
+  {
+    "id": "FAQ-152",
+    "topic": "support",
+    "volatile": false,
+    "question": "Is support available in my language?",
+    "answer": "Chat is in English and Hindi. The help centre pages are in 8 languages, and you can switch under Help, then Language."
+  },
+  {
+    "id": "FAQ-153",
+    "topic": "taxes",
+    "volatile": false,
+    "question": "Can I get a tax invoice for my order?",
+    "answer": "Yes, from the order page, choose Invoice, then Tax invoice. It is emailed and stored for 8 years for tax purposes."
+  },
+  {
+    "id": "FAQ-154",
+    "topic": "taxes",
+    "volatile": false,
+    "question": "Is customs duty included in international orders?",
+    "answer": "No. Customs duty and import charges are billed separately by the carrier and are the buyer's responsibility on international orders."
+  },
+  {
+    "id": "FAQ-155",
+    "topic": "taxes",
+    "volatile": false,
+    "question": "Do I pay tax on delivery charges?",
+    "answer": "Yes. GST of 18 percent applies to the delivery charge, and the invoice shows it as a separate line."
+  },
+  {
+    "id": "FAQ-156",
+    "topic": "app",
+    "volatile": false,
+    "question": "Which app versions do you support?",
+    "answer": "The app supports Android 9 and above and iOS 15 and above. Older versions stop receiving security updates and sign-in is blocked."
+  },
+  {
+    "id": "FAQ-157",
+    "topic": "app",
+    "volatile": false,
+    "question": "The app crashes when I open orders. What do I do?",
+    "answer": "Clear the app cache in Settings, then Apps, then Shop, then Storage. If it still crashes, reinstall and keep the same phone number."
+  },
+  {
+    "id": "FAQ-158",
+    "topic": "app",
+    "volatile": false,
+    "question": "Can I use the website and the app together?",
+    "answer": "Yes. Both share one account, one cart, and one order history. A cart added on the website appears in the app after a refresh."
+  },
+  {
+    "id": "FAQ-159",
+    "topic": "accessibility",
+    "volatile": false,
+    "question": "Is the app usable with a screen reader?",
+    "answer": "Yes. Labels, roles, and focus order are set for TalkBack and VoiceOver, and the contrast meets the AA standard on both."
+  },
+  {
+    "id": "FAQ-160",
+    "topic": "feedback",
+    "volatile": false,
+    "question": "How do I leave a review?",
+    "answer": "Open the order, choose the item, then Write a review. Only delivered orders can be reviewed, and a review can be edited for 30 days."
+  },
+  {
+    "id": "FAQ-161",
+    "topic": "feedback",
+    "volatile": false,
+    "question": "Why was my review removed?",
+    "answer": "A review is removed when it has a phone number, a link, abusive language, or a claim about a different order. The reason is emailed."
+  },
+  {
+    "id": "FAQ-162",
+    "topic": "feedback",
+    "volatile": false,
+    "question": "Do reviews from my account count for a rating?",
+    "answer": "Yes, one review per purchase counts. Reviews from accounts with no order on that item are kept but excluded from the average."
+  },
+  {
+    "id": "FAQ-163",
+    "topic": "data",
+    "volatile": false,
+    "question": "How do I download all my data?",
+    "answer": "Open Settings, then Privacy, then Download your data. A link with your orders, addresses, and chats is emailed within 7 days."
+  },
+  {
+    "id": "FAQ-164",
+    "topic": "data",
+    "volatile": false,
+    "question": "Do you sell my data to advertisers?",
+    "answer": "No. We do not sell personal data. Ad partners receive only a hashed device identifier for measurement, which you can switch off."
+  },
+  {
+    "id": "FAQ-165",
+    "topic": "data",
+    "volatile": false,
+    "question": "How long do you keep order records?",
+    "answer": "Order and invoice records are kept for 8 years as tax law requires. Account preferences and browsing data are deleted in 12 months."
+  },
+  {
+    "id": "FAQ-166",
+    "topic": "data",
+    "volatile": false,
+    "question": "Can I choose which sellers see my address?",
+    "answer": "Only the seller shipping an item to you sees that address, with a masked phone number. There is no per-seller switch, because delivery needs the address."
+  },
+  {
+    "id": "FAQ-167",
+    "topic": "orders",
+    "volatile": false,
+    "question": "Why is my order split into two shipments?",
+    "answer": "Items from different sellers or warehouses ship separately. Both shipments are shown on the order page with their own tracking links."
+  },
+  {
+    "id": "FAQ-168",
+    "topic": "orders",
+    "volatile": false,
+    "question": "Can I merge two orders into one delivery?",
+    "answer": "Yes, within 30 minutes of the second order, on orders from the same warehouse. Choose Merge shipments on the newer order and the fee difference is refunded."
+  },
+  {
+    "id": "FAQ-169",
+    "topic": "orders",
+    "volatile": false,
+    "question": "Can I add an item to a placed order?",
+    "answer": "Not to a placed order. Place a second order and use Merge shipments where both items ship from the same warehouse."
+  },
+  {
+    "id": "FAQ-170",
+    "topic": "orders",
+    "volatile": false,
+    "question": "Why is my order on hold?",
+    "answer": "An order holds when a payment check, a high-value verification, or a risk review runs. The hold clears within 24 hours and the order page shows it."
+  },
+  {
+    "id": "FAQ-171",
+    "topic": "orders",
+    "volatile": false,
+    "question": "How do I reorder something I bought before?",
+    "answer": "Open Orders, choose the order, then Buy it again. The same item and address are filled in and you only confirm payment."
+  },
+  {
+    "id": "FAQ-172",
+    "topic": "orders",
+    "volatile": false,
+    "question": "Can I create a wishlist to buy later?",
+    "answer": "Yes. Choose the heart icon on a product page. A wishlist is private, holds 200 items, and shows a price-drop alert."
+  },
+  {
+    "id": "FAQ-173",
+    "topic": "orders",
+    "volatile": false,
+    "question": "Do you have a waitlist for sold-out sizes?",
+    "answer": "Yes. Choose Notify me on the size and we alert you when that size is restocked. Waitlist alerts are one per product."
+  },
+  {
+    "id": "FAQ-174",
+    "topic": "payments",
+    "volatile": true,
+    "question": "Is my card saved on your site?",
+    "answer": "Only with your consent, and then only as a token from the payment gateway. The full card number is never stored on our servers."
+  },
+  {
+    "id": "FAQ-175",
+    "topic": "payments",
+    "volatile": false,
+    "question": "How do I remove a saved card?",
+    "answer": "Open Settings, then Payment methods, choose the card, then Remove. A removed card returns only by a new consent at checkout."
+  },
+  {
+    "id": "FAQ-176",
+    "topic": "payments",
+    "volatile": true,
+    "question": "Why was I charged twice?",
+    "answer": "A duplicate charge happens when a bank posts the same transaction twice. Raise a Duplicate-charge claim and the extra amount is refunded in 5 working days."
+  },
+  {
+    "id": "FAQ-177",
+    "topic": "payments",
+    "volatile": false,
+    "question": "My money was debited but the order failed. What now?",
+    "answer": "A failed order releases the hold in 24 hours, and the bank credits it in 3 to 7 working days. Nothing needs to be paid again if the amount shows as on hold."
+  },
+  {
+    "id": "FAQ-178",
+    "topic": "payments",
+    "volatile": false,
+    "question": "Can I split one payment across two cards?",
+    "answer": "No. A second card is not accepted on the same order. Store credit and loyalty points can be used along with the single card or UPI payment."
+  },
+  {
+    "id": "FAQ-179",
+    "topic": "payments",
+    "volatile": false,
+    "question": "Do you accept international cards?",
+    "answer": "Yes, where the gateway allows them. An international card may add a cross-border fee from your bank, which we do not control."
+  },
+  {
+    "id": "FAQ-180",
+    "topic": "payments",
+    "volatile": true,
+    "question": "What is the UPI limit per order?",
+    "answer": "UPI payments are capped at 1,00,000 rupees per transaction by UPI rules. Larger orders need net banking or a card."
+  },
+  {
+    "id": "FAQ-181",
+    "topic": "payments",
+    "volatile": false,
+    "question": "Can I pay on delivery with UPI?",
+    "answer": "Yes, in 90 cities. Choose UPI on delivery and the courier shows a QR at your door."
+  },
+  {
+    "id": "FAQ-182",
+    "topic": "payments",
+    "volatile": false,
+    "question": "Is cash-on-delivery available everywhere?",
+    "answer": "No. It is unavailable for some pin codes, gift cards, and orders above 20,000 rupees. The checkout shows whether it is available."
+  },
+  {
+    "id": "FAQ-183",
+    "topic": "payments",
+    "volatile": false,
+    "question": "Do you store my UPI ID?",
+    "answer": "No. A UPI payment is collected by the gateway, and we keep only the transaction code for the invoice."
+  },
+  {
+    "id": "FAQ-184",
+    "topic": "payments",
+    "volatile": true,
+    "question": "What is the no-cost EMI minimum?",
+    "answer": "No-cost EMI needs an order above 3,000 rupees on a card from one of the 7 participating banks. Interest is borne by the seller, not by you."
+  },
+  {
+    "id": "FAQ-185",
+    "topic": "payments",
+    "volatile": false,
+    "question": "Can I foreclose an EMI order?",
+    "answer": "Yes, from the bank portal or by calling the bank. The foreclosure charge is set by the bank and is not collected by us."
+  },
+  {
+    "id": "FAQ-186",
+    "topic": "payments",
+    "volatile": false,
+    "question": "Why did my EMI get declined?",
+    "answer": "An EMI is declined when the card limit is short, the bank does not allow that category, or the tenure is not offered. The bank message tells which."
+  },
+  {
+    "id": "FAQ-187",
+    "topic": "cancellation",
+    "volatile": false,
+    "question": "Can I cancel an order that is packed but not shipped?",
+    "answer": "Yes, until the dispatch scan. After the scan the order must be refused at the door, and the refund follows the return path."
+  },
+  {
+    "id": "FAQ-188",
+    "topic": "cancellation",
+    "volatile": false,
+    "question": "Do I get a cancellation fee for changing my mind?",
+    "answer": "No cancellation fee. The delivery charge is refunded when the order never left the warehouse."
+  },
+  {
+    "id": "FAQ-189",
+    "topic": "cancellation",
+    "volatile": true,
+    "question": "How long does an order cancellation refund take?",
+    "answer": "The refund is initiated within 24 hours of a cancellation and the bank credits it in 3 to 7 working days."
+  },
+  {
+    "id": "FAQ-190",
+    "topic": "cancellation",
+    "volatile": false,
+    "question": "Can I cancel a cash-on-delivery order after refusing it?",
+    "answer": "A refused parcel is cancelled at the first scan back to the seller. No charge is raised, and the order shows as refused."
+  },
+  {
+    "id": "FAQ-191",
+    "topic": "exchange",
+    "volatile": false,
+    "question": "Can I exchange an item for a different colour?",
+    "answer": "Yes, within 10 days, if that colour is in stock. Choose Exchange at the return step and pick the colour you want."
+  },
+  {
+    "id": "FAQ-192",
+    "topic": "exchange",
+    "volatile": false,
+    "question": "How do I exchange a gift I received?",
+    "answer": "The receiver can exchange it with the order number from the invoice. The item ships to the receiver, and the exchange follows the same rules."
+  },
+  {
+    "id": "FAQ-193",
+    "topic": "exchange",
+    "volatile": false,
+    "question": "Can I exchange a sale item?",
+    "answer": "Clearance items marked Final sale cannot be exchanged or returned. Regular sale items follow the 10-day exchange window."
+  },
+  {
+    "id": "FAQ-194",
+    "topic": "exchange",
+    "volatile": false,
+    "question": "Do I pay again for an exchange if the price differs?",
+    "answer": "If the new item costs more, pay the difference at pickup booking. If it costs less, the difference is refunded to the original payment method."
+  },
+  {
+    "id": "FAQ-195",
+    "topic": "exchange",
+    "volatile": false,
+    "question": "Can I exchange a personalised item?",
+    "answer": "No. Engraved or made-to-order items are final sale and cannot be exchanged, except when they arrive damaged."
+  },
+  {
+    "id": "FAQ-196",
+    "topic": "returns",
+    "volatile": false,
+    "question": "Can I return an item without its packaging?",
+    "answer": "Yes, for a 10-day change-of-mind return, but the refund is reduced by 10 percent when the original box is missing."
+  },
+  {
+    "id": "FAQ-197",
+    "topic": "returns",
+    "volatile": false,
+    "question": "Which items cannot be returned?",
+    "answer": "Intimate wear, perishables, opened software, and items marked Final sale cannot be returned. The product page marks them clearly."
+  },
+  {
+    "id": "FAQ-198",
+    "topic": "returns",
+    "volatile": false,
+    "question": "How do I self-ship a return?",
+    "answer": "Choose Self-ship at the return step, print the label, and drop the parcel at the listed courier point within 7 days. Keep the drop receipt."
+  },
+  {
+    "id": "FAQ-199",
+    "topic": "returns",
+    "volatile": false,
+    "question": "What if my return parcel is damaged in transit?",
+    "answer": "Pack the item as received; a return damaged by poor packing is rejected by the warehouse and the refund is withheld."
+  },
+  {
+    "id": "FAQ-200",
+    "topic": "returns",
+    "volatile": true,
+    "question": "When is a return refund issued after a pickup?",
+    "answer": "The refund is issued within 5 working days of the warehouse receiving the item. The bank then takes 3 to 7 working days."
+  },
+  {
+    "id": "FAQ-201",
+    "topic": "returns",
+    "volatile": false,
+    "question": "Can I cancel a return I raised?",
+    "answer": "Yes, before the pickup scan. After the scan the return runs and the refund goes to the original payment method."
+  },
+  {
+    "id": "FAQ-202",
+    "topic": "returns",
+    "volatile": false,
+    "question": "Do I get a refund for the return fee?",
+    "answer": "The 79-rupee change-of-mind fee is not refunded. It is waived when the item is damaged, defective, or wrong."
+  },
+  {
+    "id": "FAQ-203",
+    "topic": "refunds",
+    "volatile": false,
+    "question": "Can I split a refund across methods?",
+    "answer": "No. A refund returns to the original payment method in full, including any delivery charge that was refundable."
+  },
+  {
+    "id": "FAQ-204",
+    "topic": "refunds",
+    "volatile": false,
+    "question": "Why is my refund smaller than what I paid?",
+    "answer": "A refund deducts the return fee, the shipping paid on the original order, and any price difference from an exchange. The refund page itemises it."
+  },
+  {
+    "id": "FAQ-205",
+    "topic": "refunds",
+    "volatile": true,
+    "question": "How do I check whether a refund was credited?",
+    "answer": "Open Orders, then View refund status, and check the Credited stage and date. The bank reference is shown next to it."
+  },
+  {
+    "id": "FAQ-206",
+    "topic": "tracking",
+    "volatile": false,
+    "question": "What does the last scan on my tracking page mean?",
+    "answer": "The last scan is the most recent hub event. A parcel can sit at that hub for up to 24 hours before the next outbound scan."
+  },
+  {
+    "id": "FAQ-207",
+    "topic": "tracking",
+    "volatile": true,
+    "question": "Can I get a delivery SMS in my own language?",
+    "answer": "Yes. Set the language under Settings, then Notifications. Delivery SMS then arrive in that language where the courier supports it."
+  },
+  {
+    "id": "FAQ-208",
+    "topic": "tracking",
+    "volatile": false,
+    "question": "My tracking link does not open. What is wrong?",
+    "answer": "Links are valid for 30 days from dispatch. After that, open Orders and choose Track shipment to get a fresh link."
+  },
+  {
+    "id": "FAQ-209",
+    "topic": "tracking",
+    "volatile": false,
+    "question": "Can I track a return pickup?",
+    "answer": "Yes. Open the return, then Track pickup. It shows the assigned courier, the pickup scan, and the warehouse in-scan."
+  },
+  {
+    "id": "FAQ-210",
+    "topic": "shipping",
+    "volatile": true,
+    "question": "Do heavy items carry a delivery surcharge?",
+    "answer": "Yes. Items above 25 kg or half a cubic metre carry a surcharge of 150 rupees, which is shown at checkout before you pay."
+  },
+  {
+    "id": "FAQ-211",
+    "topic": "shipping",
+    "volatile": false,
+    "question": "How is the delivery charge calculated?",
+    "answer": "It is based on item weight, distance, and delivery speed. The exact charge is shown on the payment page before you pay."
+  },
+  {
+    "id": "FAQ-212",
+    "topic": "shipping",
+    "volatile": true,
+    "question": "Are delivery charges refunded when I return an item?",
+    "answer": "The original delivery charge is refunded only when the item was damaged, defective, or wrong. A change-of-mind return keeps it."
+  },
+  {
+    "id": "FAQ-213",
+    "topic": "shipping",
+    "volatile": false,
+    "question": "Can I split one order across two addresses?",
+    "answer": "Not within one order. Place two orders with two addresses; each then has its own delivery charge."
+  },
+  {
+    "id": "FAQ-214",
+    "topic": "shipping",
+    "volatile": false,
+    "question": "Can I deliver to a friend's address?",
+    "answer": "Yes. Add the address at checkout. The parcel is handed over against an OTP sent to your number, so share the code with the receiver."
+  },
+  {
+    "id": "FAQ-215",
+    "topic": "shipping",
+    "volatile": true,
+    "question": "What is the cutoff for same-day delivery?",
+    "answer": "Same-day delivery needs the order before 1 pm in a covered pin code. Orders after that move to the next working day."
+  },
+  {
+    "id": "FAQ-216",
+    "topic": "shipping",
+    "volatile": false,
+    "question": "Do you ship cold-chain items like ice cream?",
+    "answer": "Yes, to 12 cities with dry-ice packs. A cold-chain parcel must be accepted at the door; a refused parcel is not refunded."
+  },
+  {
+    "id": "FAQ-217",
+    "topic": "shipping",
+    "volatile": false,
+    "question": "How do I ship a perishable item back?",
+    "answer": "Perishables are not returnable after delivery except when spoiled on arrival. Raise a Spoiled claim within 24 hours with photos."
+  },
+  {
+    "id": "FAQ-218",
+    "topic": "offers",
+    "volatile": true,
+    "question": "How do bank offers work?",
+    "answer": "A bank offer gives an instant discount on a card or UPI at checkout. The discount shows as a line on the payment page before you pay."
+  },
+  {
+    "id": "FAQ-219",
+    "topic": "offers",
+    "volatile": false,
+    "question": "Why did my bank discount not apply?",
+    "answer": "A bank offer needs a minimum order, a card from that bank, and often a specific tenure. The offer card lists the terms."
+  },
+  {
+    "id": "FAQ-220",
+    "topic": "offers",
+    "volatile": true,
+    "question": "Can I use a coupon with a bank offer?",
+    "answer": "Yes, one coupon per order plus one bank offer. The coupon applies to the item value and the bank discount applies to the total."
+  },
+  {
+    "id": "FAQ-221",
+    "topic": "offers",
+    "volatile": false,
+    "question": "Do you run student or referral offers?",
+    "answer": "Students get 5 percent off after verification, and a referral gives both accounts 100 rupees of store credit after the first order."
+  },
+  {
+    "id": "FAQ-222",
+    "topic": "offers",
+    "volatile": false,
+    "question": "What happens to a coupon if my order is cancelled?",
+    "answer": "A coupon used on a cancelled order returns to your account with its original expiry, once the refund is initiated."
+  },
+  {
+    "id": "FAQ-223",
+    "topic": "offers",
+    "volatile": false,
+    "question": "Are coupons valid during a sale?",
+    "answer": "Most coupons work with sale prices, but a coupon used on an already-discounted item may not stack on clearance prices."
+  },
+  {
+    "id": "FAQ-224",
+    "topic": "offers",
+    "volatile": true,
+    "question": "How do I get a restock or waitlist alert faster?",
+    "answer": "Turn on push notifications for the product. An alert then arrives on the app within a minute of the seller restocking."
+  },
+  {
+    "id": "FAQ-225",
+    "topic": "account",
+    "volatile": false,
+    "question": "Can I have two accounts with the same phone number?",
+    "answer": "No. One account per phone number. To move your history, add the number as a contact on the new account and we merge on request."
+  },
+  {
+    "id": "FAQ-226",
+    "topic": "account",
+    "volatile": false,
+    "question": "How do I change the email on my account?",
+    "answer": "Open Settings, then Profile, then Email. A confirmation link goes to both the old and the new address, valid for 24 hours."
+  },
+  {
+    "id": "FAQ-227",
+    "topic": "account",
+    "volatile": false,
+    "question": "How do I close my account temporarily?",
+    "answer": "Choose Deactivate in Settings, then Privacy. The profile hides, your orders stay, and signing in again reactivates it."
+  },
+  {
+    "id": "FAQ-228",
+    "topic": "account",
+    "volatile": false,
+    "question": "What happens to my wallet balance if I delete the account?",
+    "answer": "A store credit balance is refunded to the original payment method before deletion, once, and gift cards are then void."
+  },
+  {
+    "id": "FAQ-229",
+    "topic": "account",
+    "volatile": false,
+    "question": "Can I keep my order history after deleting the account?",
+    "answer": "Order and invoice records stay for 8 years for tax law, but they are detached from your profile and not visible to you."
+  },
+  {
+    "id": "FAQ-230",
+    "topic": "account",
+    "volatile": true,
+    "question": "How long does a password reset link last?",
+    "answer": "30 minutes, and it works once. Ask for a new link if it expired."
+  },
+  {
+    "id": "FAQ-231",
+    "topic": "account",
+    "volatile": false,
+    "question": "Why do I get an OTP on every sign-in?",
+    "answer": "Sign-ins from a new device, a new city, or after 30 days ask for an OTP. A trusted device is remembered for that price."
+  },
+  {
+    "id": "FAQ-232",
+    "topic": "damaged",
+    "volatile": false,
+    "question": "My item leaked in the box. What do I do?",
+    "answer": "Raise a Damage claim within 48 hours with photos of the item and the leaked parcel. We pick it up free of cost and refund or replace it."
+  },
+  {
+    "id": "FAQ-233",
+    "topic": "damaged",
+    "volatile": false,
+    "question": "Can I keep a damaged item and get a part refund?",
+    "answer": "Yes, for minor cosmetic damage on a working item. The claim page offers a partial refund between 10 and 30 percent."
+  },
+  {
+    "id": "FAQ-234",
+    "topic": "invoice",
+    "volatile": false,
+    "question": "Where do I find old invoices?",
+    "answer": "Open Orders, choose the order, then Invoice. Invoices from the last 8 years are downloadable as PDF."
+  },
+  {
+    "id": "FAQ-235",
+    "topic": "invoice",
+    "volatile": false,
+    "question": "Can I change the GSTIN on an issued invoice?",
+    "answer": "Yes, within 30 days. Request the change on the invoice page and a revised invoice is issued with the same number and a revision note."
+  },
+  {
+    "id": "FAQ-236",
+    "topic": "invoice",
+    "volatile": false,
+    "question": "The invoice shows a wrong address. How do I fix it?",
+    "answer": "Raise an Invoice correction on the order page within 30 days of dispatch. The revised invoice is emailed and the old one is voided."
+  },
+  {
+    "id": "FAQ-237",
+    "topic": "privacy",
+    "volatile": false,
+    "question": "Who can see my reviews and profile name?",
+    "answer": "Your display name and reviews are public. Your address, phone number, and order details are never shown."
+  },
+  {
+    "id": "FAQ-238",
+    "topic": "privacy",
+    "volatile": false,
+    "question": "Can I delete a single order from history?",
+    "answer": "No. The history is kept for tax law. Hiding an order from the app hides it for you only and not for the record."
+  },
+  {
+    "id": "FAQ-239",
+    "topic": "privacy",
+    "volatile": false,
+    "question": "Do you use my data for recommendations?",
+    "answer": "Yes, orders and browsing on the platform feed recommendations. You can reset that history under Settings, then Privacy, then Reset interests."
+  },
+  {
+    "id": "FAQ-240",
+    "topic": "privacy",
+    "volatile": false,
+    "question": "How do I object to automated decisions?",
+    "answer": "Write to the grievance officer from Settings, then Privacy, then Contact. A human reviews the decision within 15 days."
+  },
+  {
+    "id": "FAQ-241",
+    "topic": "wallet",
+    "volatile": true,
+    "question": "How do I add money to my wallet?",
+    "answer": "Open Account, then Wallet, then Add money, and pay by UPI or card. A top-up needs a minimum of 100 rupees and earns no loyalty points."
+  },
+  {
+    "id": "FAQ-242",
+    "topic": "wallet",
+    "volatile": false,
+    "question": "My wallet top-up failed but money left my account. What now?",
+    "answer": "A failed top-up reverses in 24 hours, and the bank credits it in 3 to 7 working days. Raise a Failed-payment claim with the transaction code if it does not."
+  },
+  {
+    "id": "FAQ-243",
+    "topic": "payments",
+    "volatile": false,
+    "question": "Can I combine store credit with a card?",
+    "answer": "Yes. Store credit is applied first and the remaining amount goes to one card or UPI payment. Two cards on one order is not supported."
+  },
+  {
+    "id": "FAQ-244",
+    "topic": "gift cards",
+    "volatile": false,
+    "question": "Can I combine a gift card with store credit?",
+    "answer": "Yes. Store credit is applied first, then the gift card, then the remaining amount to a card or UPI."
+  },
+  {
+    "id": "FAQ-245",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "Do points earned on my old phone number still work?",
+    "answer": "Yes, if the accounts are merged. Raise a Merge accounts request from Settings, then Support, and the points move with the older account."
+  },
+  {
+    "id": "FAQ-246",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "Can a subscription deliver to a gift address?",
+    "answer": "No. A subscription follows the account address. Change the account address and the next delivery follows it."
+  },
+  {
+    "id": "FAQ-247",
+    "topic": "subscription",
+    "volatile": false,
+    "question": "Do subscription refunds follow the same timeline?",
+    "answer": "Yes. A cancelled subscription refunds within 5 working days of a decision, and the bank takes 3 to 7 more."
+  },
+  {
+    "id": "FAQ-248",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "Can a buyer pay a bulk order by bank transfer?",
+    "answer": "Yes, for orders above 50,000 rupees on credit terms. The transfer details are on the invoice, and dispatch follows the credit."
+  },
+  {
+    "id": "FAQ-249",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "Do bulk orders have a return window?",
+    "answer": "Yes, 10 days, with pickup booked at a fixed slot. A single wrong unit is replaced and the rest is not returned."
+  },
+  {
+    "id": "FAQ-250",
+    "topic": "sellers",
+    "volatile": false,
+    "question": "What happens if a seller ships a fake item?",
+    "answer": "The listing is removed, the seller is suspended, and the buyer is refunded. Reports go to the brand with the invoice of the item."
+  },
+  {
+    "id": "FAQ-251",
+    "topic": "sellers",
+    "volatile": false,
+    "question": "Can a seller see my order history?",
+    "answer": "No. A seller sees only the orders that include their items, with the delivery address and a masked phone number."
+  },
+  {
+    "id": "FAQ-252",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "Can the courier hand the parcel to a family member?",
+    "answer": "Yes, to any adult at the address who can give the OTP. The delivery photo and the receiver name stay on the tracking page."
+  },
+  {
+    "id": "FAQ-253",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "What is a contactless delivery?",
+    "answer": "The courier leaves the parcel at your door, takes a photo, and sends it to you. It is offered where the pin code allows it."
+  },
+  {
+    "id": "FAQ-254",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "Can I tip the courier in the app?",
+    "answer": "Yes, a tip of 20, 50 or 100 rupees after delivery. The full amount goes to the courier and we add nothing."
+  },
+  {
+    "id": "FAQ-255",
+    "topic": "packaging",
+    "volatile": false,
+    "question": "Do you take back the packaging on the next visit?",
+    "answer": "Yes, a courier can take corrugated boxes and filler on a delivery visit. Choose Packaging pickup on the order page to ask for it."
+  },
+  {
+    "id": "FAQ-256",
+    "topic": "lost parcel",
+    "volatile": false,
+    "question": "Can I get an insurance claim on a lost parcel?",
+    "answer": "Orders above 10,000 rupees are insured by default. An approved claim pays the item value, and the claim is raised on the order page."
+  },
+  {
+    "id": "FAQ-257",
+    "topic": "wrong item",
+    "volatile": false,
+    "question": "I got a used item instead of a new one. What do I do?",
+    "answer": "Raise a Wrong-item claim within 48 hours with photos of the item and seals. We collect it and ship a new one or refund it."
+  },
+  {
+    "id": "FAQ-258",
+    "topic": "stock",
+    "volatile": false,
+    "question": "How do I cancel a waitlist alert?",
+    "answer": "Open the product page and choose Notify me again to switch it off. Alerts also stop when the product is delisted."
+  },
+  {
+    "id": "FAQ-259",
+    "topic": "price",
+    "volatile": false,
+    "question": "Do gift cards get price protection?",
+    "answer": "No. Price protection covers item purchases and not gift cards, wallet top-ups, or subscription plan charges."
+  },
+  {
+    "id": "FAQ-260",
+    "topic": "price",
+    "volatile": false,
+    "question": "Is the delivery fee part of price protection?",
+    "answer": "No. Only the item value is compared. A later delivery-fee change is not covered."
+  },
+  {
+    "id": "FAQ-261",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "Can I gift my loyalty points to another account?",
+    "answer": "No. Points stay on the account that earned them and cannot be transferred or gifted to another account."
+  },
+  {
+    "id": "FAQ-262",
+    "topic": "installation",
+    "volatile": false,
+    "question": "Is installation free on appliances?",
+    "answer": "It is free on 1,200 listed appliances and paid on the rest. The product page shows Installation free or the fee at checkout."
+  },
+  {
+    "id": "FAQ-263",
+    "topic": "security",
+    "volatile": false,
+    "question": "How do I report a phishing email that uses our name?",
+    "answer": "Forward it to the report address in Settings, then Security, then Report phishing, then delete it. Do not click any link in it."
+  },
+  {
+    "id": "FAQ-264",
+    "topic": "notifications",
+    "volatile": false,
+    "question": "Can I get an email digest instead of every alert?",
+    "answer": "Yes. Choose Daily digest under Settings, then Notifications. Alerts then arrive once a day at 8 pm."
+  },
+  {
+    "id": "FAQ-265",
+    "topic": "support",
+    "volatile": false,
+    "question": "Can I email support with a document attached?",
+    "answer": "Yes, up to 3 files of 10 MB each. Larger files are rejected by the mail gateway, so split them."
+  },
+  {
+    "id": "FAQ-266",
+    "topic": "support",
+    "volatile": false,
+    "question": "How do I reopen a closed chat?",
+    "answer": "A closed chat cannot be reopened. Start a new chat and quote the old case number, which stays on the order for 24 hours."
+  },
+  {
+    "id": "FAQ-267",
+    "topic": "taxes",
+    "volatile": false,
+    "question": "Is my order taxed by the state where I live?",
+    "answer": "Yes. GST is charged at the rate for the delivery state, and the invoice shows the CGST and SGST or IGST split."
+  },
+  {
+    "id": "FAQ-268",
+    "topic": "app",
+    "volatile": false,
+    "question": "Can I use the app without an account?",
+    "answer": "You can browse and search without an account. An order, a cart, and a wishlist need an account."
+  },
+  {
+    "id": "FAQ-269",
+    "topic": "feedback",
+    "volatile": false,
+    "question": "Can I reply to a review of my product?",
+    "answer": "No. A buyer can edit their review for 30 days, but a seller reply is not supported."
+  },
+  {
+    "id": "FAQ-270",
+    "topic": "data",
+    "volatile": false,
+    "question": "Do you keep chat transcripts after a case closes?",
+    "answer": "Chats are kept for 24 months for dispute handling, then deleted. A closed case can be reopened by quoting the case number."
+  },
+  {
+    "id": "FAQ-271",
+    "topic": "orders",
+    "volatile": false,
+    "question": "Can I get a copy of an order by email?",
+    "answer": "Yes. Choose Email order copy on the order page, and it is sent to the account email as a PDF."
+  },
+  {
+    "id": "FAQ-272",
+    "topic": "orders",
+    "volatile": false,
+    "question": "What does a partial refund on my order mean?",
+    "answer": "A partial refund covers one item of a multi-item order, or a claim on part of an order. The rest of the order is untouched."
+  },
+  {
+    "id": "FAQ-273",
+    "topic": "orders",
+    "volatile": false,
+    "question": "Can I order on behalf of a company with my personal account?",
+    "answer": "You can, but the invoice then is a consumer invoice. A tax invoice needs a business account with a GSTIN."
+  },
+  {
+    "id": "FAQ-274",
+    "topic": "payments",
+    "volatile": false,
+    "question": "How do I get a payment receipt?",
+    "answer": "A receipt is attached to the invoice on the order page. Choose Download receipt for the payment gateway reference."
+  },
+  {
+    "id": "FAQ-275",
+    "topic": "payments",
+    "volatile": false,
+    "question": "Do you accept digital wallets?",
+    "answer": "Yes, PayZapp, Mobikwik, and Amazon Pay. Wallet balances need a minimum of 50 rupees at checkout."
+  },
+  {
+    "id": "FAQ-276",
+    "topic": "payments",
+    "volatile": false,
+    "question": "What if my bank charges a failed-payment fee?",
+    "answer": "We do not collect a failed-payment fee. Any charge from your bank is between you and the bank."
+  },
+  {
+    "id": "FAQ-277",
+    "topic": "cancellation",
+    "volatile": false,
+    "question": "Can I cancel only the delivery and pick it up later?",
+    "answer": "No. An order is either delivered or cancelled. Store pickup is chosen at checkout, not after."
+  },
+  {
+    "id": "FAQ-278",
+    "topic": "exchange",
+    "volatile": false,
+    "question": "How do I exchange an item bought in a sale?",
+    "answer": "A sale item follows the 10-day window unless marked Final sale. Choose Exchange at the return step and pick the size you want."
+  },
+  {
+    "id": "FAQ-279",
+    "topic": "returns",
+    "volatile": false,
+    "question": "Can I return a gift card purchase?",
+    "answer": "No. A gift card is not refundable and the buyer of the card cannot claim it back."
+  },
+  {
+    "id": "FAQ-280",
+    "topic": "refunds",
+    "volatile": false,
+    "question": "Can I ask for a refund in cash?",
+    "answer": "No. Refunds go back to the payment method or, with your choice, to store credit."
+  },
+  {
+    "id": "FAQ-281",
+    "topic": "tracking",
+    "volatile": false,
+    "question": "Two of my three parcels arrived. Where is the third?",
+    "answer": "Each parcel has its own tracking link on the order page. The missing one is either at a hub or delayed by a courier backlog."
+  },
+  {
+    "id": "FAQ-282",
+    "topic": "shipping",
+    "volatile": false,
+    "question": "Can I deliver to a locker point?",
+    "answer": "Yes, in 6 cities for orders below 5,000 rupees. Choose Locker pickup at checkout and use the code sent at delivery."
+  },
+  {
+    "id": "FAQ-283",
+    "topic": "shipping",
+    "volatile": false,
+    "question": "How long is a locker parcel held?",
+    "answer": "48 hours. After that the parcel is returned to the seller and the order is refunded."
+  },
+  {
+    "id": "FAQ-284",
+    "topic": "offers",
+    "volatile": false,
+    "question": "Can a coupon be refunded if unused?",
+    "answer": "A coupon is not bought here, so nothing is refunded. An unused coupon simply stays in your account until it expires."
+  },
+  {
+    "id": "FAQ-285",
+    "topic": "account",
+    "volatile": false,
+    "question": "Can I change my display name?",
+    "answer": "Yes, once every 90 days, under Settings, then Profile. Reviews keep the name used at the time."
+  },
+  {
+    "id": "FAQ-286",
+    "topic": "damaged",
+    "volatile": false,
+    "question": "The outer box is crushed but the item works. What do I do?",
+    "answer": "A damage claim needs a fault. If the item works, no claim is due, and a cosmetic box issue is not covered."
+  },
+  {
+    "id": "FAQ-287",
+    "topic": "invoice",
+    "volatile": false,
+    "question": "Can I get one invoice for two orders?",
+    "answer": "No, one invoice per order. A merged shipment still keeps two invoices, one per order."
+  },
+  {
+    "id": "FAQ-288",
+    "topic": "privacy",
+    "volatile": false,
+    "question": "Is my browsing data shared with the seller?",
+    "answer": "Only an aggregate count of views per product. Your individual browsing is not shared with sellers."
+  },
+  {
+    "id": "FAQ-289",
+    "topic": "warranty",
+    "volatile": false,
+    "question": "Does a replaced item get a fresh warranty?",
+    "answer": "Yes. A replacement under warranty gets a new warranty from the date it is delivered, not from the original order date."
+  },
+  {
+    "id": "FAQ-290",
+    "topic": "subscription",
+    "volatile": true,
+    "question": "Can a subscription price change?",
+    "answer": "A subscription price follows the listed price. A change is emailed 7 days before the next billing date."
+  },
+  {
+    "id": "FAQ-291",
+    "topic": "loyalty",
+    "volatile": false,
+    "question": "Are points earned on a bulk quote order?",
+    "answer": "No. Bulk quote orders are business orders and earn no loyalty points."
+  },
+  {
+    "id": "FAQ-292",
+    "topic": "gift cards",
+    "volatile": false,
+    "question": "Can a gift card be used in the app?",
+    "answer": "Yes, in the Gift card field at checkout, the same as on the website."
+  },
+  {
+    "id": "FAQ-293",
+    "topic": "pickup",
+    "volatile": false,
+    "question": "Can I change the pickup store after ordering?",
+    "answer": "Not after dispatch. Ask the current store to redirect the parcel, or refuse it and reorder from the store you want."
+  },
+  {
+    "id": "FAQ-294",
+    "topic": "wallet",
+    "volatile": false,
+    "question": "Can store credit pay a cash-on-delivery order?",
+    "answer": "Only if the credit covers the full order. Otherwise the order must be prepaid."
+  },
+  {
+    "id": "FAQ-295",
+    "topic": "bulk",
+    "volatile": false,
+    "question": "How many quotes can I request at once?",
+    "answer": "One quote per product and quantity, up to 20 products in a single request. Each is answered by its own seller."
+  },
+  {
+    "id": "FAQ-296",
+    "topic": "sellers",
+    "volatile": false,
+    "question": "Can I buy from the same seller across orders?",
+    "answer": "Yes. There is no limit, and the seller rating and shipping speed stay shown on their listings."
+  },
+  {
+    "id": "FAQ-297",
+    "topic": "delivery",
+    "volatile": false,
+    "question": "Do you deliver to army or campus addresses?",
+    "answer": "Yes, with a 1 to 2 extra day for gate clearance. A campus address needs a room or block number in the address line."
+  },
+  {
+    "id": "FAQ-298",
+    "topic": "lost parcel",
+    "volatile": false,
+    "question": "A parcel was left with a security guard. What do I do?",
+    "answer": "Check the delivery photo on the tracking page. If it shows a guard handover, raise a Not-received claim with the guard's name."
+  },
+  {
+    "id": "FAQ-299",
+    "topic": "wrong item",
+    "volatile": false,
+    "question": "Two items were swapped in my parcel. What do I do?",
+    "answer": "Raise a Wrong-item claim within 48 hours with a photo of both items. We collect the wrong items and ship the right ones."
+  },
+  {
+    "id": "FAQ-300",
+    "topic": "stock",
+    "volatile": false,
+    "question": "Can I reserve stock in my cart?",
+    "answer": "No. A cart does not reserve stock. A sold-out item at payment time must be reordered when the seller restocks."
   }
 ]
