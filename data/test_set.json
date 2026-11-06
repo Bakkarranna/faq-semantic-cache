@@ -498,5 +498,4505 @@
     "question": "I do not want to return this, can I exchange instead",
     "expected": "none",
     "language": "english"
+  },
+  {
+    "question": "is a warranty included with every product I buy here",
+    "expected": "FAQ-31",
+    "language": "english"
+  },
+  {
+    "question": "which items ship without any manufacturer warranty at all",
+    "expected": "FAQ-31",
+    "language": "english"
+  },
+  {
+    "question": "what is the process to claim warranty on a faulty product",
+    "expected": "FAQ-32",
+    "language": "english"
+  },
+  {
+    "question": "warranty claim kaise raise karte hain order page se",
+    "expected": "FAQ-32",
+    "language": "hinglish"
+  },
+  {
+    "question": "who bears the courier cost when the item goes to the service centre",
+    "expected": "FAQ-33",
+    "language": "english"
+  },
+  {
+    "question": "the warranty pickup shipping, is that on me or on you",
+    "expected": "FAQ-33",
+    "language": "english"
+  },
+  {
+    "question": "brand ne mera warranty claim reject kar diya, ab kya karun",
+    "expected": "FAQ-34",
+    "language": "english"
+  },
+  {
+    "question": "my warranty claim was refused by the brand, what are my options",
+    "expected": "FAQ-34",
+    "language": "english"
+  },
+  {
+    "question": "accidental damage bhi warranty mein aata hai kya",
+    "expected": "FAQ-35",
+    "language": "english"
+  },
+  {
+    "question": "does the warranty pay for a cracked screen from a drop",
+    "expected": "FAQ-35",
+    "language": "english"
+  },
+  {
+    "question": "do I have to register the warranty myself after delivery",
+    "expected": "FAQ-36",
+    "language": "english"
+  },
+  {
+    "question": "warranty registration automatic hoti hai invoice pe",
+    "expected": "FAQ-36",
+    "language": "english"
+  },
+  {
+    "question": "mere sheher mein service centre kahan hain",
+    "expected": "FAQ-37",
+    "language": "hinglish"
+  },
+  {
+    "question": "where can I find the list of authorised service centres",
+    "expected": "FAQ-37",
+    "language": "english"
+  },
+  {
+    "question": "what exactly does the standard warranty protect against",
+    "expected": "FAQ-38",
+    "language": "english"
+  },
+  {
+    "question": "kya normal warranty manufacturing defects cover karta hai",
+    "expected": "FAQ-38",
+    "language": "english"
+  },
+  {
+    "question": "mera warranty dusre desh mein chalega kya",
+    "expected": "FAQ-39",
+    "language": "english"
+  },
+  {
+    "question": "if I move abroad, does the warranty still apply there",
+    "expected": "FAQ-39",
+    "language": "english"
+  },
+  {
+    "question": "my repair is stuck for weeks, how do I push it",
+    "expected": "FAQ-40",
+    "language": "english"
+  },
+  {
+    "question": "repair 21 din se zyada ho gaye to kya hota hai",
+    "expected": "FAQ-40",
+    "language": "hinglish"
+  },
+  {
+    "question": "how does the repeat order subscription work",
+    "expected": "FAQ-41",
+    "language": "english"
+  },
+  {
+    "question": "subscription plan mein har mahine kitne percent discount milta hai",
+    "expected": "FAQ-41",
+    "language": "english"
+  },
+  {
+    "question": "can I skip one delivery of my subscription",
+    "expected": "FAQ-42",
+    "language": "english"
+  },
+  {
+    "question": "ek subscription delivery skip karne ka kya tarika hai",
+    "expected": "FAQ-42",
+    "language": "english"
+  },
+  {
+    "question": "how do I stop my subscription before the next charge",
+    "expected": "FAQ-43",
+    "language": "english"
+  },
+  {
+    "question": "subscription cancel karne ke liye kitne din pehle batana padta hai",
+    "expected": "FAQ-43",
+    "language": "hinglish"
+  },
+  {
+    "question": "when does my card get billed for the subscription",
+    "expected": "FAQ-44",
+    "language": "english"
+  },
+  {
+    "question": "subscription ka paisa kab kata jaata hai",
+    "expected": "FAQ-44",
+    "language": "english"
+  },
+  {
+    "question": "can I swap the product inside my subscription",
+    "expected": "FAQ-45",
+    "language": "english"
+  },
+  {
+    "question": "subscription ka item badalna ho to kahan se karun",
+    "expected": "FAQ-45",
+    "language": "english"
+  },
+  {
+    "question": "is it possible to move the subscription delivery date",
+    "expected": "FAQ-46",
+    "language": "english"
+  },
+  {
+    "question": "subscription ki delivery date change kar sakte hain kya",
+    "expected": "FAQ-46",
+    "language": "hinglish"
+  },
+  {
+    "question": "do subscription orders also give loyalty points",
+    "expected": "FAQ-47",
+    "language": "english"
+  },
+  {
+    "question": "subscription order pe points kab credit hote hain",
+    "expected": "FAQ-47",
+    "language": "english"
+  },
+  {
+    "question": "is there a lock-in on the minimum subscription deliveries",
+    "expected": "FAQ-48",
+    "language": "english"
+  },
+  {
+    "question": "subscription ke liye minimum kitne deliveries lene padti hain",
+    "expected": "FAQ-48",
+    "language": "english"
+  },
+  {
+    "question": "how do I pause the subscription for a couple of months",
+    "expected": "FAQ-49",
+    "language": "english"
+  },
+  {
+    "question": "kya main subscription ko temporarily rok sakta hoon",
+    "expected": "FAQ-49",
+    "language": "english"
+  },
+  {
+    "question": "can I keep more than one active subscription on my account",
+    "expected": "FAQ-50",
+    "language": "english"
+  },
+  {
+    "question": "ek account pe kitni subscriptions chal sakti hain",
+    "expected": "FAQ-50",
+    "language": "english"
+  },
+  {
+    "question": "how are loyalty points earned on prepaid orders",
+    "expected": "FAQ-51",
+    "language": "english"
+  },
+  {
+    "question": "points kaise bante hain aur kitne pe kitne",
+    "expected": "FAQ-51",
+    "language": "english"
+  },
+  {
+    "question": "when will my loyalty points lapse",
+    "expected": "FAQ-52",
+    "language": "english"
+  },
+  {
+    "question": "points ki validity kitni hoti hai",
+    "expected": "FAQ-52",
+    "language": "english"
+  },
+  {
+    "question": "my points never showed up, why is that",
+    "expected": "FAQ-53",
+    "language": "english"
+  },
+  {
+    "question": "order ke points account mein kyun nahi aaye",
+    "expected": "FAQ-53",
+    "language": "hinglish"
+  },
+  {
+    "question": "which kind of orders give no loyalty points",
+    "expected": "FAQ-54",
+    "language": "english"
+  },
+  {
+    "question": "kaun se orders pe points nahi milte",
+    "expected": "FAQ-54",
+    "language": "english"
+  },
+  {
+    "question": "how do I spend my points at checkout",
+    "expected": "FAQ-55",
+    "language": "english"
+  },
+  {
+    "question": "checkout pe points kaise use karte hain",
+    "expected": "FAQ-55",
+    "language": "hinglish"
+  },
+  {
+    "question": "can I move points to my other account",
+    "expected": "FAQ-56",
+    "language": "english"
+  },
+  {
+    "question": "points dusre account mein transfer ho sakte hain kya",
+    "expected": "FAQ-56",
+    "language": "english"
+  },
+  {
+    "question": "what extra benefits come with Gold and Platinum",
+    "expected": "FAQ-57",
+    "language": "english"
+  },
+  {
+    "question": "loyalty tier badalne se kya fayda hota hai",
+    "expected": "FAQ-57",
+    "language": "english"
+  },
+  {
+    "question": "do I earn points on discounted sale items",
+    "expected": "FAQ-58",
+    "language": "english"
+  },
+  {
+    "question": "sale ke items pe bhi points milte hain",
+    "expected": "FAQ-58",
+    "language": "english"
+  },
+  {
+    "question": "where do I see my complete points history",
+    "expected": "FAQ-59",
+    "language": "english"
+  },
+  {
+    "question": "points history kahan dikhegi",
+    "expected": "FAQ-59",
+    "language": "english"
+  },
+  {
+    "question": "can expired points be restored to my account",
+    "expected": "FAQ-60",
+    "language": "english"
+  },
+  {
+    "question": "expire ho gaye points wapas mil sakte hain kya",
+    "expected": "FAQ-60",
+    "language": "english"
+  },
+  {
+    "question": "how do I purchase a gift card from your store",
+    "expected": "FAQ-61",
+    "language": "english"
+  },
+  {
+    "question": "gift card khareedne ka process kya hai",
+    "expected": "FAQ-61",
+    "language": "english"
+  },
+  {
+    "question": "how do I redeem a gift card code at payment",
+    "expected": "FAQ-62",
+    "language": "english"
+  },
+  {
+    "question": "gift card ka code kahan enter karna hota hai",
+    "expected": "FAQ-62",
+    "language": "english"
+  },
+  {
+    "question": "how long is a gift card valid",
+    "expected": "FAQ-63",
+    "language": "english"
+  },
+  {
+    "question": "gift card kitne dino tak valid rehta hai",
+    "expected": "FAQ-63",
+    "language": "english"
+  },
+  {
+    "question": "can a gift card be refunded if unused",
+    "expected": "FAQ-64",
+    "language": "english"
+  },
+  {
+    "question": "gift card ka refund mil sakta hai kya",
+    "expected": "FAQ-64",
+    "language": "english"
+  },
+  {
+    "question": "can I use several gift cards on a single order",
+    "expected": "FAQ-65",
+    "language": "english"
+  },
+  {
+    "question": "ek order pe kitne gift cards lag sakte hain",
+    "expected": "FAQ-65",
+    "language": "english"
+  },
+  {
+    "question": "do gift cards work on every product in the catalogue",
+    "expected": "FAQ-66",
+    "language": "english"
+  },
+  {
+    "question": "gift card har product pe chalega kya",
+    "expected": "FAQ-66",
+    "language": "english"
+  },
+  {
+    "question": "is it possible to add value to an existing gift card",
+    "expected": "FAQ-67",
+    "language": "english"
+  },
+  {
+    "question": "gift card mein baad mein paisa jod sakte hain kya",
+    "expected": "FAQ-67",
+    "language": "english"
+  },
+  {
+    "question": "can I schedule a gift card email for a later date",
+    "expected": "FAQ-68",
+    "language": "english"
+  },
+  {
+    "question": "gift card baad ke date pe bhej sakte hain kya",
+    "expected": "FAQ-68",
+    "language": "english"
+  },
+  {
+    "question": "I have a second appliance to install, can that be booked",
+    "expected": "FAQ-69",
+    "language": "english"
+  },
+  {
+    "question": "doosre product ki installation ka slot kaise lein",
+    "expected": "FAQ-69",
+    "language": "english"
+  },
+  {
+    "question": "can I check my parcel status without logging in",
+    "expected": "FAQ-70",
+    "language": "english"
+  },
+  {
+    "question": "bina login order track kar sakte hain kya",
+    "expected": "FAQ-70",
+    "language": "english"
+  },
+  {
+    "question": "can a family member pick up my parcel from the store",
+    "expected": "FAQ-71",
+    "language": "english"
+  },
+  {
+    "question": "mera parcel koi aur le sakta hai kya pickup point se",
+    "expected": "FAQ-71",
+    "language": "english"
+  },
+  {
+    "question": "do you offer chat support in local languages",
+    "expected": "FAQ-72",
+    "language": "english"
+  },
+  {
+    "question": "support hindi ya tamil mein mil sakti hai kya",
+    "expected": "FAQ-72",
+    "language": "english"
+  },
+  {
+    "question": "will the invoice list the serial number of my device",
+    "expected": "FAQ-73",
+    "language": "english"
+  },
+  {
+    "question": "invoice pe serial number chhapa hota hai kya",
+    "expected": "FAQ-73",
+    "language": "english"
+  },
+  {
+    "question": "how do I get bulk pricing for a large quantity",
+    "expected": "FAQ-74",
+    "language": "english"
+  },
+  {
+    "question": "zyada units ka bulk quote kaise milta hai",
+    "expected": "FAQ-74",
+    "language": "english"
+  },
+  {
+    "question": "how do I sign up with a business account",
+    "expected": "FAQ-75",
+    "language": "english"
+  },
+  {
+    "question": "business account banane ke liye kya documents chahiye",
+    "expected": "FAQ-75",
+    "language": "english"
+  },
+  {
+    "question": "do business accounts receive a GST invoice",
+    "expected": "FAQ-76",
+    "language": "english"
+  },
+  {
+    "question": "business order pe GST invoice milta hai kya",
+    "expected": "FAQ-76",
+    "language": "english"
+  },
+  {
+    "question": "what credit limit does a new business account get",
+    "expected": "FAQ-77",
+    "language": "english"
+  },
+  {
+    "question": "business account ka credit limit kitna hota hai shuru mein",
+    "expected": "FAQ-77",
+    "language": "english"
+  },
+  {
+    "question": "can I buy on 30-day credit terms",
+    "expected": "FAQ-78",
+    "language": "english"
+  },
+  {
+    "question": "30 din ke credit pe order kar sakte hain kya",
+    "expected": "FAQ-78",
+    "language": "english"
+  },
+  {
+    "question": "will a bulk order arrive in one shipment or split",
+    "expected": "FAQ-79",
+    "language": "english"
+  },
+  {
+    "question": "bulk order ek shipment mein aayega ya alag alag",
+    "expected": "FAQ-79",
+    "language": "english"
+  },
+  {
+    "question": "how do I return items bought in bulk",
+    "expected": "FAQ-80",
+    "language": "english"
+  },
+  {
+    "question": "bulk return kaise raise karte hain",
+    "expected": "FAQ-80",
+    "language": "english"
+  },
+  {
+    "question": "do my business orders earn points as well",
+    "expected": "FAQ-81",
+    "language": "english"
+  },
+  {
+    "question": "business account ke orders pe points milte hain kya",
+    "expected": "FAQ-81",
+    "language": "english"
+  },
+  {
+    "question": "can I add colleagues to a business account",
+    "expected": "FAQ-82",
+    "language": "english"
+  },
+  {
+    "question": "business account pe team members add kar sakte hain kya",
+    "expected": "FAQ-82",
+    "language": "english"
+  },
+  {
+    "question": "where do I download all business invoices",
+    "expected": "FAQ-83",
+    "language": "english"
+  },
+  {
+    "question": "business ke saare invoices kahan se export karein",
+    "expected": "FAQ-83",
+    "language": "english"
+  },
+  {
+    "question": "how do I raise a dispute on a wrong invoice line",
+    "expected": "FAQ-84",
+    "language": "english"
+  },
+  {
+    "question": "invoice line galat ho to dispute kaise karein",
+    "expected": "FAQ-84",
+    "language": "english"
+  },
+  {
+    "question": "what exactly is store credit",
+    "expected": "FAQ-85",
+    "language": "english"
+  },
+  {
+    "question": "store credit matlab kya hota hai",
+    "expected": "FAQ-85",
+    "language": "english"
+  },
+  {
+    "question": "when does a refund turn into store credit instead of cash",
+    "expected": "FAQ-86",
+    "language": "english"
+  },
+  {
+    "question": "refund kab store credit ban jaata hai",
+    "expected": "FAQ-86",
+    "language": "english"
+  },
+  {
+    "question": "where can I check my store credit balance",
+    "expected": "FAQ-87",
+    "language": "english"
+  },
+  {
+    "question": "store credit balance kahan dekhein",
+    "expected": "FAQ-87",
+    "language": "english"
+  },
+  {
+    "question": "does store credit have an expiry",
+    "expected": "FAQ-88",
+    "language": "english"
+  },
+  {
+    "question": "store credit ki expiry hoti hai kya",
+    "expected": "FAQ-88",
+    "language": "english"
+  },
+  {
+    "question": "can I move store credit to my bank account",
+    "expected": "FAQ-89",
+    "language": "english"
+  },
+  {
+    "question": "store credit bank mein withdraw kar sakte hain kya",
+    "expected": "FAQ-89",
+    "language": "english"
+  },
+  {
+    "question": "can store credit be used with cash on delivery",
+    "expected": "FAQ-90",
+    "language": "english"
+  },
+  {
+    "question": "cash on delivery order pe store credit chalega kya",
+    "expected": "FAQ-90",
+    "language": "english"
+  },
+  {
+    "question": "is collecting the order from a shop possible",
+    "expected": "FAQ-91",
+    "language": "english"
+  },
+  {
+    "question": "order store se khud le sakte hain kya",
+    "expected": "FAQ-91",
+    "language": "english"
+  },
+  {
+    "question": "how will I be told that my pickup order is ready",
+    "expected": "FAQ-92",
+    "language": "english"
+  },
+  {
+    "question": "pickup order ready hone ki khabar kaise milegi",
+    "expected": "FAQ-92",
+    "language": "english"
+  },
+  {
+    "question": "what should I carry to collect a store order",
+    "expected": "FAQ-93",
+    "language": "english"
+  },
+  {
+    "question": "store se parcel lene ke liye kya lena hota hai",
+    "expected": "FAQ-93",
+    "language": "english"
+  },
+  {
+    "question": "can a friend collect my order with my code",
+    "expected": "FAQ-94",
+    "language": "english"
+  },
+  {
+    "question": "mera pickup code kisi dost ke paas bhej sakta hoon kya",
+    "expected": "FAQ-94",
+    "language": "english"
+  },
+  {
+    "question": "how many days does the store keep my parcel",
+    "expected": "FAQ-95",
+    "language": "english"
+  },
+  {
+    "question": "store kitne din parcel rakhega",
+    "expected": "FAQ-95",
+    "language": "english"
+  },
+  {
+    "question": "who actually ships my order, you or the seller",
+    "expected": "FAQ-96",
+    "language": "english"
+  },
+  {
+    "question": "mera order kaun bhejta hai aap ya seller",
+    "expected": "FAQ-96",
+    "language": "english"
+  },
+  {
+    "question": "how do I send a message to the seller",
+    "expected": "FAQ-97",
+    "language": "english"
+  },
+  {
+    "question": "seller se message kaise karein",
+    "expected": "FAQ-97",
+    "language": "english"
+  },
+  {
+    "question": "what if the seller never replies to my message",
+    "expected": "FAQ-98",
+    "language": "english"
+  },
+  {
+    "question": "seller jawab na de to kya karein",
+    "expected": "FAQ-98",
+    "language": "english"
+  },
+  {
+    "question": "can I follow a seller to see new products",
+    "expected": "FAQ-99",
+    "language": "english"
+  },
+  {
+    "question": "seller ko follow kar sakte hain kya",
+    "expected": "FAQ-99",
+    "language": "english"
+  },
+  {
+    "question": "how do I report a suspicious product listing",
+    "expected": "FAQ-100",
+    "language": "english"
+  },
+  {
+    "question": "listing galat lage to report kaise karein",
+    "expected": "FAQ-100",
+    "language": "english"
+  },
+  {
+    "question": "does the seller price already include delivery",
+    "expected": "FAQ-101",
+    "language": "english"
+  },
+  {
+    "question": "seller ke price mein delivery shamil hai kya",
+    "expected": "FAQ-101",
+    "language": "english"
+  },
+  {
+    "question": "are the sellers on your platform verified",
+    "expected": "FAQ-102",
+    "language": "english"
+  },
+  {
+    "question": "sellers verified hote hain kya",
+    "expected": "FAQ-102",
+    "language": "english"
+  },
+  {
+    "question": "can a seller cancel my order on their own",
+    "expected": "FAQ-103",
+    "language": "english"
+  },
+  {
+    "question": "seller mera order cancel kar sakta hai kya",
+    "expected": "FAQ-103",
+    "language": "english"
+  },
+  {
+    "question": "can I switch my delivery slot to another day",
+    "expected": "FAQ-104",
+    "language": "english"
+  },
+  {
+    "question": "delivery slot baad mein badal sakte hain kya",
+    "expected": "FAQ-104",
+    "language": "english"
+  },
+  {
+    "question": "what if nobody is home when the courier comes",
+    "expected": "FAQ-105",
+    "language": "english"
+  },
+  {
+    "question": "courier aaye to ghar pe koi na ho to kya hoga",
+    "expected": "FAQ-105",
+    "language": "english"
+  },
+  {
+    "question": "can I ask for delivery to my neighbour's door",
+    "expected": "FAQ-106",
+    "language": "english"
+  },
+  {
+    "question": "parcel padosi ke ghar bhej sakte hain kya",
+    "expected": "FAQ-106",
+    "language": "english"
+  },
+  {
+    "question": "why is a remote area charge added to my order",
+    "expected": "FAQ-107",
+    "language": "english"
+  },
+  {
+    "question": "remote area charge kyun laga",
+    "expected": "FAQ-107",
+    "language": "english"
+  },
+  {
+    "question": "what happens to dispatch on a public holiday",
+    "expected": "FAQ-108",
+    "language": "english"
+  },
+  {
+    "question": "national holiday pe dispatch hota hai kya",
+    "expected": "FAQ-108",
+    "language": "english"
+  },
+  {
+    "question": "can I push my delivery to a later date",
+    "expected": "FAQ-109",
+    "language": "english"
+  },
+  {
+    "question": "delivery ko aage badha sakte hain kya",
+    "expected": "FAQ-109",
+    "language": "english"
+  },
+  {
+    "question": "what does signature on delivery mean for my order",
+    "expected": "FAQ-110",
+    "language": "english"
+  },
+  {
+    "question": "signature on delivery ka matlab kya hai",
+    "expected": "FAQ-110",
+    "language": "english"
+  },
+  {
+    "question": "will the courier ask for my ID at the door",
+    "expected": "FAQ-111",
+    "language": "english"
+  },
+  {
+    "question": "delivery pe ID dikhani padti hai kya",
+    "expected": "FAQ-111",
+    "language": "english"
+  },
+  {
+    "question": "how are very heavy parcels delivered",
+    "expected": "FAQ-112",
+    "language": "english"
+  },
+  {
+    "question": "bhaari parcel ghar tak kaise pahunchta hai",
+    "expected": "FAQ-112",
+    "language": "english"
+  },
+  {
+    "question": "can I move an order to a different city after paying",
+    "expected": "FAQ-113",
+    "language": "english"
+  },
+  {
+    "question": "order place hone ke baad city badal sakte hain kya",
+    "expected": "FAQ-113",
+    "language": "english"
+  },
+  {
+    "question": "how is my order packed before dispatch",
+    "expected": "FAQ-114",
+    "language": "english"
+  },
+  {
+    "question": "order packing kaise hoti hai",
+    "expected": "FAQ-114",
+    "language": "english"
+  },
+  {
+    "question": "can I ask for plastic-free packaging",
+    "expected": "FAQ-115",
+    "language": "english"
+  },
+  {
+    "question": "plastic free packaging option hai kya",
+    "expected": "FAQ-115",
+    "language": "english"
+  },
+  {
+    "question": "why did my parcel weigh more than the item",
+    "expected": "FAQ-116",
+    "language": "english"
+  },
+  {
+    "question": "parcel item se zyada wajan ka hota hai kyun",
+    "expected": "FAQ-116",
+    "language": "english"
+  },
+  {
+    "question": "my parcel vanished in transit, what should I do",
+    "expected": "FAQ-117",
+    "language": "english"
+  },
+  {
+    "question": "parcel transit mein kho gaya to kya karein",
+    "expected": "FAQ-117",
+    "language": "english"
+  },
+  {
+    "question": "courier ne diya ke diya but I never got it, help",
+    "expected": "FAQ-118",
+    "language": "english"
+  },
+  {
+    "question": "courier says delivered but the parcel is missing",
+    "expected": "FAQ-118",
+    "language": "english"
+  },
+  {
+    "question": "how long before a lost parcel refund reaches me",
+    "expected": "FAQ-119",
+    "language": "english"
+  },
+  {
+    "question": "lost parcel ka refund kitne din mein aata hai",
+    "expected": "FAQ-119",
+    "language": "english"
+  },
+  {
+    "question": "I got the wrong item in my box, what now",
+    "expected": "FAQ-120",
+    "language": "english"
+  },
+  {
+    "question": "galat item aaya hai to kya karna hota hai",
+    "expected": "FAQ-120",
+    "language": "english"
+  },
+  {
+    "question": "a piece is missing from what I ordered, how do I report it",
+    "expected": "FAQ-121",
+    "language": "english"
+  },
+  {
+    "question": "order mein ek part missing hai to kya karein",
+    "expected": "FAQ-121",
+    "language": "english"
+  },
+  {
+    "question": "the colour is not the same as the photo, why",
+    "expected": "FAQ-122",
+    "language": "english"
+  },
+  {
+    "question": "product ka colour website se alag dikh raha hai",
+    "expected": "FAQ-122",
+    "language": "english"
+  },
+  {
+    "question": "how can I be sure a product is original",
+    "expected": "FAQ-123",
+    "language": "english"
+  },
+  {
+    "question": "product original hai ya nahi kaise pata chalega",
+    "expected": "FAQ-123",
+    "language": "english"
+  },
+  {
+    "question": "I suspect the item is fake, what do I do",
+    "expected": "FAQ-124",
+    "language": "english"
+  },
+  {
+    "question": "item nakli lage to kya karna hota hai",
+    "expected": "FAQ-124",
+    "language": "english"
+  },
+  {
+    "question": "can I get an alert when stock comes back",
+    "expected": "FAQ-125",
+    "language": "english"
+  },
+  {
+    "question": "stock aane pe alert mil sakta hai kya",
+    "expected": "FAQ-125",
+    "language": "english"
+  },
+  {
+    "question": "what does backorder actually mean",
+    "expected": "FAQ-126",
+    "language": "english"
+  },
+  {
+    "question": "backorder ka matlab kya hota hai",
+    "expected": "FAQ-126",
+    "language": "english"
+  },
+  {
+    "question": "can I pre-order a product that is not released yet",
+    "expected": "FAQ-127",
+    "language": "english"
+  },
+  {
+    "question": "unreleased product ka pre-order kar sakte hain kya",
+    "expected": "FAQ-127",
+    "language": "english"
+  },
+  {
+    "question": "is limited drop stock first come first served",
+    "expected": "FAQ-128",
+    "language": "english"
+  },
+  {
+    "question": "limited drop mein stock kaise allocate hota hai",
+    "expected": "FAQ-128",
+    "language": "english"
+  },
+  {
+    "question": "what if the price drops after I buy",
+    "expected": "FAQ-129",
+    "language": "english"
+  },
+  {
+    "question": "khareedne ke baad price gir jaaye to",
+    "expected": "FAQ-129",
+    "language": "english"
+  },
+  {
+    "question": "do you match a lower price on another site",
+    "expected": "FAQ-130",
+    "language": "english"
+  },
+  {
+    "question": "doosri site pe sasta ho to price match hota hai kya",
+    "expected": "FAQ-130",
+    "language": "english"
+  },
+  {
+    "question": "the listing price is clearly a typo, will you honour it",
+    "expected": "FAQ-131",
+    "language": "english"
+  },
+  {
+    "question": "price glitch hone pe order valid hota hai kya",
+    "expected": "FAQ-131",
+    "language": "english"
+  },
+  {
+    "question": "is GST already in the listed price",
+    "expected": "FAQ-132",
+    "language": "english"
+  },
+  {
+    "question": "listed price mein GST shamil hai kya",
+    "expected": "FAQ-132",
+    "language": "english"
+  },
+  {
+    "question": "can the price change while the item sits in my cart",
+    "expected": "FAQ-133",
+    "language": "english"
+  },
+  {
+    "question": "cart mein rakhe item ka price badal sakta hai kya",
+    "expected": "FAQ-133",
+    "language": "english"
+  },
+  {
+    "question": "what grade do refurbished products get",
+    "expected": "FAQ-134",
+    "language": "english"
+  },
+  {
+    "question": "refurbished item ka grade kaise bataya jaata hai",
+    "expected": "FAQ-134",
+    "language": "english"
+  },
+  {
+    "question": "do open-box products carry a full warranty",
+    "expected": "FAQ-135",
+    "language": "english"
+  },
+  {
+    "question": "open box item pe full warranty milti hai kya",
+    "expected": "FAQ-135",
+    "language": "english"
+  },
+  {
+    "question": "can a refurbished item be sent back",
+    "expected": "FAQ-136",
+    "language": "english"
+  },
+  {
+    "question": "refurbished item return kar sakte hain kya",
+    "expected": "FAQ-136",
+    "language": "english"
+  },
+  {
+    "question": "do you offer installation for what I buy",
+    "expected": "FAQ-137",
+    "language": "english"
+  },
+  {
+    "question": "kharide hue product ki installation milti hai kya",
+    "expected": "FAQ-137",
+    "language": "english"
+  },
+  {
+    "question": "what all does a paid installation include",
+    "expected": "FAQ-138",
+    "language": "english"
+  },
+  {
+    "question": "paid installation mein kya kya hota hai",
+    "expected": "FAQ-138",
+    "language": "english"
+  },
+  {
+    "question": "can installation be booked for a later date",
+    "expected": "FAQ-139",
+    "language": "english"
+  },
+  {
+    "question": "installation baad ki date pe karwa sakte hain kya",
+    "expected": "FAQ-139",
+    "language": "english"
+  },
+  {
+    "question": "the technician never showed up, what now",
+    "expected": "FAQ-140",
+    "language": "english"
+  },
+  {
+    "question": "technician na aaye to kya karna hota hai",
+    "expected": "FAQ-140",
+    "language": "english"
+  },
+  {
+    "question": "how do I switch on two-factor sign-in",
+    "expected": "FAQ-141",
+    "language": "english"
+  },
+  {
+    "question": "two-factor verification kaise on karein",
+    "expected": "FAQ-141",
+    "language": "english"
+  },
+  {
+    "question": "why did my account get locked",
+    "expected": "FAQ-142",
+    "language": "english"
+  },
+  {
+    "question": "mera account lock kyun ho gaya",
+    "expected": "FAQ-142",
+    "language": "english"
+  },
+  {
+    "question": "how do I log out of all my devices at once",
+    "expected": "FAQ-143",
+    "language": "english"
+  },
+  {
+    "question": "saare devices se logout kaise karein",
+    "expected": "FAQ-143",
+    "language": "english"
+  },
+  {
+    "question": "someone got into my account, what should I do",
+    "expected": "FAQ-144",
+    "language": "english"
+  },
+  {
+    "question": "account mein kisi ne ghus kar order kar diya",
+    "expected": "FAQ-144",
+    "language": "english"
+  },
+  {
+    "question": "will your team ever ask me for my OTP",
+    "expected": "FAQ-145",
+    "language": "english"
+  },
+  {
+    "question": "kya aap kabhi OTP maangte hain",
+    "expected": "FAQ-145",
+    "language": "english"
+  },
+  {
+    "question": "how do I turn off promotional messages",
+    "expected": "FAQ-146",
+    "language": "english"
+  },
+  {
+    "question": "marketing messages band kaise karein",
+    "expected": "FAQ-146",
+    "language": "english"
+  },
+  {
+    "question": "can I disable push notifications on the app",
+    "expected": "FAQ-147",
+    "language": "english"
+  },
+  {
+    "question": "push notifications band kar sakte hain kya",
+    "expected": "FAQ-147",
+    "language": "english"
+  },
+  {
+    "question": "I am getting too many WhatsApp updates, fix it",
+    "expected": "FAQ-148",
+    "language": "english"
+  },
+  {
+    "question": "whatsapp pe bahut message aa rahe hain",
+    "expected": "FAQ-148",
+    "language": "english"
+  },
+  {
+    "question": "how do I start a chat with support",
+    "expected": "FAQ-149",
+    "language": "english"
+  },
+  {
+    "question": "support chat shuru kaise karein",
+    "expected": "FAQ-149",
+    "language": "english"
+  },
+  {
+    "question": "what hours is support available",
+    "expected": "FAQ-150",
+    "language": "english"
+  },
+  {
+    "question": "support kitne baje tak milti hai",
+    "expected": "FAQ-150",
+    "language": "english"
+  },
+  {
+    "question": "how do I complain about a support reply",
+    "expected": "FAQ-151",
+    "language": "english"
+  },
+  {
+    "question": "support ka jawab galat ho to complaint kaise karein",
+    "expected": "FAQ-151",
+    "language": "english"
+  },
+  {
+    "question": "is chat support offered in Hindi and English",
+    "expected": "FAQ-152",
+    "language": "english"
+  },
+  {
+    "question": "chat support hindi mein milti hai kya",
+    "expected": "FAQ-152",
+    "language": "english"
+  },
+  {
+    "question": "can I get a tax invoice for my purchase",
+    "expected": "FAQ-153",
+    "language": "english"
+  },
+  {
+    "question": "tax invoice kaise milega",
+    "expected": "FAQ-153",
+    "language": "english"
+  },
+  {
+    "question": "is customs duty already included for international orders",
+    "expected": "FAQ-154",
+    "language": "english"
+  },
+  {
+    "question": "international order pe customs duty included hai kya",
+    "expected": "FAQ-154",
+    "language": "english"
+  },
+  {
+    "question": "do I pay GST on the delivery charge",
+    "expected": "FAQ-155",
+    "language": "english"
+  },
+  {
+    "question": "delivery charge pe GST lagta hai kya",
+    "expected": "FAQ-155",
+    "language": "english"
+  },
+  {
+    "question": "which Android and iOS versions does the app support",
+    "expected": "FAQ-156",
+    "language": "english"
+  },
+  {
+    "question": "app kaun se versions pe chalti hai",
+    "expected": "FAQ-156",
+    "language": "english"
+  },
+  {
+    "question": "the app keeps crashing on the orders screen",
+    "expected": "FAQ-157",
+    "language": "english"
+  },
+  {
+    "question": "app orders kholte hi crash ho jaati hai",
+    "expected": "FAQ-157",
+    "language": "english"
+  },
+  {
+    "question": "can I use the website and the app with one account",
+    "expected": "FAQ-158",
+    "language": "english"
+  },
+  {
+    "question": "website aur app ek account pe chal sakti hain kya",
+    "expected": "FAQ-158",
+    "language": "english"
+  },
+  {
+    "question": "does the app work with TalkBack and VoiceOver",
+    "expected": "FAQ-159",
+    "language": "english"
+  },
+  {
+    "question": "app screen reader ke saath chalti hai kya",
+    "expected": "FAQ-159",
+    "language": "english"
+  },
+  {
+    "question": "how do I write a review for something I bought",
+    "expected": "FAQ-160",
+    "language": "english"
+  },
+  {
+    "question": "khareede product ka review kaise likhein",
+    "expected": "FAQ-160",
+    "language": "english"
+  },
+  {
+    "question": "why was my review taken down",
+    "expected": "FAQ-161",
+    "language": "english"
+  },
+  {
+    "question": "mera review kyun hata diya gaya",
+    "expected": "FAQ-161",
+    "language": "english"
+  },
+  {
+    "question": "do my reviews count toward the star rating",
+    "expected": "FAQ-162",
+    "language": "english"
+  },
+  {
+    "question": "mere reviews rating mein count hote hain kya",
+    "expected": "FAQ-162",
+    "language": "english"
+  },
+  {
+    "question": "how do I download all the data you hold on me",
+    "expected": "FAQ-163",
+    "language": "english"
+  },
+  {
+    "question": "mera data download kaise karun",
+    "expected": "FAQ-163",
+    "language": "english"
+  },
+  {
+    "question": "do you sell my personal data to advertisers",
+    "expected": "FAQ-164",
+    "language": "english"
+  },
+  {
+    "question": "mera data advertisers ko bech te hain kya",
+    "expected": "FAQ-164",
+    "language": "english"
+  },
+  {
+    "question": "how long do you retain order records",
+    "expected": "FAQ-165",
+    "language": "english"
+  },
+  {
+    "question": "order records kitne saal rakhe jaate hain",
+    "expected": "FAQ-165",
+    "language": "english"
+  },
+  {
+    "question": "which sellers can see my delivery address",
+    "expected": "FAQ-166",
+    "language": "english"
+  },
+  {
+    "question": "mera address kaun se sellers dekh sakte hain",
+    "expected": "FAQ-166",
+    "language": "english"
+  },
+  {
+    "question": "why did my order come in two shipments",
+    "expected": "FAQ-167",
+    "language": "english"
+  },
+  {
+    "question": "order do shipment mein kyun aaya",
+    "expected": "FAQ-167",
+    "language": "english"
+  },
+  {
+    "question": "can two of my orders be merged into one delivery",
+    "expected": "FAQ-168",
+    "language": "english"
+  },
+  {
+    "question": "do orders ko ek delivery merge kar sakte hain kya",
+    "expected": "FAQ-168",
+    "language": "english"
+  },
+  {
+    "question": "can I add an item after the order is placed",
+    "expected": "FAQ-169",
+    "language": "english"
+  },
+  {
+    "question": "order place hone ke baad item add kar sakte hain kya",
+    "expected": "FAQ-169",
+    "language": "english"
+  },
+  {
+    "question": "why is my order stuck on hold",
+    "expected": "FAQ-170",
+    "language": "english"
+  },
+  {
+    "question": "order hold pe kyun atka hai",
+    "expected": "FAQ-170",
+    "language": "english"
+  },
+  {
+    "question": "how do I buy something I ordered before again",
+    "expected": "FAQ-171",
+    "language": "english"
+  },
+  {
+    "question": "pehle khareeda item dobara kaise khareedein",
+    "expected": "FAQ-171",
+    "language": "english"
+  },
+  {
+    "question": "can I keep a private wishlist for later",
+    "expected": "FAQ-172",
+    "language": "english"
+  },
+  {
+    "question": "wishlist bana sakte hain kya baad mein khareedne ke liye",
+    "expected": "FAQ-172",
+    "language": "english"
+  },
+  {
+    "question": "is there a waitlist for a size that is sold out",
+    "expected": "FAQ-173",
+    "language": "english"
+  },
+  {
+    "question": "sold out size ke liye waitlist hai kya",
+    "expected": "FAQ-173",
+    "language": "english"
+  },
+  {
+    "question": "is my card number stored with you",
+    "expected": "FAQ-174",
+    "language": "english"
+  },
+  {
+    "question": "mera card number aapke paas save hota hai kya",
+    "expected": "FAQ-174",
+    "language": "english"
+  },
+  {
+    "question": "how do I delete a card I saved",
+    "expected": "FAQ-175",
+    "language": "english"
+  },
+  {
+    "question": "save kiye card ko kaise hatayein",
+    "expected": "FAQ-175",
+    "language": "english"
+  },
+  {
+    "question": "I was charged twice for one order, what now",
+    "expected": "FAQ-176",
+    "language": "english"
+  },
+  {
+    "question": "ek order ka do baar paisa kata gaya",
+    "expected": "FAQ-176",
+    "language": "english"
+  },
+  {
+    "question": "money was debited but the order did not go through",
+    "expected": "FAQ-177",
+    "language": "english"
+  },
+  {
+    "question": "paisa kat gaya magar order fail ho gaya",
+    "expected": "FAQ-177",
+    "language": "english"
+  },
+  {
+    "question": "can one order use two different cards",
+    "expected": "FAQ-178",
+    "language": "english"
+  },
+  {
+    "question": "ek order do cards se pay kar sakte hain kya",
+    "expected": "FAQ-178",
+    "language": "english"
+  },
+  {
+    "question": "do you take cards issued outside India",
+    "expected": "FAQ-179",
+    "language": "english"
+  },
+  {
+    "question": "foreign cards chalte hain kya yahan",
+    "expected": "FAQ-179",
+    "language": "english"
+  },
+  {
+    "question": "what is the maximum UPI amount per order",
+    "expected": "FAQ-180",
+    "language": "english"
+  },
+  {
+    "question": "UPI se ek order mein kitna max pay kar sakte hain",
+    "expected": "FAQ-180",
+    "language": "english"
+  },
+  {
+    "question": "can I scan a UPI code at the door on delivery",
+    "expected": "FAQ-181",
+    "language": "english"
+  },
+  {
+    "question": "delivery pe UPI se paise de sakte hain kya",
+    "expected": "FAQ-181",
+    "language": "english"
+  },
+  {
+    "question": "is cash on delivery available at every address",
+    "expected": "FAQ-182",
+    "language": "english"
+  },
+  {
+    "question": "cash on delivery har jagah milta hai kya",
+    "expected": "FAQ-182",
+    "language": "english"
+  },
+  {
+    "question": "do you keep my UPI ID on file",
+    "expected": "FAQ-183",
+    "language": "english"
+  },
+  {
+    "question": "mera UPI ID aap store karte hain kya",
+    "expected": "FAQ-183",
+    "language": "english"
+  },
+  {
+    "question": "what is the minimum order for no-cost EMI",
+    "expected": "FAQ-184",
+    "language": "english"
+  },
+  {
+    "question": "no cost EMI ke liye minimum order kitna hai",
+    "expected": "FAQ-184",
+    "language": "english"
+  },
+  {
+    "question": "can I close an EMI loan early",
+    "expected": "FAQ-185",
+    "language": "english"
+  },
+  {
+    "question": "EMI jaldi band kar sakte hain kya",
+    "expected": "FAQ-185",
+    "language": "english"
+  },
+  {
+    "question": "why was my EMI option rejected",
+    "expected": "FAQ-186",
+    "language": "english"
+  },
+  {
+    "question": "mera EMI kyun reject hua",
+    "expected": "FAQ-186",
+    "language": "english"
+  },
+  {
+    "question": "can I cancel once the order is packed but not shipped",
+    "expected": "FAQ-187",
+    "language": "english"
+  },
+  {
+    "question": "pack hone ke baad cancel ho sakta hai kya",
+    "expected": "FAQ-187",
+    "language": "english"
+  },
+  {
+    "question": "is there a fee to cancel an order I changed my mind about",
+    "expected": "FAQ-188",
+    "language": "english"
+  },
+  {
+    "question": "cancel karne pe koi charge lagta hai kya",
+    "expected": "FAQ-188",
+    "language": "english"
+  },
+  {
+    "question": "how long does a cancellation refund take to reach my bank",
+    "expected": "FAQ-189",
+    "language": "english"
+  },
+  {
+    "question": "cancel ka refund kitne din mein aata hai",
+    "expected": "FAQ-189",
+    "language": "english"
+  },
+  {
+    "question": "what happens if I refuse a cash-on-delivery parcel",
+    "expected": "FAQ-190",
+    "language": "english"
+  },
+  {
+    "question": "cash on delivery parcel mana kar dein to kya hoga",
+    "expected": "FAQ-190",
+    "language": "english"
+  },
+  {
+    "question": "can I exchange for another colour instead of the same size",
+    "expected": "FAQ-191",
+    "language": "english"
+  },
+  {
+    "question": "size ki jagah colour exchange kar sakte hain kya",
+    "expected": "FAQ-191",
+    "language": "english"
+  },
+  {
+    "question": "how do I exchange a gift someone sent me",
+    "expected": "FAQ-192",
+    "language": "english"
+  },
+  {
+    "question": "gift mila item exchange kaise karun",
+    "expected": "FAQ-192",
+    "language": "english"
+  },
+  {
+    "question": "can a sale item be exchanged",
+    "expected": "FAQ-193",
+    "language": "english"
+  },
+  {
+    "question": "sale item exchange hota hai kya",
+    "expected": "FAQ-193",
+    "language": "english"
+  },
+  {
+    "question": "if the exchanged item costs more, do I pay the difference",
+    "expected": "FAQ-194",
+    "language": "english"
+  },
+  {
+    "question": "exchange mein price farq hota hai to kaise settle hota hai",
+    "expected": "FAQ-194",
+    "language": "english"
+  },
+  {
+    "question": "can a personalised item be exchanged",
+    "expected": "FAQ-195",
+    "language": "english"
+  },
+  {
+    "question": "name likha item exchange hoga kya",
+    "expected": "FAQ-195",
+    "language": "english"
+  },
+  {
+    "question": "can I return an item if I threw the box away",
+    "expected": "FAQ-196",
+    "language": "english"
+  },
+  {
+    "question": "box phenk diya to return ho sakta hai kya",
+    "expected": "FAQ-196",
+    "language": "english"
+  },
+  {
+    "question": "which products are not eligible for return at all",
+    "expected": "FAQ-197",
+    "language": "english"
+  },
+  {
+    "question": "kaun se products return nahi ho sakte",
+    "expected": "FAQ-197",
+    "language": "english"
+  },
+  {
+    "question": "how do I ship a return myself",
+    "expected": "FAQ-198",
+    "language": "english"
+  },
+  {
+    "question": "return khud courier kaise karein",
+    "expected": "FAQ-198",
+    "language": "english"
+  },
+  {
+    "question": "what if my return parcel gets damaged on the way back",
+    "expected": "FAQ-199",
+    "language": "english"
+  },
+  {
+    "question": "return ka parcel raste mein kharab ho jaaye to",
+    "expected": "FAQ-199",
+    "language": "english"
+  },
+  {
+    "question": "after the return pickup, when is the money refunded",
+    "expected": "FAQ-200",
+    "language": "english"
+  },
+  {
+    "question": "pickup ke baad refund kitne din mein milta hai",
+    "expected": "FAQ-200",
+    "language": "english"
+  },
+  {
+    "question": "can I withdraw a return I already raised",
+    "expected": "FAQ-201",
+    "language": "english"
+  },
+  {
+    "question": "raise kiye return ko wapas le sakte hain kya",
+    "expected": "FAQ-201",
+    "language": "english"
+  },
+  {
+    "question": "do I get back the fee I paid to return an item",
+    "expected": "FAQ-202",
+    "language": "english"
+  },
+  {
+    "question": "return fee ka refund milta hai kya",
+    "expected": "FAQ-202",
+    "language": "english"
+  },
+  {
+    "question": "can a refund be split between two payment methods",
+    "expected": "FAQ-203",
+    "language": "english"
+  },
+  {
+    "question": "refund do methods mein baant sakte hain kya",
+    "expected": "FAQ-203",
+    "language": "english"
+  },
+  {
+    "question": "why did my refund come to less than what I paid",
+    "expected": "FAQ-204",
+    "language": "english"
+  },
+  {
+    "question": "refund paid amount se kam kyun aaya",
+    "expected": "FAQ-204",
+    "language": "english"
+  },
+  {
+    "question": "how do I confirm that a refund actually reached my bank",
+    "expected": "FAQ-205",
+    "language": "english"
+  },
+  {
+    "question": "refund bank mein aaya ya nahi kaise check karein",
+    "expected": "FAQ-205",
+    "language": "english"
+  },
+  {
+    "question": "what does the final scan on my tracking page tell me",
+    "expected": "FAQ-206",
+    "language": "english"
+  },
+  {
+    "question": "tracking ka last scan ka matlab kya hai",
+    "expected": "FAQ-206",
+    "language": "english"
+  },
+  {
+    "question": "can delivery messages come in my preferred language",
+    "expected": "FAQ-207",
+    "language": "english"
+  },
+  {
+    "question": "delivery SMS apni bhasha mein aa sakte hain kya",
+    "expected": "FAQ-207",
+    "language": "english"
+  },
+  {
+    "question": "my tracking link will not open, why",
+    "expected": "FAQ-208",
+    "language": "english"
+  },
+  {
+    "question": "tracking link kyun nahi khul raha",
+    "expected": "FAQ-208",
+    "language": "english"
+  },
+  {
+    "question": "can I follow the courier coming to pick my return",
+    "expected": "FAQ-209",
+    "language": "english"
+  },
+  {
+    "question": "return pickup track ho sakti hai kya",
+    "expected": "FAQ-209",
+    "language": "english"
+  },
+  {
+    "question": "is there an extra charge for very bulky orders",
+    "expected": "FAQ-210",
+    "language": "english"
+  },
+  {
+    "question": "bade items pe extra delivery charge lagta hai kya",
+    "expected": "FAQ-210",
+    "language": "english"
+  },
+  {
+    "question": "how is the shipping fee worked out for my order",
+    "expected": "FAQ-211",
+    "language": "english"
+  },
+  {
+    "question": "delivery charge kaise calculate hota hai",
+    "expected": "FAQ-211",
+    "language": "english"
+  },
+  {
+    "question": "is my shipping cost refunded when the item goes back",
+    "expected": "FAQ-212",
+    "language": "english"
+  },
+  {
+    "question": "return pe delivery charge wapas milta hai kya",
+    "expected": "FAQ-212",
+    "language": "english"
+  },
+  {
+    "question": "can one order go to two different addresses",
+    "expected": "FAQ-213",
+    "language": "english"
+  },
+  {
+    "question": "ek order do address pe bhej sakte hain kya",
+    "expected": "FAQ-213",
+    "language": "english"
+  },
+  {
+    "question": "can I have the parcel delivered to a friend's place",
+    "expected": "FAQ-214",
+    "language": "english"
+  },
+  {
+    "question": "parcel dost ke address pe bhej sakte hain kya",
+    "expected": "FAQ-214",
+    "language": "english"
+  },
+  {
+    "question": "what is the time limit for same-day delivery",
+    "expected": "FAQ-215",
+    "language": "english"
+  },
+  {
+    "question": "same day delivery ka last time kya hai",
+    "expected": "FAQ-215",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver cold-chain goods like ice cream",
+    "expected": "FAQ-216",
+    "language": "english"
+  },
+  {
+    "question": "ice cream jaise thande items deliver hote hain kya",
+    "expected": "FAQ-216",
+    "language": "english"
+  },
+  {
+    "question": "how do I return a perishable item",
+    "expected": "FAQ-217",
+    "language": "english"
+  },
+  {
+    "question": "kharab hone pe perishable item kaise return karein",
+    "expected": "FAQ-217",
+    "language": "english"
+  },
+  {
+    "question": "how do bank offers work on a payment",
+    "expected": "FAQ-218",
+    "language": "english"
+  },
+  {
+    "question": "bank offer payment pe kaise kaam karta hai",
+    "expected": "FAQ-218",
+    "language": "english"
+  },
+  {
+    "question": "my bank discount never applied, why",
+    "expected": "FAQ-219",
+    "language": "english"
+  },
+  {
+    "question": "bank discount kyun nahi laga",
+    "expected": "FAQ-219",
+    "language": "english"
+  },
+  {
+    "question": "can a coupon and a bank offer be used together",
+    "expected": "FAQ-220",
+    "language": "english"
+  },
+  {
+    "question": "coupon aur bank offer saath chal sakte hain kya",
+    "expected": "FAQ-220",
+    "language": "english"
+  },
+  {
+    "question": "are there offers for students or for referring a friend",
+    "expected": "FAQ-221",
+    "language": "english"
+  },
+  {
+    "question": "student ya referral offer milta hai kya",
+    "expected": "FAQ-221",
+    "language": "english"
+  },
+  {
+    "question": "what happens to my coupon if the order is cancelled",
+    "expected": "FAQ-222",
+    "language": "english"
+  },
+  {
+    "question": "order cancel hone pe coupon kya hota hai",
+    "expected": "FAQ-222",
+    "language": "english"
+  },
+  {
+    "question": "are coupons usable during a sale",
+    "expected": "FAQ-223",
+    "language": "english"
+  },
+  {
+    "question": "sale ke dauraan coupon chalega kya",
+    "expected": "FAQ-223",
+    "language": "english"
+  },
+  {
+    "question": "can restock alerts be made to arrive faster",
+    "expected": "FAQ-224",
+    "language": "english"
+  },
+  {
+    "question": "restock alert jaldi kaise mile",
+    "expected": "FAQ-224",
+    "language": "english"
+  },
+  {
+    "question": "can two accounts share one phone number",
+    "expected": "FAQ-225",
+    "language": "english"
+  },
+  {
+    "question": "ek number pe do account ban sakte hain kya",
+    "expected": "FAQ-225",
+    "language": "english"
+  },
+  {
+    "question": "how do I change the email id on my account",
+    "expected": "FAQ-226",
+    "language": "english"
+  },
+  {
+    "question": "account ka email kaise badlein",
+    "expected": "FAQ-226",
+    "language": "english"
+  },
+  {
+    "question": "how do I pause my account without deleting it",
+    "expected": "FAQ-227",
+    "language": "english"
+  },
+  {
+    "question": "account delete kiye bina band kaise karein",
+    "expected": "FAQ-227",
+    "language": "english"
+  },
+  {
+    "question": "what happens to my wallet money if I delete the account",
+    "expected": "FAQ-228",
+    "language": "english"
+  },
+  {
+    "question": "account delete karne pe wallet balance kya hoga",
+    "expected": "FAQ-228",
+    "language": "english"
+  },
+  {
+    "question": "do my order records survive an account deletion",
+    "expected": "FAQ-229",
+    "language": "english"
+  },
+  {
+    "question": "account delete hone pe order history bachti hai kya",
+    "expected": "FAQ-229",
+    "language": "english"
+  },
+  {
+    "question": "how long is a password reset link valid",
+    "expected": "FAQ-230",
+    "language": "english"
+  },
+  {
+    "question": "password reset link kitni der chalta hai",
+    "expected": "FAQ-230",
+    "language": "english"
+  },
+  {
+    "question": "why do I keep getting an OTP on every sign-in",
+    "expected": "FAQ-231",
+    "language": "english"
+  },
+  {
+    "question": "har login pe OTP kyun aata hai",
+    "expected": "FAQ-231",
+    "language": "english"
+  },
+  {
+    "question": "liquid spilled all over my delivered item, what now",
+    "expected": "FAQ-232",
+    "language": "english"
+  },
+  {
+    "question": "item se cheeche nikl rahi hai to kya karein",
+    "expected": "FAQ-232",
+    "language": "english"
+  },
+  {
+    "question": "can I keep a scratched item and get a partial refund",
+    "expected": "FAQ-233",
+    "language": "english"
+  },
+  {
+    "question": "thoda kharab item rakh ke partial refund milta hai kya",
+    "expected": "FAQ-233",
+    "language": "english"
+  },
+  {
+    "question": "where do I find my older invoices",
+    "expected": "FAQ-234",
+    "language": "english"
+  },
+  {
+    "question": "purane invoices kahan milenge",
+    "expected": "FAQ-234",
+    "language": "english"
+  },
+  {
+    "question": "can the GSTIN on an issued invoice be corrected",
+    "expected": "FAQ-235",
+    "language": "english"
+  },
+  {
+    "question": "invoice pe GSTIN badal sakti hai kya",
+    "expected": "FAQ-235",
+    "language": "english"
+  },
+  {
+    "question": "my invoice has the wrong address on it, how do I fix that",
+    "expected": "FAQ-236",
+    "language": "english"
+  },
+  {
+    "question": "invoice pe address galat hai to kaise theek karein",
+    "expected": "FAQ-236",
+    "language": "english"
+  },
+  {
+    "question": "who can see my profile name and reviews",
+    "expected": "FAQ-237",
+    "language": "english"
+  },
+  {
+    "question": "mera naam aur reviews kaun dekh sakta hai",
+    "expected": "FAQ-237",
+    "language": "english"
+  },
+  {
+    "question": "can I delete one order from my history",
+    "expected": "FAQ-238",
+    "language": "english"
+  },
+  {
+    "question": "history se ek order hata sakte hain kya",
+    "expected": "FAQ-238",
+    "language": "english"
+  },
+  {
+    "question": "is my browsing used to suggest products to me",
+    "expected": "FAQ-239",
+    "language": "english"
+  },
+  {
+    "question": "browsing se suggestions aati hain kya",
+    "expected": "FAQ-239",
+    "language": "english"
+  },
+  {
+    "question": "how do I challenge an automated decision",
+    "expected": "FAQ-240",
+    "language": "english"
+  },
+  {
+    "question": "automated decision pe appeal kaise karein",
+    "expected": "FAQ-240",
+    "language": "english"
+  },
+  {
+    "question": "how do I add money to my wallet",
+    "expected": "FAQ-241",
+    "language": "english"
+  },
+  {
+    "question": "wallet mein paise kaise daalein",
+    "expected": "FAQ-241",
+    "language": "english"
+  },
+  {
+    "question": "wallet top-up failed but the money was taken",
+    "expected": "FAQ-242",
+    "language": "english"
+  },
+  {
+    "question": "wallet mein paisa nahi gaya magar kat gaya",
+    "expected": "FAQ-242",
+    "language": "english"
+  },
+  {
+    "question": "can store credit be used along with my card",
+    "expected": "FAQ-243",
+    "language": "english"
+  },
+  {
+    "question": "store credit card ke saath use ho sakti hai kya",
+    "expected": "FAQ-243",
+    "language": "english"
+  },
+  {
+    "question": "can a gift card and store credit both be used on an order",
+    "expected": "FAQ-244",
+    "language": "english"
+  },
+  {
+    "question": "gift card aur store credit doni lag sakti hain kya",
+    "expected": "FAQ-244",
+    "language": "english"
+  },
+  {
+    "question": "do points from my earlier phone number still work",
+    "expected": "FAQ-245",
+    "language": "english"
+  },
+  {
+    "question": "purane number ke points chalte hain kya",
+    "expected": "FAQ-245",
+    "language": "english"
+  },
+  {
+    "question": "can a subscription be delivered to a gift address",
+    "expected": "FAQ-246",
+    "language": "english"
+  },
+  {
+    "question": "subscription gift address pe banta hai kya",
+    "expected": "FAQ-246",
+    "language": "english"
+  },
+  {
+    "question": "do subscription refunds take the same time",
+    "expected": "FAQ-247",
+    "language": "english"
+  },
+  {
+    "question": "subscription ka refund bhi utna hi time leta hai kya",
+    "expected": "FAQ-247",
+    "language": "english"
+  },
+  {
+    "question": "can a bulk order be paid by bank transfer",
+    "expected": "FAQ-248",
+    "language": "english"
+  },
+  {
+    "question": "bulk order bank transfer se pay ho sakta hai kya",
+    "expected": "FAQ-248",
+    "language": "english"
+  },
+  {
+    "question": "do bulk orders get a return window",
+    "expected": "FAQ-249",
+    "language": "english"
+  },
+  {
+    "question": "bulk order return window deta hai kya",
+    "expected": "FAQ-249",
+    "language": "english"
+  },
+  {
+    "question": "what happens when a seller ships a fake item",
+    "expected": "FAQ-250",
+    "language": "english"
+  },
+  {
+    "question": "seller nakli item bhej de to kya hota hai",
+    "expected": "FAQ-250",
+    "language": "english"
+  },
+  {
+    "question": "can a seller look at my full order history",
+    "expected": "FAQ-251",
+    "language": "english"
+  },
+  {
+    "question": "seller meri poori order history dekh sakta hai kya",
+    "expected": "FAQ-251",
+    "language": "english"
+  },
+  {
+    "question": "can the courier give the parcel to my family",
+    "expected": "FAQ-252",
+    "language": "english"
+  },
+  {
+    "question": "courier parcel ghar ke kisi ko de sakta hai kya",
+    "expected": "FAQ-252",
+    "language": "english"
+  },
+  {
+    "question": "what does contactless delivery mean here",
+    "expected": "FAQ-253",
+    "language": "english"
+  },
+  {
+    "question": "contactless delivery ka matlab kya hai yahan",
+    "expected": "FAQ-253",
+    "language": "english"
+  },
+  {
+    "question": "can I tip the delivery person through the app",
+    "expected": "FAQ-254",
+    "language": "english"
+  },
+  {
+    "question": "app se delivery wale ko tip de sakte hain kya",
+    "expected": "FAQ-254",
+    "language": "english"
+  },
+  {
+    "question": "will the courier collect the old packaging",
+    "expected": "FAQ-255",
+    "language": "english"
+  },
+  {
+    "question": "purana packaging courier le jaayega kya",
+    "expected": "FAQ-255",
+    "language": "english"
+  },
+  {
+    "question": "can I claim insurance on a parcel that never arrived",
+    "expected": "FAQ-256",
+    "language": "english"
+  },
+  {
+    "question": "kho gaye parcel pe insurance claim ho sakta hai kya",
+    "expected": "FAQ-256",
+    "language": "english"
+  },
+  {
+    "question": "I got a used item when I paid for a new one",
+    "expected": "FAQ-257",
+    "language": "english"
+  },
+  {
+    "question": "naya khareeda magar purana item aaya",
+    "expected": "FAQ-257",
+    "language": "english"
+  },
+  {
+    "question": "how do I switch off a waitlist alert",
+    "expected": "FAQ-258",
+    "language": "english"
+  },
+  {
+    "question": "waitlist alert kaise band karein",
+    "expected": "FAQ-258",
+    "language": "english"
+  },
+  {
+    "question": "does price protection cover gift cards too",
+    "expected": "FAQ-259",
+    "language": "english"
+  },
+  {
+    "question": "price protection gift card pe bhi lagta hai kya",
+    "expected": "FAQ-259",
+    "language": "english"
+  },
+  {
+    "question": "is the delivery fee included in price protection",
+    "expected": "FAQ-260",
+    "language": "english"
+  },
+  {
+    "question": "price protection delivery fee bhi cover karta hai kya",
+    "expected": "FAQ-260",
+    "language": "english"
+  },
+  {
+    "question": "can loyalty points be sent to another account",
+    "expected": "FAQ-261",
+    "language": "english"
+  },
+  {
+    "question": "loyalty points doosre account bhej sakte hain kya",
+    "expected": "FAQ-261",
+    "language": "english"
+  },
+  {
+    "question": "is appliance installation free by default",
+    "expected": "FAQ-262",
+    "language": "english"
+  },
+  {
+    "question": "appliance installation muft hoti hai kya",
+    "expected": "FAQ-262",
+    "language": "english"
+  },
+  {
+    "question": "how do I report a fake email that pretends to be you",
+    "expected": "FAQ-263",
+    "language": "english"
+  },
+  {
+    "question": "aapke naam ka fake email kaise report karein",
+    "expected": "FAQ-263",
+    "language": "english"
+  },
+  {
+    "question": "can I get one email digest instead of many alerts",
+    "expected": "FAQ-264",
+    "language": "english"
+  },
+  {
+    "question": "alerts ki jagah ek digest email mil sakta hai kya",
+    "expected": "FAQ-264",
+    "language": "english"
+  },
+  {
+    "question": "can support email have a file attached",
+    "expected": "FAQ-265",
+    "language": "english"
+  },
+  {
+    "question": "support email mein file attach kar sakte hain kya",
+    "expected": "FAQ-265",
+    "language": "english"
+  },
+  {
+    "question": "how do I reopen a support chat that ended",
+    "expected": "FAQ-266",
+    "language": "english"
+  },
+  {
+    "question": "band chat ko dobara kaise kholein",
+    "expected": "FAQ-266",
+    "language": "english"
+  },
+  {
+    "question": "which state's GST is charged on my order",
+    "expected": "FAQ-267",
+    "language": "english"
+  },
+  {
+    "question": "mere order pe kaun si state ka GST lagta hai",
+    "expected": "FAQ-267",
+    "language": "english"
+  },
+  {
+    "question": "can I browse without creating an account",
+    "expected": "FAQ-268",
+    "language": "english"
+  },
+  {
+    "question": "account ke bina browse kar sakte hain kya",
+    "expected": "FAQ-268",
+    "language": "english"
+  },
+  {
+    "question": "can a seller reply to my review",
+    "expected": "FAQ-269",
+    "language": "english"
+  },
+  {
+    "question": "seller mere review ka jawab de sakta hai kya",
+    "expected": "FAQ-269",
+    "language": "english"
+  },
+  {
+    "question": "are support chats kept after the case is closed",
+    "expected": "FAQ-270",
+    "language": "english"
+  },
+  {
+    "question": "case band hone ke baad chat record rakha jaata hai kya",
+    "expected": "FAQ-270",
+    "language": "english"
+  },
+  {
+    "question": "can my order be emailed to me as a copy",
+    "expected": "FAQ-271",
+    "language": "english"
+  },
+  {
+    "question": "order ki copy email mein mil sakti hai kya",
+    "expected": "FAQ-271",
+    "language": "hinglish"
+  },
+  {
+    "question": "what is a partial refund on a multi-item order",
+    "expected": "FAQ-272",
+    "language": "english"
+  },
+  {
+    "question": "partial refund ka matlab kya hai order mein",
+    "expected": "FAQ-272",
+    "language": "english"
+  },
+  {
+    "question": "can I order for a company with my personal account",
+    "expected": "FAQ-273",
+    "language": "english"
+  },
+  {
+    "question": "personal account se company ka order ho sakta hai kya",
+    "expected": "FAQ-273",
+    "language": "english"
+  },
+  {
+    "question": "where do I get a payment receipt",
+    "expected": "FAQ-274",
+    "language": "english"
+  },
+  {
+    "question": "payment receipt kahan se milega",
+    "expected": "FAQ-274",
+    "language": "english"
+  },
+  {
+    "question": "do you support PayZapp or Mobikwik wallets",
+    "expected": "FAQ-275",
+    "language": "english"
+  },
+  {
+    "question": "wallet se payment hoti hai kya",
+    "expected": "FAQ-275",
+    "language": "english"
+  },
+  {
+    "question": "what if my own bank charges a failed payment fee",
+    "expected": "FAQ-276",
+    "language": "english"
+  },
+  {
+    "question": "payment fail hone pe bank charge kaun bhartai",
+    "expected": "FAQ-276",
+    "language": "english"
+  },
+  {
+    "question": "can I skip the delivery and pick up later",
+    "expected": "FAQ-277",
+    "language": "english"
+  },
+  {
+    "question": "delivery chhod ke baad mein pickup kar sakte hain kya",
+    "expected": "FAQ-277",
+    "language": "english"
+  },
+  {
+    "question": "how do I exchange something bought in a sale",
+    "expected": "FAQ-278",
+    "language": "english"
+  },
+  {
+    "question": "sale mein khareeda item exchange kaise karein",
+    "expected": "FAQ-278",
+    "language": "english"
+  },
+  {
+    "question": "can a gift card purchase be refunded",
+    "expected": "FAQ-279",
+    "language": "english"
+  },
+  {
+    "question": "gift card ka paisa wapas milta hai kya",
+    "expected": "FAQ-279",
+    "language": "english"
+  },
+  {
+    "question": "can I take my refund in cash instead",
+    "expected": "FAQ-280",
+    "language": "english"
+  },
+  {
+    "question": "refund cash mein le sakte hain kya",
+    "expected": "FAQ-280",
+    "language": "english"
+  },
+  {
+    "question": "one of my three parcels is still missing, why",
+    "expected": "FAQ-281",
+    "language": "english"
+  },
+  {
+    "question": "teen mein se ek parcel abhi nahi aaya",
+    "expected": "FAQ-281",
+    "language": "english"
+  },
+  {
+    "question": "can delivery be made to a locker point",
+    "expected": "FAQ-282",
+    "language": "english"
+  },
+  {
+    "question": "locker point pe delivery hoti hai kya",
+    "expected": "FAQ-282",
+    "language": "english"
+  },
+  {
+    "question": "how long does a locker hold my parcel",
+    "expected": "FAQ-283",
+    "language": "english"
+  },
+  {
+    "question": "locker kitne din parcel rakhta hai",
+    "expected": "FAQ-283",
+    "language": "english"
+  },
+  {
+    "question": "is an unused coupon refunded to my card",
+    "expected": "FAQ-284",
+    "language": "english"
+  },
+  {
+    "question": "unused coupon ka refund milta hai kya",
+    "expected": "FAQ-284",
+    "language": "english"
+  },
+  {
+    "question": "how do I change my display name",
+    "expected": "FAQ-285",
+    "language": "english"
+  },
+  {
+    "question": "apna display name kaise badlein",
+    "expected": "FAQ-285",
+    "language": "english"
+  },
+  {
+    "question": "the box is dented but the item works, claim possible",
+    "expected": "FAQ-286",
+    "language": "english"
+  },
+  {
+    "question": "box kb to hai magar item chalta hai to",
+    "expected": "FAQ-286",
+    "language": "english"
+  },
+  {
+    "question": "can two orders share one single invoice",
+    "expected": "FAQ-287",
+    "language": "english"
+  },
+  {
+    "question": "do orders ka ek invoice ban sakta hai kya",
+    "expected": "FAQ-287",
+    "language": "english"
+  },
+  {
+    "question": "is my browsing history shared with sellers",
+    "expected": "FAQ-288",
+    "language": "english"
+  },
+  {
+    "question": "sellers meri browsing dekh sakte hain kya",
+    "expected": "FAQ-288",
+    "language": "english"
+  },
+  {
+    "question": "does a replaced item get a new warranty",
+    "expected": "FAQ-289",
+    "language": "english"
+  },
+  {
+    "question": "replacement item pe nayi warranty milti hai kya",
+    "expected": "FAQ-289",
+    "language": "english"
+  },
+  {
+    "question": "can my subscription amount go up later",
+    "expected": "FAQ-290",
+    "language": "english"
+  },
+  {
+    "question": "subscription ka price badh sakta hai kya",
+    "expected": "FAQ-290",
+    "language": "english"
+  },
+  {
+    "question": "do bulk quote orders also earn loyalty points",
+    "expected": "FAQ-291",
+    "language": "english"
+  },
+  {
+    "question": "bulk quote order pe points milte hain kya",
+    "expected": "FAQ-291",
+    "language": "english"
+  },
+  {
+    "question": "can a gift card be used inside the app",
+    "expected": "FAQ-292",
+    "language": "english"
+  },
+  {
+    "question": "gift card app mein use hota hai kya",
+    "expected": "FAQ-292",
+    "language": "english"
+  },
+  {
+    "question": "can I change the pickup store after I have ordered",
+    "expected": "FAQ-293",
+    "language": "english"
+  },
+  {
+    "question": "order ke baad pickup store badal sakta hai kya",
+    "expected": "FAQ-293",
+    "language": "english"
+  },
+  {
+    "question": "can store credit pay for a cash-on-delivery order",
+    "expected": "FAQ-294",
+    "language": "english"
+  },
+  {
+    "question": "cash on delivery store credit se chal sakta hai kya",
+    "expected": "FAQ-294",
+    "language": "english"
+  },
+  {
+    "question": "how many product quotes can I ask for at once",
+    "expected": "FAQ-295",
+    "language": "english"
+  },
+  {
+    "question": "ek saath kitne quotes maang sakte hain",
+    "expected": "FAQ-295",
+    "language": "english"
+  },
+  {
+    "question": "is there a limit on orders from one seller",
+    "expected": "FAQ-296",
+    "language": "english"
+  },
+  {
+    "question": "ek seller se kitne order kar sakte hain",
+    "expected": "FAQ-296",
+    "language": "english"
+  },
+  {
+    "question": "do you ship to army or campus addresses",
+    "expected": "FAQ-297",
+    "language": "english"
+  },
+  {
+    "question": "campus address pe delivery hoti hai kya",
+    "expected": "FAQ-297",
+    "language": "english"
+  },
+  {
+    "question": "my parcel was left with a guard, what do I do",
+    "expected": "FAQ-298",
+    "language": "english"
+  },
+  {
+    "question": "parcel guard ke paas mila hai to kya karein",
+    "expected": "FAQ-298",
+    "language": "english"
+  },
+  {
+    "question": "two items got swapped in my parcel",
+    "expected": "FAQ-299",
+    "language": "english"
+  },
+  {
+    "question": "parcel mein do items badal gaye hain",
+    "expected": "FAQ-299",
+    "language": "english"
+  },
+  {
+    "question": "does leaving an item in my cart hold the stock",
+    "expected": "FAQ-300",
+    "language": "english"
+  },
+  {
+    "question": "cart mein rakhe item ka stock ruka rehta hai kya",
+    "expected": "FAQ-300",
+    "language": "english"
+  },
+  {
+    "question": "who is the chief executive of your company",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "aapki company ka CEO kaun hai",
+    "expected": "none",
+    "language": "hinglish"
+  },
+  {
+    "question": "who founded the company and in which year",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "when was your business actually started",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "company kitne saal purani hai",
+    "expected": "none",
+    "language": "hinglish"
+  },
+  {
+    "question": "do you sponsor local cricket tournaments",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can my company sponsor your app banner",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you fund school sports events",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you run a student ambassador program",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how do I apply for a job at your office",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you take interns for the summer",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "is there a referral bonus for hiring someone",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "where do you post open engineering roles",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I send my resume to your HR team",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you hire part time delivery staff in my city",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "what is your starting salary for support staff",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how do I reach your media or press desk",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "who handles advertising enquiries on your site",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I buy a banner ad on your homepage",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a press release archive",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "where can I read your annual report",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "is your company listed on the stock exchange",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "what is your share price today",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you hold an annual general meeting",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "who should investors contact for filings",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you donate a share of profit to charity",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I donate my old clothes through you",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you run a cleanliness drive in my area",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how do I franchise one of your stores",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a dealer or distributor network",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I open a pickup point of yours in my shop",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you give bulk reseller discount cards",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "what is the onboarding process for new sellers",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a seller helpline for new accounts",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "what commission do you take from sellers",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "is there a bug bounty program on your site",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a public API for developers",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I download your full product catalogue as a file",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a webhook for order events",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you hold user meetups or webinars",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "is there an alumni network for ex employees",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how many stores do you have in total",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "which city is your nearest store in",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a store locator map on the site",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "is there a cafe or waiting area inside your store",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do your stores have a trial room for clothes",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I book a fitting appointment in a store",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a washroom and parking at the store",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "is the store open during a bandh",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I place an order over a phone call to your desk",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I order by sending an SMS",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I order through your Instagram page",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you take orders through WhatsApp chat",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I fax an order to your warehouse",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have an app for a smart television",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I order through Alexa or Google Home",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a desktop application for Windows",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I order through a voice call recording",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you accept orders by email attachment",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "is there a telegram channel for order placement",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I order at your stall in an exhibition",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a catalogue in local language print",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I reserve stock at your store counter",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do your stores do home visits for orders",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get a printed price list for my shop",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell products through door to door agents",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I book a phone call back from your team",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a complaint number for the head office",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "who is the grievance officer by name",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "what is your registered office address",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "what is your company's CIN number",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how do I file a consumer court case against you",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a legal notice address for service",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "who owns your parent company",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "are you part of a larger retail group",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a brand ambassador",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how do I partner with you for a joint promotion",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I sell your gift vouchers in my shop",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have an affiliate program for bloggers",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how do I join your creator or influencer program",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you run auctions on your site",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I bid on unsold returned stock",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell discontinued warehouse lots to the public",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you run a liquidation sale of old stock",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "how do I buy your surplus packaging material",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell branded merchandise like t-shirts and mugs",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get your brand logo for a school project",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer factory tours of your warehouse",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I visit your warehouse to pick a bulk order",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you organise annual sales for staff families",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell pet food and cat litter",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "pet ka saman aap log bechte hain kya",
+    "expected": "none",
+    "language": "hinglish"
+  },
+  {
+    "question": "do you sell aquarium fish and tanks",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell live plants and seeds",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell fertiliser and pesticides",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell farm tools and tractor parts",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell cattle feed and milking equipment",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell alcohol or wine online",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell cigarettes and vapes",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell prescription medicines",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver a controlled drug on a prescription",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell CBD oil and supplements",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell syringes and medical devices",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell contact lenses and spectacles",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell hearing aids",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell baby formula by subscription",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell nappies in bulk cartons",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell toys with small parts for toddlers",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell real estate or plots",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell cars and two wheelers",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell tractors and farm machinery",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell spare parts for my scooter",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell tyre and battery fitting at home",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell boat and marine equipment",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell aircraft parts or drones",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell weapons and ammunition",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell lighters and gas cylinders",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell firecrackers and Diwali fireworks",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell industrial chemicals and solvents",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell laboratory equipment and glassware",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell office furniture in bulk",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell school uniforms and textbooks",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell stationery for my shop in bulk",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell printing and photocopy services",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell wedding cards and invitation printing",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell catering or banquet services",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell birthday cakes and hot food delivery",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell restaurant meal coupons",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell groceries and fresh vegetables",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell milk and daily dairy subscription",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell bottled drinking water cans",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell LPG gas cylinder refills",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell firewood and charcoal",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell flowers for a wedding hall",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell pandal and tent decoration items",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell religious ritual kits",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell idols and temple offerings",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell second hand used mobile phones",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you buy back my old phone for cash",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a trade in program for my old laptop",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you rent projectors and cameras",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you rent furniture for a month",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you rent appliances on a monthly plan",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you rent power tools and drills",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you rent party supplies and chairs",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you repair my laptop screen in house",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you service and repair air conditioners",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you repair mobile phone boards",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you alter and stitch clothes for me",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer dry cleaning and laundry pickup",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer plumbing and electrical visits",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer carpentry and modular kitchen work",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer interior design consultation",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer painting and renovation services",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer pest control at my home",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer house shifting and packers",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer car washing at home",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer tutoring or online classes",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell insurance policies and term plans",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell mutual funds and shares",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer personal loans and credit cards",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell gold and silver coins",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell cryptocurrency or NFTs",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer forex trading accounts",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell lottery tickets and betting coupons",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell casino chips and playing cards",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell exam preparation courses",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell government forms and stamps",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell passports or visa services",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell movie and event tickets",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell bus and flight tickets",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell hotel and holiday packages",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell SIM cards and mobile recharge",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell dongles and broadband plans",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell satellite TV set top boxes",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell landline phone connections",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you ship to a post office box number",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "post office box pe delivery hoti hai kya",
+    "expected": "none",
+    "language": "hinglish"
+  },
+  {
+    "question": "can you deliver to a bank branch address",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a court or police station address",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a hospital ward address",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a temple trust office",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a school hostel room",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a college examination hall",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a boat or a jetty",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a remote island",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a ship at sea",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to an oil rig",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a construction site camp",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a factory gate canteen",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a cinema hall lobby",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a marriage hall on the day",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a political rally ground",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a railway platform seat",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to an airport terminal",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a metro station exit",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a bus stand counter",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a toll plaza booth",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver to a forest check post",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver during a flood and curfew",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver during a strike",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver at midnight for a surprise party",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver between 4am and 6am",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver only during office hours",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver on a public holiday Sunday",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver during Holi and Diwali week",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver on my wedding morning at 5 am",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver before a puja muhurat",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you hold my parcel for a week before delivery",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you deliver monthly on a fixed date without ordering",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier wait while I open and check the item",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier install a wall mounted television",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier assemble a wardrobe for me",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier shift my furniture upstairs",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier carry the parcel to the fifth floor",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier deliver through a narrow lane by hand",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier drive to a no vehicle zone",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier park inside my gated society",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier hand the parcel to my driver",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier leave the parcel with a shop next door",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier reattempt twice in one day",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I choose a specific courier company for my order",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I ask the courier to call before arriving",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I ask for a female delivery staff for my order",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I ask the courier to bring change for cash",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay the courier by cheque",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can the courier collect documents and not a parcel",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I send a handwritten letter through your courier",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier a passport to my brother",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier original certificates safely",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier a cheque book to my bank",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier a blood sample to a lab",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier medicines to my village",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier a living plant sapling",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier a birthday cake without damage",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier a fish tank with water",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier hot food in a hot box",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier dry ice and frozen goods",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier a lithium battery shipment",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier a cylinder of gas",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier fireworks for a festival",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier alcohol to another state",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier gold jewellery insured",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier cash to my family",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier my original passport abroad",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier to a country under sanction",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier to Cuba or Iran",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can you courier to a war zone address",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver by drone in my village",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver by boat in the backwaters",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver by bullock cart here",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a delivery boy on a bicycle in my area",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver through the post office network",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver through India Post speed post",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver through a third party logistics partner I choose",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have night delivery for office addresses",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a fixed weekly delivery van route here",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a government office with a gate pass",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a cantonment area",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a restricted border district",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a tribal block without roads",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a village without a pin code",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a relief camp after a disaster",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to an ashram with no phone signal",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a monastery on a hill",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a lighthouse",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a houseboat in Srinagar",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a desert camp in Rajasthan",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to a tea estate in Assam",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you deliver to an island in the Andamans",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay partly by cheque and partly by card",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "thoda cheque thoda card se pay kar sakte hain kya",
+    "expected": "none",
+    "language": "hinglish"
+  },
+  {
+    "question": "can I pay by demand draft by post",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I send cash in an envelope to your office",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay by cryptocurrency",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay by UPI autopay mandate",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay with a buy now pay later service",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay with airline miles and points",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay with a prepaid travel card",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay through a bank wire from another country",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay in a foreign currency at checkout",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay through hawala or an agent",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay after I sell the item to someone else",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay in monthly instalments without a card",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay on behalf of my neighbour",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay for my colleague's order on their account",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I pay with my employee allowance card",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get an invoice addressed to my landlord",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get the invoice in a different name than the payer",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get a proforma invoice before payment",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get an invoice in a foreign currency",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get an invoice without a GST number",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get a signed and stamped paper invoice by post",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get a duplicate invoice stamped again",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "can I get an invoice for a past financial year",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you match the price at my local shop",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you price match with an auction site",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you price match with a seller's own website",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you lower the price if I show a lower price after delivery",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a festival season discount code",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a armed forces discount",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a senior citizen concession",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a disability discount",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a teacher or nurse discount",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a wedding bulk discount on gifts",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a first order welcome coupon on signup",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a birthday coupon every year",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a cashback on UPI on weekends",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer free delivery on a festival week",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer free shipping to another country",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer flat rate shipping nationwide",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a subscription box every month",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a club membership with benefits",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a paid priority queue for support",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a dedicated account manager",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer 24 hour live support every day",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer support in a regional language like Tamil or Bengali",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer video call support",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a home visit by a support engineer",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer remote desktop help",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a callback at a scheduled time",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer compensation for my wasted leave",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you pay interest on a late refund",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you pay a fine for a late delivery",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a same day replacement guarantee",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a money back if the price falls in 30 days",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a lifetime warranty on furniture",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you extend warranty for another year mid plan",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer an annual maintenance contract",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer insurance for accidental damage",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a screen replacement plan for phones",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a damage waiver at checkout",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell protection plans for my children's toys",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you have a recycling program for old electronics",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you take back packaging from a bulk delivery",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you collect my old mattress when delivering a new one",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you collect the old appliance on installation",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you install and then remove the old unit same day",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a swap of my old product at delivery",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a rental instead of buying a product",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a trial period before I buy",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a sample of a fabric before ordering curtains",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a swatch book of paint colours",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a colour consultation for my room",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a measurement visit for curtains",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer assembly of a cycle or toy at the door",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell bulk karela and vegetable seeds for farming",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "kisan samaan aap log bechte hain kya",
+    "expected": "none",
+    "language": "hinglish"
+  },
+  {
+    "question": "do you sell tractor tyres in a set of four",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you sell milk dairy equipment for a small farm",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer an exchange of my old sofa on delivery",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a same day engineer visit for a complaint",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a yearly contract for appliance servicing",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a wall mounting service for my television",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a drilling service for a wall mounted shelf",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a trolley or lift for a high rise delivery",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a delivery window of my choice in a 3 hour slot",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a delivery to my office on a fixed morning",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a gift card for another brand store",
+    "expected": "none",
+    "language": "english"
+  },
+  {
+    "question": "do you offer a corporate gifting catalogue with printing",
+    "expected": "none",
+    "language": "english"
   }
 ]
