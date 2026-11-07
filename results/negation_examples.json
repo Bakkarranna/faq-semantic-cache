@@ -1,5 +1,5 @@
 {
-  "negation_questions_measured": 5,
+  "negation_questions_measured": 45,
   "negated_hits": 0,
   "examples": [
     {
@@ -12,7 +12,7 @@
       "matched_faq_id": null,
       "matched_faq": null,
       "answer_chars": 93,
-      "latency_ms": 0.29
+      "latency_ms": 1.05
     },
     {
       "question": "refund nahi milega kya",
@@ -24,7 +24,7 @@
       "matched_faq_id": null,
       "matched_faq": null,
       "answer_chars": 93,
-      "latency_ms": 0.23
+      "latency_ms": 0.32
     },
     {
       "question": "mujhe refund nahi chahiye",
@@ -36,7 +36,7 @@
       "matched_faq_id": null,
       "matched_faq": null,
       "answer_chars": 93,
-      "latency_ms": 0.22
+      "latency_ms": 0.31
     },
     {
       "question": "mera parcel kabhi nahi aaya",
@@ -48,7 +48,7 @@
       "matched_faq_id": null,
       "matched_faq": null,
       "answer_chars": 93,
-      "latency_ms": 0.25
+      "latency_ms": 0.34
     },
     {
       "question": "I do not want to return this, can I exchange instead",
@@ -60,7 +60,487 @@
       "matched_faq_id": null,
       "matched_faq": null,
       "answer_chars": 93,
+      "latency_ms": 0.65
+    },
+    {
+      "question": "which items ship without any manufacturer warranty at all",
+      "negations": [
+        "without"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.41
+    },
+    {
+      "question": "my points never showed up, why is that",
+      "negations": [
+        "never"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 3.84
+    },
+    {
+      "question": "order ke points account mein kyun nahi aaye",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.39
+    },
+    {
+      "question": "which kind of orders give no loyalty points",
+      "negations": [
+        "no"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.42
+    },
+    {
+      "question": "kaun se orders pe points nahi milte",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 1.21
+    },
+    {
+      "question": "can I check my parcel status without logging in",
+      "negations": [
+        "without"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.26
+    },
+    {
+      "question": "what if the seller never replies to my message",
+      "negations": [
+        "never"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.42
+    },
+    {
+      "question": "seller jawab na de to kya karein",
+      "negations": [
+        "na"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.4
+    },
+    {
+      "question": "courier aaye to ghar pe koi na ho to kya hoga",
+      "negations": [
+        "na"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.53
+    },
+    {
+      "question": "courier ne diya ke diya but I never got it, help",
+      "negations": [
+        "never"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.4
+    },
+    {
+      "question": "the colour is not the same as the photo, why",
+      "negations": [
+        "not"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.4
+    },
+    {
+      "question": "product original hai ya nahi kaise pata chalega",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.39
+    },
+    {
+      "question": "can I pre-order a product that is not released yet",
+      "negations": [
+        "not"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 2.26
+    },
+    {
+      "question": "the technician never showed up, what now",
+      "negations": [
+        "never"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.32
+    },
+    {
+      "question": "technician na aaye to kya karna hota hai",
+      "negations": [
+        "na"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.41
+    },
+    {
+      "question": "money was debited but the order did not go through",
+      "negations": [
+        "not"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.47
+    },
+    {
+      "question": "what is the minimum order for no-cost EMI",
+      "negations": [
+        "no"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
       "latency_ms": 0.33
+    },
+    {
+      "question": "no cost EMI ke liye minimum order kitna hai",
+      "negations": [
+        "no"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.4
+    },
+    {
+      "question": "can I cancel once the order is packed but not shipped",
+      "negations": [
+        "not"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.43
+    },
+    {
+      "question": "which products are not eligible for return at all",
+      "negations": [
+        "not"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.39
+    },
+    {
+      "question": "kaun se products return nahi ho sakte",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.47
+    },
+    {
+      "question": "refund bank mein aaya ya nahi kaise check karein",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.64
+    },
+    {
+      "question": "my tracking link will not open, why",
+      "negations": [
+        "not"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.43
+    },
+    {
+      "question": "tracking link kyun nahi khul raha",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.46
+    },
+    {
+      "question": "my bank discount never applied, why",
+      "negations": [
+        "never"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.38
+    },
+    {
+      "question": "bank discount kyun nahi laga",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.39
+    },
+    {
+      "question": "how do I pause my account without deleting it",
+      "negations": [
+        "without"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.38
+    },
+    {
+      "question": "wallet mein paisa nahi gaya magar kat gaya",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.38
+    },
+    {
+      "question": "can I claim insurance on a parcel that never arrived",
+      "negations": [
+        "never"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.4
+    },
+    {
+      "question": "can I browse without creating an account",
+      "negations": [
+        "without"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.35
+    },
+    {
+      "question": "teen mein se ek parcel abhi nahi aaya",
+      "negations": [
+        "nahi"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.34
+    },
+    {
+      "question": "can you deliver monthly on a fixed date without ordering",
+      "negations": [
+        "without"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.4
+    },
+    {
+      "question": "can the courier drive to a no vehicle zone",
+      "negations": [
+        "no"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.34
+    },
+    {
+      "question": "can the courier collect documents and not a parcel",
+      "negations": [
+        "not"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.69
+    },
+    {
+      "question": "can you courier a birthday cake without damage",
+      "negations": [
+        "without"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.38
+    },
+    {
+      "question": "do you deliver to a tribal block without roads",
+      "negations": [
+        "without"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.41
+    },
+    {
+      "question": "do you deliver to a village without a pin code",
+      "negations": [
+        "without"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.36
+    },
+    {
+      "question": "do you deliver to an ashram with no phone signal",
+      "negations": [
+        "no"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.41
+    },
+    {
+      "question": "can I pay in monthly instalments without a card",
+      "negations": [
+        "without"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.38
+    },
+    {
+      "question": "can I get an invoice without a GST number",
+      "negations": [
+        "without"
+      ],
+      "outcome": "refused",
+      "similarity": null,
+      "matched_faq_id": null,
+      "matched_faq": null,
+      "answer_chars": 93,
+      "latency_ms": 0.39
     }
   ]
 }

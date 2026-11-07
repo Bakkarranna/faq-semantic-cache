@@ -141,8 +141,9 @@ def tradeoff_figure(sweep: list[dict], summary: dict) -> None:
     figure.text(
         0.01,
         -0.02,
-        "100 test questions against 30 FAQ entries, one machine, threshold sweep from "
-        "results/sweep.json",
+        "1,000 test questions against 300 FAQ entries, one machine, threshold sweep "
+        "from results/sweep.json; the dashed line is the operating point in "
+        "results/summary.json",
         color=MUTED,
         fontsize=9,
     )
@@ -189,8 +190,8 @@ def similarity_figure(distributions: list[Distribution], threshold: float) -> No
     figure.text(
         0.01,
         -0.02,
-        "percentiles from results/calibration.txt; the strictest threshold with no "
-        "false hit sits at 0.70",
+        "percentiles from results/calibration.txt; the dashed line is the operating "
+        "point in results/summary.json",
         color=MUTED,
         fontsize=9,
     )

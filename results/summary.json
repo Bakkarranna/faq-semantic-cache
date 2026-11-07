@@ -1,5 +1,5 @@
 {
-  "threshold": 0.6,
+  "threshold": 0.8,
   "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
   "llm_model": "qwen2.5:1.5b",
   "llm_ms_measured": true,
@@ -7,16 +7,16 @@
   "test_questions": 1000,
   "paraphrases": 600,
   "negatives": 400,
-  "hit_rate": 0.472,
-  "hits": 472,
-  "false_hits": 100,
-  "wrong_faq_served": 55,
-  "avg_hit_latency_ms": 209.02880677922286,
-  "avg_latency_ms": 2954.7199684006046,
+  "hit_rate": 0.196,
+  "hits": 196,
+  "false_hits": 2,
+  "wrong_faq_served": 5,
+  "avg_hit_latency_ms": 81.62390765269544,
+  "avg_latency_ms": 4290.447598101251,
   "baseline_avg_latency_ms": 5270.275805000565,
   "baseline_llm_calls": 1000,
-  "cached_llm_calls": 528,
-  "llm_call_reduction": 0.472,
-  "latency_speedup": 1.7836803018099123,
-  "measured_at": "2026-11-07 00:50:39 +0500"
+  "cached_llm_calls": 804,
+  "llm_call_reduction": 0.19599999999999995,
+  "latency_speedup": 1.2283743559373477,
+  "measured_at": "2026-11-07 10:15:03 +0500"
 }
