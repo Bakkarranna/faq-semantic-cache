@@ -235,6 +235,7 @@ temperature 0.
 pytest tests/unit -q          45 passed
 pytest tests/integration -q  9 passed
 ruff check .                  clean
+python scripts/smoke_embeddings.py   all checks pass
 ```
 
 The unit tests use a deterministic embedder so they run without the model. The
@@ -243,6 +244,13 @@ and the logging path, and they fail rather than skip when the embedder cannot
 load. Both families run in GitHub Actions on every push to `main`; the unit
 suite is the required check and the model jobs confirm the real embedder still
 separates the test set.
+
+The smoke script re-measures the whole test set against the operating point on
+every push. Its bounds are the ones the measurement satisfied: paraphrases
+ranked at least a quarter of the time (194 of 600), false hits within the 1%
+budget of negatives (2 of 400) and wrong-FAQ hits within 5% of hits (5 of 194).
+It reports the counts it measured before judging them, so a regression in the
+model or the code fails the run.
 
 ## Limits worth stating
 
