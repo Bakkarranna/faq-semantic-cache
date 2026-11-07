@@ -92,5 +92,13 @@ is answered by the model with the cache skipped.
 Both figures regenerate from the measured artifacts with
 `scripts/make_figures.py`.
 
+## Served status
+
+The GitHub Pages URL was requested when this report was regenerated and
+answered HTTP 404 at 2026-11-07T18:37:10Z, so the site is not being served and
+this committed copy is the record. The status is stored with the measured
+numbers as `pages_status` in `results/summary.json` and is refreshed by
+`scripts/check_pages.py`.
+
 The full report, the test set and the scripts that produced every number are in
 the repository: [faq-semantic-cache](https://github.com/Bakkarrarna/faq-semantic-cache).
