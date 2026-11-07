@@ -273,7 +273,7 @@ model or the code fails the run.
 The report is generated into `docs/` and the Pages workflow publishes it on every push.
 `scripts/check_pages.py` requests that URL when the report is regenerated and records
 the status it answers next to the measured numbers, as `pages_status` in
-`results/summary.json`. It answered HTTP 404 at 2026-11-07T18:37:10Z: the deploy job
-reports success and the deployment artifact exists, but the API still reports the
-Pages site as unbuilt, so the committed copy of the report is the record:
-<https://bakkarrarna.github.io/faq-semantic-cache/>
+`results/summary.json`. It answered HTTP 200 at 2026-11-07T20:25:07Z, so the
+published page is being served and the committed copy of the report carries
+the same measured numbers:
+<https://bakkarranna.github.io/faq-semantic-cache/>

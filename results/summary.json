@@ -20,9 +20,9 @@
   "latency_speedup": 1.2283743559373477,
   "measured_at": "2026-11-07 10:15:03 +0500",
   "pages_status": {
-    "url": "https://bakkarrarna.github.io/faq-semantic-cache/",
-    "http_status": 404,
-    "checked_at": "2026-11-07T18:37:10Z",
+    "url": "https://bakkarranna.github.io/faq-semantic-cache/",
+    "http_status": 200,
+    "checked_at": "2026-11-07T20:25:07Z",
     "error": null
   }
 }
