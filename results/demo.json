@@ -1,37 +1,37 @@
 {
   "model": "qwen2.5:1.5b",
   "embedder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-  "threshold": 0.7,
+  "threshold": 0.8,
   "steps": [
     {
-      "question": "do you have a loyalty programme for regular customers",
-      "role": "a question the FAQ set does not cover",
+      "question": "item nakli lage to kya karna hota hai",
+      "role": "a question below the operating threshold",
       "outcome": "miss",
-      "similarity": 0.46162134408950806,
+      "similarity": 0.31984609365463257,
       "matched_faq_id": null,
-      "latency_ms": 1877.64,
-      "answer_chars": 54,
-      "tokens": 88
+      "latency_ms": 3424.84,
+      "answer_chars": 107,
+      "tokens": 102
     },
     {
-      "question": "what loyalty benefits do regular customers get",
+      "question": "seller nakli item bhej de to kya hota hai",
       "role": "the same question in other words",
       "outcome": "hit",
-      "similarity": 0.8498679995536804,
-      "matched_faq_id": "LLM-031",
-      "latency_ms": 69.9,
-      "answer_chars": 54,
+      "similarity": 0.9395308494567871,
+      "matched_faq_id": "LLM-301",
+      "latency_ms": 82.32,
+      "answer_chars": 107,
       "tokens": null
     },
     {
-      "question": "I do not want to return this, can I exchange instead",
+      "question": "the payment did not go through",
       "role": "a question carrying a negation word",
       "outcome": "refused",
       "similarity": null,
       "matched_faq_id": null,
-      "latency_ms": 1704.92,
-      "answer_chars": 39,
-      "tokens": 89
+      "latency_ms": 5745.3,
+      "answer_chars": 266,
+      "tokens": 121
     }
   ]
 }

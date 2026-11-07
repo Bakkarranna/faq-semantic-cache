@@ -4,9 +4,11 @@
 The sequence is chosen to show the three outcomes the cache can return, in the
 order a customer meets them:
 
-1. a question the FAQ set does not cover, answered by the LLM and stored;
+1. a question whose nearest FAQ sits below the operating threshold, answered
+   by the LLM and stored;
 2. the same question asked in other words, answered from the stored entry;
-3. a negated version of an FAQ, which the cache declines to answer at all.
+3. a question carrying a negation word, which the cache declines to answer at
+   all.
 
 No two of the three questions are word for word the same, so a lexical cache
 would answer none of them and the reworded question is what makes step 2 a
@@ -38,12 +40,14 @@ from faqcache.data import load_faqs  # noqa: E402
 from faqcache.embeddings import get_embedder  # noqa: E402
 from faqcache.llm import OllamaClient, default_client  # noqa: E402
 
-# Measured against the embedder before the run: the cold question scores 0.462
-# against its nearest FAQ and the rewording scores 0.850 against the cold one,
-# so step 1 is a real miss and step 2 a real hit.
-COLD_QUESTION = "do you have a loyalty programme for regular customers"
-REWORDING = "what loyalty benefits do regular customers get"
-NEGATED = "I do not want to return this, can I exchange instead"
+# Measured against the embedder before the run: the cold question scores 0.320
+# against FAQ-124 and the rewording scores 0.940 against the cold question, so
+# step 1 is a real miss at the 0.80 operating point and step 2 a hit against
+# the stored entry. The negated question is a paraphrase of FAQ-14 that carries
+# "not", so the guard refuses it before the index is consulted.
+COLD_QUESTION = "item nakli lage to kya karna hota hai"
+REWORDING = "seller nakli item bhej de to kya hota hai"
+NEGATED = "the payment did not go through"
 
 
 @dataclass(frozen=True)
@@ -70,7 +74,7 @@ def run_demo(client: OllamaClient | None) -> list[Step]:
 
     steps: list[Step] = []
     plan = (
-        ("a question the FAQ set does not cover", COLD_QUESTION),
+        ("a question below the operating threshold", COLD_QUESTION),
         ("the same question in other words", REWORDING),
         ("a question carrying a negation word", NEGATED),
     )
