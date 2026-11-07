@@ -1,39 +1,40 @@
-Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  13%|#2        | 25/199 [00:00<00:00, 248.70it/s]Loading weights:  31%|###1      | 62/199 [00:00<00:00, 310.74it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 718.44it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  19%|#9        | 38/199 [00:00<00:00, 362.09it/s]Loading weights:  38%|###7      | 75/199 [00:00<00:00, 304.99it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 708.47it/s]
 model           sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
 dim             384
-rank-one rate   42/60
+rank-one rate   424/600
 
-paraphrase   n= 60  p0=0.030  p10=0.283  p25=0.415  p50=0.574  p75=0.783  p90=0.846  p100=0.960
-negative     n= 40  p0=0.185  p10=0.241  p25=0.316  p50=0.486  p75=0.573  p90=0.625  p100=0.681
+paraphrase   n=600  p0=0.030  p10=0.325  p25=0.478  p50=0.678  p75=0.848  p90=0.935  p100=0.996
+negative     n=400  p0=0.235  p10=0.404  p25=0.461  p50=0.529  p75=0.610  p90=0.687  p100=0.871
 
-  0.030 rank22  'mera order kitne din mein aayega' -> FAQ-01
-  0.213 rank3  'mera parcel kahan hai' -> FAQ-10
-  0.222 rank25  'how long do I have to send an item back' -> FAQ-04
-  0.236 rank4  'item toot ke aa gaya, kya karun' -> FAQ-27
-  0.240 rank4  'emi mein payment kar sakte hain kya' -> FAQ-17
-  0.265 rank1  'aap mere data ka kya karte hain' -> FAQ-29
-  0.285 rank3  'how do I see the live location of my parcel' -> FAQ-10
-  0.286 rank1  'kya aap india ke bahar bhejte hain' -> FAQ-03
-  0.297 rank2  'main kitne din tak return kar sakta hoon' -> FAQ-04
-  0.305 rank3  'my tracking page has been stuck for days' -> FAQ-11
-  0.320 rank2  'address badalna hai order ke baad' -> FAQ-21
-  0.364 rank1  'seller ko mera phone number dikhega kya' -> FAQ-30
+  0.030 rank213  'mera order kitne din mein aayega' -> FAQ-01
+  0.049 rank262  'ek order ka do baar paisa kata gaya' -> FAQ-176
+  0.074 rank100  'support kitne baje tak milti hai' -> FAQ-150
+  0.084 rank120  'galat item aaya hai to kya karna hota hai' -> FAQ-120
+  0.103 rank64  'repair 21 din se zyada ho gaye to kya hota hai' -> FAQ-40
+  0.121 rank25  'zyada units ka bulk quote kaise milta hai' -> FAQ-74
+  0.143 rank39  'khareede product ka review kaise likhein' -> FAQ-160
+  0.145 rank38  'store se parcel lene ke liye kya lena hota hai' -> FAQ-93
+  0.159 rank8  'case band hone ke baad chat record rakha jaata hai' -> FAQ-270
+  0.160 rank34  'item se cheeche nikl rahi hai to kya karein' -> FAQ-232
+  0.169 rank73  'seller se message kaise karein' -> FAQ-97
+  0.176 rank15  'seller ko follow kar sakte hain kya' -> FAQ-99
 
-  0.681  'can I get a refund for a digital purchase' -> FAQ-07
-  0.647  'do you deliver to a post office box' -> FAQ-16
-  0.647  'is there a minimum order for free delivery' -> FAQ-16
-  0.643  'do you sell in bulk to resellers' -> FAQ-30
-  0.623  'do you offer same day delivery in my city' -> FAQ-16
-  0.622  'how many times can I use the same coupon' -> FAQ-25
-  0.613  'can I place an order over a phone call' -> FAQ-12
-  0.610  'how do I become a seller on your platform' -> FAQ-30
-  0.598  'can I pay partly with a wallet and partly with a c' -> FAQ-15
-  0.579  'do you ship liquids by courier' -> FAQ-06
-  0.571  'refund nahi milega kya' -> FAQ-07
-  0.558  'can I open the parcel before paying the courier' -> FAQ-06
+  0.871  'can I get an invoice without a GST number' -> FAQ-28
+  0.826  "do you price match with a seller's own website" -> FAQ-130
+  0.804  'do you price match with an auction site' -> FAQ-130
+  0.793  'do you offer support in a regional language like T' -> FAQ-72
+  0.789  'can I reserve stock at your store counter' -> FAQ-300
+  0.787  'can you courier dry ice and frozen goods' -> FAQ-216
+  0.782  'can I ask the courier to call before arriving' -> FAQ-106
+  0.781  'can I pay by UPI autopay mandate' -> FAQ-181
+  0.777  'can the courier hand the parcel to my driver' -> FAQ-252
+  0.769  'can I get a refund for a digital purchase' -> FAQ-202
+  0.754  'can you hold my parcel for a week before delivery' -> FAQ-95
+  0.753  'do you deliver by bullock cart here' -> FAQ-22
 
-threshold 0.60: paraphrase hits 28/60, false hits 8
-threshold 0.65: paraphrase hits 26/60, false hits 1
-threshold 0.70: paraphrase hits 22/60, false hits 0
-threshold 0.75: paraphrase hits 19/60, false hits 0
-threshold 0.80: paraphrase hits 13/60, false hits 0
+threshold 0.60: paraphrase hits 366/600, false hits 105
+threshold 0.65: paraphrase hits 324/600, false hits 58
+threshold 0.70: paraphrase hits 280/600, false hits 34
+threshold 0.75: paraphrase hits 241/600, false hits 12
+threshold 0.80: paraphrase hits 201/600, false hits 3
+exit=0

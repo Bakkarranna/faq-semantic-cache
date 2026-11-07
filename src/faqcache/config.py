@@ -15,11 +15,13 @@ from dataclasses import dataclass, field
 class Settings:
     """One immutable snapshot of the configuration."""
 
-    # The operating point measured in results/summary.json: 0.70 is the
-    # strictest threshold that answered every paraphrase it could while
-    # serving none of the 40 negative questions. 0.75 answers fewer
-    # questions; 0.65 answers one negative question wrongly.
-    threshold: float = 0.70
+    # The operating point measured in results/summary.json. With 400 negative
+    # questions no threshold on the grid served none of them, so 0.80 is the
+    # highest hit rate that kept a false hit within one in a hundred negatives
+    # (2 of 400); 0.75 and 0.70 trade away hit rate for a larger false-hit
+    # count, and 0.60 answers the most questions but serves a quarter of the
+    # negatives from stored answers.
+    threshold: float = 0.80
     ttl_days: int = 30
     model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     ollama_model: str = "qwen2.5:1.5b"
@@ -53,11 +55,12 @@ class Settings:
         # or "customer account number 48201933".
         r"\bcustomer\s+(?:id|account)(?:\s+(?:no|number))?\s*[:#]?\s*\d{4,}\b",
     )
-    # Thresholds measured for the trade-off table. The calibration run
-    # (results/calibration.txt) placed the hardest negative at 0.681 and the
-    # paraphrase median at 0.574, so the decision boundary between a safe
-    # hit and a false hit lies between 0.65 and 0.70. The grid brackets that
-    # boundary instead of starting above it.
+    # Thresholds measured for the trade-off table. The calibration run against
+    # 300 FAQ entries and 1,000 questions (results/calibration.txt) placed the
+    # negative p90 at 0.687 and the paraphrase median at 0.678, so the two
+    # groups overlap across the top of the grid. The grid spans that overlap
+    # and reports the false-hit cost of each threshold rather than assuming a
+    # clean cut exists.
     sweep_thresholds: tuple[float, ...] = field(
         default_factory=lambda: (0.60, 0.65, 0.70, 0.75, 0.80)
     )
