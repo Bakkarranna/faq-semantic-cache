@@ -8,11 +8,11 @@ Every number in the README comes from this script. Run it with:
 
 The measurement runs in two phases so no number in the report is estimated.
 
-Phase 1, the baseline: the cache is bypassed and all 100 test questions go to
-the LLM. The wall-clock time spent inside each LLM call is recorded per
+Phase 1, the baseline: the cache is bypassed and all 1,000 test questions go
+to the LLM. The wall-clock time spent inside each LLM call is recorded per
 question, together with the token count.
 
-Phase 2, the cache at one threshold: the cache is warmed with the 30 FAQs and
+Phase 2, the cache at one threshold: the cache is warmed with the 300 FAQs and
 each question is asked. A hit is timed directly. A miss is charged the time of
 that question's own baseline LLM call, so a miss is never optimistic.
 
@@ -230,16 +230,26 @@ def evaluate_threshold(threshold, settings, faqs, test_set, embedder, baseline, 
     }
 
 
-def choose_threshold(sweep: list[dict]) -> dict:
-    """Pick the highest hit rate among the thresholds with no false hits.
+# A false hit answers a question no FAQ covers from a stored answer, which is
+# the failure the cache exists to avoid. No threshold on the sweep grid served
+# none of the 400 negative questions, so eligibility is a stated rate of the
+# negatives rather than a measured zero: the eligible thresholds stayed within
+# one false hit in a hundred negatives, and the hit rate decides between them.
+FALSE_HIT_BUDGET = 0.01
 
-    The brief asks for the best hit rate with false hits near zero, so a
-    threshold is eligible only when it served no negative question from the
-    cache.
+
+def choose_threshold(sweep: list[dict]) -> dict:
+    """Pick the highest hit rate among the thresholds within the false-hit budget.
+
+    ``FALSE_HIT_BUDGET`` is the share of negative questions a threshold may
+    serve from the cache. When every threshold exceeds it, no threshold is
+    eligible and the least wrong one is returned, so the summary reports the
+    boundary rather than a hit rate bought with wrong answers.
     """
 
-    clean = [row for row in sweep if row["false_hits"] == 0]
-    pool = clean or sweep
+    pool = [row for row in sweep if row["false_hit_rate"] <= FALSE_HIT_BUDGET]
+    if not pool:
+        pool = [min(sweep, key=lambda row: (row["false_hit_rate"], -row["hit_rate"]))]
     return max(pool, key=lambda row: (row["hit_rate"], -row["false_hits"], row["threshold"]))
 
 

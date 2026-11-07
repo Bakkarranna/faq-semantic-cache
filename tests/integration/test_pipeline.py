@@ -44,12 +44,12 @@ def test_the_model_downloads_and_normalises(model) -> None:
 @pytest.mark.parametrize(
     "question",
     [
-        # The two closest English hits and the closest Hinglish hit the
-        # sweep recorded at the operating threshold
-        # (results/requests_t0.70.jsonl), so the cases are the measured
-        # operating point rather than an assumed one.
-        "can the refund go to a different bank account",
-        "can I still cancel the order I placed",
+        # Hits the sweep recorded at the operating threshold of 0.80
+        # (results/requests_t0.80.jsonl), so the cases are the measured
+        # operating point rather than an assumed one. Two English, one
+        # Hinglish, and all three sit close to the threshold.
+        "do you price match with an auction site",
+        "how do I purchase a gift card from your store",
         "coupon code kaise apply karte hain",
     ],
 )
