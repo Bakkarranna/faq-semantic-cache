@@ -1,67 +1,73 @@
 # FAQ semantic cache
 
-[![CI](https://github.com/Bakkarranna/faq-semantic-cache/actions/workflows/ci.yml/badge.svg)](https://github.com/Bakkarranna/faq-semantic-cache/actions/workflows/ci.yml)
-[![Pages](https://github.com/Bakkarranna/faq-semantic-cache/actions/workflows/pages.yml/badge.svg)](https://github.com/Bakkarranna/faq-semantic-cache/actions/workflows/pages.yml)
+[![CI](https://github.com/Bakkarrarna/faq-semantic-cache/actions/workflows/ci.yml/badge.svg)](https://github.com/Bakkarrarna/faq-semantic-cache/actions/workflows/ci.yml)
+[![Pages](https://github.com/Bakkarrarna/faq-semantic-cache/actions/workflows/pages.yml/badge.svg)](https://github.com/Bakkarrarna/faq-semantic-cache/actions/workflows/pages.yml)
 
 A semantic cache for an e-commerce support bot. A repeat question is answered
 from a vector cache when the meaning of the new question matches a stored
 question; a negated question is answered by the LLM with the cache skipped;
 everything else goes to the LLM.
 
-The cache answers 21 of 100 test questions itself, in 31 to 56 ms, and serves
-none of the 40 questions that have no answer in the FAQ set. Every number in
-this report was measured on one machine and written to `results/` by the
-scripts in `scripts/`. Nothing here is estimated.
+The cache answers 196 of the 1,000 test questions itself, in 81.6 ms on
+average, and asks the LLM 196 fewer times. Two of the 400 questions no FAQ
+covers were served from the cache. Every number in this report was measured on
+one machine and written to `results/` by the scripts in `scripts/`. Nothing
+here is estimated.
 
 ## What the numbers are
 
-The test set is 100 labelled questions: 60 paraphrases that one of the 30 FAQ
-entries answers, and 40 questions no FAQ covers. The baseline asks all 100
-questions of a local `qwen2.5:1.5b` model through Ollama with the cache
-bypassed. The cache run then asks the same 100 questions at five similarity
-thresholds.
+The FAQ set is 300 entries, English and Hinglish. The test set is 1,000
+labelled questions: 600 paraphrases that one FAQ entry answers, and 400
+questions no FAQ covers. The baseline asks all 1,000 questions of a local
+`qwen2.5:1.5b` model through Ollama with the cache bypassed. The cache run
+then asks the same 1,000 questions at five similarity thresholds.
 
-| | no cache | cache at 0.70 |
+| | no cache | cache at 0.80 |
 | --- | --- | --- |
-| answers from the LLM | 100 of 100 | 79 of 100 |
-| average latency | 3532 ms | 2682 ms |
-| tokens spent | 9919 | 21 calls fewer |
-| slowest question | 14649 ms | see log |
+| answers from the LLM | 1,000 of 1,000 | 804 of 1,000 |
+| average latency | 5270 ms | 4290 ms |
+| tokens spent | 98,826 | not measured, see limits |
+| slowest question | 19,163 ms | see log |
 
-A hit is timed directly, at an average of 39.7 ms. A miss is charged both the
-cache lookup and the LLM time that the baseline measured for that same
-question, so a miss is never reported as optimistic. The average latency of the
-cache run, 2682 ms against 3532 ms, is a 1.32x improvement built almost
-entirely out of the 21 hits.
+A hit is timed directly, at an average of 81.6 ms, the slowest of the 196 hits
+at 264.6 ms. A miss is charged both the cache lookup and the LLM time that the
+baseline measured for that same question, so a miss is never reported as
+optimistic. The average latency of the cache run, 4290 ms against 5270 ms, is a
+1.23x improvement built out of the 196 hits and the 196 LLM calls they removed.
 
 The three slowest baseline questions are worth naming, because they are the
-shape of the latency the cache exists to remove: `How many days will my parcel
-take to arrive?` at 14649 ms, `how do I get a tax invoice with GSTIN` at
-13755 ms, and `is the website currently down` at 8155 ms.
+shape of the latency the cache exists to remove: `limited drop mein stock kaise
+allocate hota hai` at 19,163 ms, `how do I get a tax invoice with GSTIN` at
+19,044 ms, and `ek subscription delivery skip karne ka kya tarika hai` at
+18,339 ms.
 
 ## Threshold sweep
 
-Five thresholds, the same 100 questions at each one, with a false hit counted
+Five thresholds, the same 1,000 questions at each one, with a false hit counted
 whenever a question no FAQ covers was served from the cache.
 
 | threshold | hit rate | false hits | wrong FAQ | average latency | LLM calls |
 | --- | --- | --- | --- | --- | --- |
-| 0.60 | 36.0% | 8 of 40 | 0 | 2192 ms | 64 |
-| 0.65 | 26.0% | 1 of 40 | 0 | 2537 ms | 74 |
-| **0.70** | **21.0%** | **0 of 40** | **0** | **2682 ms** | **79** |
-| 0.75 | 18.0% | 0 of 40 | 0 | 2892 ms | 82 |
-| 0.80 | 12.0% | 0 of 40 | 0 | 3060 ms | 88 |
+| 0.60 | 47.2% | 100 of 400 | 55 | 2955 ms | 528 |
+| 0.65 | 38.0% | 55 of 400 | 40 | 3374 ms | 620 |
+| 0.70 | 31.5% | 31 of 400 | 29 | 3736 ms | 685 |
+| 0.75 | 25.1% | 11 of 400 | 16 | 4055 ms | 749 |
+| **0.80** | **19.6%** | **2 of 400** | **5** | **4290 ms** | **804** |
 
-0.70 is the operating point: the highest hit rate among the thresholds that
-served no negative question from the cache. 0.65 was rejected because it served
-one negative question wrongly, and 0.75 and 0.80 gave up hit rate without
-buying any accuracy. No threshold in the sweep served a paraphrase the wrong
-FAQ.
+0.80 is the operating point. At 400 negative questions no threshold on the grid
+served none of them, so the rule that picked the point is a stated budget
+rather than a measured clean cut: a threshold is eligible when it keeps a false
+hit within one in a hundred negatives, and the hit rate decides between the
+eligible ones. `FALSE_HIT_BUDGET = 0.01` in `scripts/run_evaluation.py`, and
+0.80 is the only eligible row at 0.5%. Running `choose_threshold` over the
+committed `results/sweep.json` returns 0.80, so the number in
+`results/summary.json` is reproducible from the committed record rather than
+typed by hand.
 
-The grid is wider than the usual 0.75 to 0.95 because the calibration placed the
-decision boundary lower than that: on the measured similarities, a grid that
-starts at 0.75 caps the hit rate at 18% without ever reaching the value where
-the negative distribution ends.
+The grid runs from 0.60 to 0.80 because the calibration shows the two
+distributions overlapping from 0.478 up to 0.871: that band is the whole range a
+threshold has to decide on, and a grid that stopped short of 0.60 would only
+look at the region where the hit rate was already given away.
 
 ## Where the boundary actually is
 
@@ -69,18 +75,19 @@ the negative distribution ends.
 similarity distributions without timing any LLM call: a paraphrase against the
 FAQ it answers, and a negative question against its nearest FAQ.
 
-| group | n | median | p75 | p90 | max |
-| --- | --- | --- | --- | --- | --- |
-| paraphrase to its FAQ | 60 | 0.574 | 0.783 | 0.846 | 0.960 |
-| negative to nearest FAQ | 40 | 0.486 | 0.573 | 0.625 | 0.681 |
+| group | n | p25 | p50 | p75 | p90 | max |
+| --- | --- | --- | --- | --- | --- | --- |
+| paraphrase to its FAQ | 600 | 0.478 | 0.678 | 0.848 | 0.935 | 0.996 |
+| negative to nearest FAQ | 400 | 0.461 | 0.529 | 0.610 | 0.687 | 0.871 |
 
-The negative distribution ends at 0.681, so 0.70 is the strictest threshold with
-no false hit anywhere in the test set. The paraphrase distribution has its
-median below the threshold, which is why the hit rate is a fifth of the
-questions rather than most of them: this embedder separates the two groups
-cleanly at the top but places half of the paraphrases in the same band as the
-negatives. The nearest FAQ was the correct one for 42 of the 60 paraphrases at
-rank one.
+The negative distribution reaches 0.871 and its p90 is 0.687, so the two groups
+overlap across the top of the grid and no threshold separates them cleanly.
+That overlap is why the operating point is a budget rather than a zero. The
+paraphrase median, 0.678, sits below the operating threshold, which is why the
+hit rate is a fifth of the questions rather than most of them: this embedder
+separates the two groups at the top but places half of the paraphrases in the
+same band as the negatives. The nearest FAQ was the correct one for 424 of the
+600 paraphrases at rank one.
 
 The two distributions, with the operating point marked:
 
@@ -97,29 +104,31 @@ carrying a negation word goes to the LLM with the cache skipped entirely.
 
 | question | word found | outcome | time |
 | --- | --- | --- | --- |
-| the payment did not go through | not | refused | 0.29 ms |
-| refund nahi milega kya | nahi | refused | 0.23 ms |
-| mujhe refund nahi chahiye | nahi | refused | 0.22 ms |
-| mera parcel kabhi nahi aaya | nahi | refused | 0.25 ms |
-| I do not want to return this, can I exchange instead | not | refused | 0.33 ms |
+| the payment did not go through | not | refused | 1.05 ms |
+| refund nahi milega kya | nahi | refused | 0.32 ms |
+| mujhe refund nahi chahiye | nahi | refused | 0.31 ms |
+| mera parcel kabhi nahi aaya | nahi | refused | 0.34 ms |
+| I do not want to return this, can I exchange instead | not | refused | 0.65 ms |
 
-Five of the 100 test questions match the guard and none of them is answered
-from the cache: zero negated hits out of five. The guard costs a fraction of a
-millisecond because it needs no embedding.
+45 of the 1,000 test questions match the guard and none of them is answered
+from the cache: zero negated hits out of 45, recorded in
+`results/negation_examples.json`. The guard costs 0.405 ms on average across
+the 1,000 questions because it needs no embedding.
 
-One of the five is a paraphrase of an FAQ. `the payment did not go through` is
-a reworded way of asking what a failed payment means for an order, which is
-what FAQ-14 answers. The guard refuses it before the index is consulted, so the
-sweep recorded 21 hits where the calibration counted 22 for the same threshold:
+32 of the 45 refused questions are paraphrases of an FAQ, and the guard refuses
+every one of them. The calibration counted similarity alone, so it recorded 201
+paraphrase hits and 3 false hits at 0.80 where the measured sweep recorded 194
+paraphrase hits and 2 false hits: the guard removed five paraphrase hits and one
+false hit before the index was consulted.
 
 ```
-calibration, t=0.70:  paraphrase hits 22/60, false hits 0
-sweep log,    t=0.70:  hits 21, misses 74, refused 5
+calibration, t=0.80:  paraphrase hits 201/600, false hits 3
+sweep log,    t=0.80:  hits 196 of 1,000, refused 45
 ```
 
 The one-question difference is the guard working as intended. The calibration
 measured embedding similarity alone and never applied the guard, so it is the
-conservative count of the two.
+optimistic count of the two.
 
 ## One conversation, end to end
 
@@ -130,17 +139,18 @@ meant to produce.
 
 | question | outcome | similarity | latency |
 | --- | --- | --- | --- |
-| do you have a loyalty programme for regular customers | miss, answered by the LLM, stored | 0.462 | 1878 ms |
-| what loyalty benefits do regular customers get | hit, served from the stored answer | 0.850 | 70 ms |
-| I do not want to return this, can I exchange instead | refused, cache skipped, LLM answered | — | 1705 ms |
+| item nakli lage to kya karna hota hai | miss, answered by the LLM, stored | 0.320 | 3425 ms |
+| seller nakli item bhej de to kya hota hai | hit, served from the stored answer | 0.940 | 82 ms |
+| the payment did not go through | refused, cache skipped, LLM answered | — | 5745 ms |
 
-The first question scores 0.462 against its nearest FAQ, below the threshold, so
-it is a real miss. The rewording scores 0.850 against the answer that question
-stored, so the second is answered from the cache in 70 ms and the LLM is not
-called at all. The model was loaded before the sequence began, so the 1878 ms
-of the first step is the model answering rather than the weights loading. The
-third question is refused by the guard and still gets a correct answer from the
-model, which is what a support desk needs. The run writes `results/demo.json`.
+The first question scores 0.320 against its nearest FAQ, below the threshold,
+so it is a real miss and it costs 102 tokens. The rewording scores 0.940
+against the answer that question stored, so the second is answered from the
+cache in 82 ms and the LLM is not called at all. The model was loaded before
+the sequence began, so the 3425 ms of the first step is the model answering
+rather than the weights loading. The third question is refused by the guard and
+still gets a correct answer from the model, which is what a support desk needs.
+The run writes `results/demo.json`.
 
 ## How the cache works
 
@@ -154,7 +164,8 @@ model, which is what a support desk needs. The run writes `results/demo.json`.
    that budget.
 3. **Search.** The store is a FAISS inner-product index over normalised vectors,
    so cosine similarity is an index search rather than a linear scan, and it
-   returns the nearest stored question.
+   returns the nearest stored question. Against 300 stored questions the
+   lookup takes 81.0 ms on a miss.
 4. **Decide.** The nearest similarity is compared with the operating threshold.
    At or above it the stored answer is served; below it the question goes to
    the LLM.
@@ -170,13 +181,14 @@ and nothing customer-specific is written to the log.
 ## Layout
 
 ```
-data/faqs.json        30 FAQ entries, English and Hinglish
-data/test_set.json    100 labelled questions: 60 paraphrases, 40 negatives
+data/faqs.json        300 FAQ entries, English and Hinglish
+data/test_set.json    1,000 labelled questions: 600 paraphrases, 400 negatives
 src/faqcache/
-  config.py           thresholds, models, FAQ paths, negation word list
+  config.py           threshold, TTL, models, user-data patterns
+  data.py             FAQ and test-set loading
   embeddings.py       sentence-transformers wrapper, loaded shard by shard
   store.py            FAISS index and nearest-neighbour search
-  guard.py            negation detection
+  negation.py         negation words, and the user-data check on write-back
   cache.py            the decision path: guard, search, threshold, write-back
   llm.py              Ollama client
   logging.py          JSONL request log
@@ -187,7 +199,7 @@ scripts/
   smoke_embeddings.py
   make_figures.py     regenerates the figures from results/
   demo.py             the three-question conversation
-tests/               44 unit tests, 9 integration tests
+tests/               45 unit tests, 9 integration tests
 results/             measured artifacts, one JSON per phase
 docs/                GitHub Pages report
 ```
@@ -198,8 +210,8 @@ docs/                GitHub Pages report
 pip install -r requirements.txt
 ollama serve                                  # or the Ollama desktop app
 
-python scripts/run_evaluation.py --phase baseline   # ~6 min
-python scripts/run_evaluation.py --phase sweep      # ~25 min
+python scripts/run_evaluation.py --phase baseline   # 1,000 LLM calls
+python scripts/run_evaluation.py --phase sweep      # five thresholds
 python scripts/calibrate.py
 python scripts/make_figures.py
 python scripts/demo.py --json results/demo.json
@@ -209,7 +221,8 @@ The two phases are separate commands because a machine with 8 GB of RAM cannot
 hold the embedding model and the 1.5B LLM at the same time. The baseline phase
 loads no embedding model and the sweep phase makes no LLM call: a miss is
 charged the LLM time the baseline measured for that same question. The split is
-about memory, not about hiding a timing. The numbers land in
+about memory, not about hiding a timing. At the measured average of 5270 ms per
+call, the baseline phase is about 88 minutes of model time. The numbers land in
 `results/baseline.json`, `results/sweep.json` and `results/summary.json`.
 
 The measurements were taken on Python 3.13 with sentence-transformers 6.2.0,
@@ -219,9 +232,9 @@ temperature 0.
 ## Checks
 
 ```
-pytest tests/unit -q          44 passed
-pytest tests/integration -q  9 passed, 21 paraphrase hits of 60
-ruff check .                 clean
+pytest tests/unit -q          45 passed
+pytest tests/integration -q  9 passed
+ruff check .                  clean
 ```
 
 The unit tests use a deterministic embedder so they run without the model. The
@@ -233,16 +246,21 @@ separates the test set.
 
 ## Limits worth stating
 
-- A 21% hit rate is a property of this test set and this embedder as much as of
-  the threshold. Half the paraphrases score below 0.70, so this cache catches
-  near-identical rewordings rather than any phrasing.
-- The threshold was chosen on the same 100 questions it was evaluated on, so it
-  describes this set rather than predicting traffic.
+- A 19.6% hit rate is a property of this test set and this embedder as much as
+  of the threshold. Half the paraphrases score below 0.80, so this cache
+  catches near-identical rewordings rather than any phrasing.
+- Two questions no FAQ covers were served from the cache, both price-match
+  questions against FAQ-130 at 0.804 and 0.826. No threshold on the grid
+  reached zero false hits at 400 negatives, so the operating point is a budget
+  of one false hit in a hundred negatives, not a clean separation.
+- Five hits served the wrong FAQ. That is the cost of a 19.6% hit rate on this
+  embedder, and it is counted, not averaged away.
+- The threshold was chosen on the same 1,000 questions it was evaluated on, so
+  it describes this set rather than predicting traffic.
 - The cache holds answers in memory only. A restart starts from the FAQ set
   again and nothing persists to disk.
 - The sweep phase made no LLM call, so the cached run has no token figure; the
-  9919 tokens quoted are the baseline's.
+  98,826 tokens quoted are the baseline's.
 
 The report is published as GitHub Pages from `docs/`:
-<https://bakkarranna.github.io/faq-semantic-cache/>
-
+<https://bakkarrarna.github.io/faq-semantic-cache/>

@@ -101,15 +101,16 @@
   <body>
     <h1>A semantic cache for a customer-support FAQ bot</h1>
     <p class="lede">
-      Threshold sweep and latency measurements from a 2M-word FAQ set, on one
-      machine with a local model. No numbers on this page were estimated.
+      Threshold sweep and latency measurements from 1,000 labelled questions
+      against 300 FAQ entries, on one machine with a local model. No numbers on
+      this page were estimated.
     </p>
 
     <h2>What was measured</h2>
     <p>
-      100 questions asked of a bot backed by 30 FAQ entries: 60 paraphrases that
-      an FAQ should answer and 40 questions no FAQ covers. Every number is a
-      timed call to a local model through Ollama, recorded by the run scripts in
+      1,000 questions asked of 300 FAQ entries: 600 paraphrases that an FAQ
+      should answer and 400 questions no FAQ covers. Every number is a timed
+      call to a local model through Ollama, recorded by the run scripts in
       <code>scripts/</code>. The full report lives in the repository README.
     </p>
 
@@ -119,64 +120,78 @@
           <th>Threshold</th>
           <th>Hit rate</th>
           <th>False hits</th>
+          <th>Wrong FAQ</th>
           <th>Average latency</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>0.60</td>
-          <td>36.0%</td>
-          <td>8 of 40</td>
-          <td>2192 ms</td>
+          <td>47.2%</td>
+          <td>100 of 400</td>
+          <td>55</td>
+          <td>2955 ms</td>
         </tr>
         <tr>
           <td>0.65</td>
-          <td>26.0%</td>
-          <td>1 of 40</td>
-          <td>2537 ms</td>
+          <td>38.0%</td>
+          <td>55 of 400</td>
+          <td>40</td>
+          <td>3374 ms</td>
         </tr>
-        <tr class="chosen">
+        <tr>
           <td>0.70</td>
-          <td>21.0%</td>
-          <td>0 of 40</td>
-          <td>2682 ms</td>
+          <td>31.5%</td>
+          <td>31 of 400</td>
+          <td>29</td>
+          <td>3736 ms</td>
         </tr>
         <tr>
           <td>0.75</td>
-          <td>18.0%</td>
-          <td>0 of 40</td>
-          <td>2892 ms</td>
+          <td>25.1%</td>
+          <td>11 of 400</td>
+          <td>16</td>
+          <td>4055 ms</td>
         </tr>
-        <tr>
+        <tr class="chosen">
           <td>0.80</td>
-          <td>12.0%</td>
-          <td>0 of 40</td>
-          <td>3060 ms</td>
+          <td>19.6%</td>
+          <td>2 of 400</td>
+          <td>5</td>
+          <td>4290 ms</td>
         </tr>
       </tbody>
     </table>
+    <p>
+      No threshold on the grid served none of the 400 questions no FAQ covers,
+      so the operating point is the highest hit rate within a stated budget of
+      one false hit in a hundred negatives: 0.80, at 0.5%.
+    </p>
 
     <h2>Similarity distributions</h2>
     <figure>
       <img src="figures/threshold_tradeoff.png" alt="Hit rate and average latency for each similarity threshold" />
       <figcaption>
-        Circles mark the thresholds that served no question from a wrong FAQ.
-        The baseline without a cache answers all 100 questions at 3532 ms.
+        Hit rate at each threshold, with the operating point marked, and the
+        average latency beside the 5,270 ms the cache-free baseline took over
+        the same 1,000 questions.
       </figcaption>
     </figure>
     <figure>
       <img src="figures/similarity_separation.png" alt="Percentiles of cosine similarity for paraphrases and negative questions" />
       <figcaption>
-        The paraphrases' median sits below the threshold, which is why the hit
-        rate is a quarter of the questions rather than all of them.
+        The paraphrases' median, 0.678, sits below the operating point, and the
+        negative questions reach 0.871, which is why the hit rate is a fifth of
+        the questions rather than all of them.
       </figcaption>
     </figure>
 
     <p>
-      At the operating point of 0.70 the cache answers 21 of 100 questions from
-      the FAQ set or a stored answer, in 31 to 56 milliseconds. The 79 questions
-      it declines to answer still go to the model, which is the safe direction to
-      fail in.
+      At the operating point of 0.80 the cache answers 196 of 1,000 questions
+      from the FAQ set or a stored answer, taking 81.6 ms on a hit and asking
+      the LLM 804 of the 1,000 calls. 45 questions carry a negation word and
+      every one of them is refused by the guard and answered by the LLM, which
+      is the safe direction to fail in. The 804 misses still go to the model.
     </p>
 
     <footer>
