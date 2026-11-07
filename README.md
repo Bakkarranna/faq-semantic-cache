@@ -270,5 +270,8 @@ model or the code fails the run.
 - The sweep phase made no LLM call, so the cached run has no token figure; the
   98,826 tokens quoted are the baseline's.
 
-The report is published as GitHub Pages from `docs/`:
+The report is generated into `docs/` and the Pages workflow publishes it on every push.
+As of 2026-11-07 that URL returns HTTP 404: the deploy job reports success and the
+deployment artifact exists, but the API still reports the Pages site as unbuilt, so the
+committed copy of the report is the record:
 <https://bakkarrarna.github.io/faq-semantic-cache/>
