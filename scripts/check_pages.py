@@ -71,7 +71,7 @@ def _pages_url() -> str:
     override = os.environ.get("PAGES_URL")
     if override:
         return override
-    owner = _remote_owner() or "Bakkarrarna"
+    owner = _remote_owner() or "Bakkarranna"
     return f"https://{owner.lower()}.github.io/{REPO_NAME}/"
 
 

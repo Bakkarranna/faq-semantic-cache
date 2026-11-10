@@ -1,7 +1,7 @@
 # FAQ semantic cache
 
-[![CI](https://github.com/Bakkarrarna/faq-semantic-cache/actions/workflows/ci.yml/badge.svg)](https://github.com/Bakkarrarna/faq-semantic-cache/actions/workflows/ci.yml)
-[![Pages](https://github.com/Bakkarrarna/faq-semantic-cache/actions/workflows/pages.yml/badge.svg)](https://github.com/Bakkarrarna/faq-semantic-cache/actions/workflows/pages.yml)
+[![CI](https://github.com/Bakkarranna/faq-semantic-cache/actions/workflows/ci.yml/badge.svg)](https://github.com/Bakkarranna/faq-semantic-cache/actions/workflows/ci.yml)
+[![Pages](https://github.com/Bakkarranna/faq-semantic-cache/actions/workflows/pages.yml/badge.svg)](https://github.com/Bakkarranna/faq-semantic-cache/actions/workflows/pages.yml)
 
 A semantic cache for an e-commerce support bot. A repeat question is answered
 from a vector cache when the meaning of the new question matches a stored

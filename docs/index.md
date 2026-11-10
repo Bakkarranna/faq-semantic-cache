@@ -101,4 +101,4 @@ numbers as `pages_status` in `results/summary.json` and is refreshed by
 `scripts/check_pages.py`.
 
 The full report, the test set and the scripts that produced every number are in
-the repository: [faq-semantic-cache](https://github.com/Bakkarrarna/faq-semantic-cache).
+the repository: [faq-semantic-cache](https://github.com/Bakkarranna/faq-semantic-cache).
